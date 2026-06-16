@@ -39,9 +39,27 @@
       "description": "The first permanent English settlement is established in Virginia, initiating colonial growth."
     },
     {
+      "id": "mayflower_compact",
+      "year": 1620,
+      "parentId": "jamestown_settlement",
+      "color": "#10b981",
+      "branchName": "Colonial",
+      "title": "Mayflower Compact Signed",
+      "description": "Pilgrim settlers sign the compact aboard the Mayflower, creating one of the earliest frameworks for self-governance in the New World."
+    },
+    {
+      "id": "boston_tea_party",
+      "year": 1773,
+      "parentId": "mayflower_compact",
+      "color": "#f97316",
+      "branchName": "Revolution",
+      "title": "Boston Tea Party",
+      "description": "American colonists protest British taxation by dumping tea into Boston Harbor, fueling revolutionary sentiment."
+    },
+    {
       "id": "declaration_independence",
       "year": 1776,
-      "parentId": "jamestown_settlement",
+      "parentId": "boston_tea_party",
       "color": "#ef4444",
       "branchName": "Revolution",
       "title": "Declaration of Independence",
@@ -66,13 +84,40 @@
       "description": "The United States purchases Louisiana Territory from France, doubling the national domain."
     },
     {
+      "id": "manifest_destiny",
+      "year": 1845,
+      "parentId": "louisiana_purchase",
+      "color": "#84cc16",
+      "branchName": "Expansion",
+      "title": "Manifest Destiny & Texas",
+      "description": "Texas is annexed as the U.S. embraces the ideology of westward continental expansion."
+    },
+    {
+      "id": "gold_rush",
+      "year": 1848,
+      "parentId": "manifest_destiny",
+      "color": "#fbbf24",
+      "branchName": "Expansion",
+      "title": "California Gold Rush",
+      "description": "Gold discovered at Sutter's Mill triggers a massive migration of over 300,000 people to California, accelerating western integration."
+    },
+    {
       "id": "civil_war",
       "year": 1861,
-      "parentId": "louisiana_purchase",
+      "parentId": "gold_rush",
       "color": "#f43f5e",
       "branchName": "Conflict",
-      "title": "American Civil War Breaks Out",
+      "title": "American Civil War",
       "description": "Conflict erupts between the Union and the seceded southern Confederacy over slavery and federal sovereignty."
+    },
+    {
+      "id": "emancipation_proclamation",
+      "year": 1863,
+      "parentId": "civil_war",
+      "color": "#10b981",
+      "branchName": "Conflict",
+      "title": "Emancipation Proclamation",
+      "description": "President Abraham Lincoln declares all slaves in confederate-held territory free, redefining the war's purpose."
     },
     {
       "id": "gilded_age",
@@ -84,6 +129,33 @@
       "description": "An era of rapid economic and industrial expansion, coupled with immigration and urbanization."
     },
     {
+      "id": "panama_canal",
+      "year": 1914,
+      "parentId": "gilded_age",
+      "color": "#06b6d4",
+      "branchName": "Industrial",
+      "title": "Panama Canal Completed",
+      "description": "The canal officially opens, connecting the Atlantic and Pacific Oceans, drastically reducing shipping times and projecting global power."
+    },
+    {
+      "id": "ww1_entry",
+      "year": 1917,
+      "parentId": "gilded_age",
+      "color": "#6366f1",
+      "branchName": "World War I",
+      "title": "U.S. Enters World War I",
+      "description": "Abandoning neutrality, the United States joins the Allied Powers, swinging the conflict in their favor."
+    },
+    {
+      "id": "women_suffrage",
+      "year": 1920,
+      "parentId": "ww1_entry",
+      "color": "#ec4899",
+      "branchName": "Social",
+      "title": "Women's Suffrage Ratified",
+      "description": "The 19th Amendment is ratified, securing women the constitutionally guaranteed right to vote."
+    },
+    {
       "id": "great_depression",
       "year": 1929,
       "parentId": "gilded_age",
@@ -93,13 +165,49 @@
       "description": "The Wall Street stock crash launches a decade of deep economic contraction and widespread poverty."
     },
     {
+      "id": "new_deal",
+      "year": 1933,
+      "parentId": "great_depression",
+      "color": "#22c55e",
+      "branchName": "Crisis",
+      "title": "FDR's New Deal Programs",
+      "description": "President Franklin D. Roosevelt launches massive government relief, recovery, and financial reform initiatives."
+    },
+    {
       "id": "world_war_2",
       "year": 1941,
-      "parentId": "great_depression",
+      "parentId": "new_deal",
       "color": "#c084fc",
       "branchName": "World War II",
       "title": "US Enters World War II",
       "description": "Following the attack on Pearl Harbor, the United States declares war and joins the Allies."
+    },
+    {
+      "id": "cold_war_begins",
+      "year": 1947,
+      "parentId": "world_war_2",
+      "color": "#8b5cf6",
+      "branchName": "Cold War",
+      "title": "Truman Doctrine Declared",
+      "description": "President Truman pledges support to democratic nations against authoritarian forces, formalizing the Cold War geopolitical structure."
+    },
+    {
+      "id": "civil_rights_movement",
+      "year": 1954,
+      "parentId": "world_war_2",
+      "color": "#ec4899",
+      "branchName": "Civil Rights",
+      "title": "Civil Rights Movement",
+      "description": "The landmark Brown v. Board decision initiates a decades-long struggle for racial equality led by activists like Martin Luther King Jr."
+    },
+    {
+      "id": "vietnam_war",
+      "year": 1965,
+      "parentId": "civil_rights_movement",
+      "color": "#f43f5e",
+      "branchName": "Conflict",
+      "title": "Vietnam War Troop Deployment",
+      "description": "The United States deploys combat troops to South Vietnam, escalating its military role in the containment of Communism."
     },
     {
       "id": "apollo_moon_landing",
@@ -109,6 +217,24 @@
       "branchName": "Space Age",
       "title": "Apollo Moon Landing",
       "description": "Apollo 11 astronaut Neil Armstrong becomes the first human to step on the lunar surface."
+    },
+    {
+      "id": "9_11",
+      "year": 2001,
+      "parentId": "apollo_moon_landing",
+      "color": "#ef4444",
+      "branchName": "Modern",
+      "title": "September 11 Attacks",
+      "description": "Al-Qaeda terrorists hijack passenger planes and strike the World Trade Center and Pentagon, launching the War on Terror."
+    },
+    {
+      "id": "digital_revolution",
+      "year": 2007,
+      "parentId": "9_11",
+      "color": "#a855f7",
+      "branchName": "Technology",
+      "title": "Digital & Mobile Boom",
+      "description": "The release of the first iPhone accelerates the transition into the modern digital age, mobile internet, and global app networks."
     }
   ]
 }

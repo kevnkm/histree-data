@@ -39,9 +39,27 @@
       "description": "버지니아 지역에 최초의 영국 영구 식민 정착지가 건설되어 식민지 팽창의 계기가 되다."
     },
     {
+      "id": "mayflower_compact",
+      "year": 1620,
+      "parentId": "jamestown_settlement",
+      "color": "#10b981",
+      "branchName": "식민지",
+      "title": "메이플라워 서약 체결",
+      "description": "청교도 정착민들이 메이플라워호 안에서 서약에 서명하며, 신대륙에서의 자치적인 민주적 질서의 시초를 다지다."
+    },
+    {
+      "id": "boston_tea_party",
+      "year": 1773,
+      "parentId": "mayflower_compact",
+      "color": "#f97316",
+      "branchName": "혁명기",
+      "title": "보스턴 차 사건",
+      "description": "영국의 불합리한 차 관세법에 반대하는 식민지 주민들이 보스턴 항구에 차 상자들을 투하하여 혁명의 불씨를 당기다."
+    },
+    {
       "id": "declaration_independence",
       "year": 1776,
-      "parentId": "jamestown_settlement",
+      "parentId": "boston_tea_party",
       "color": "#ef4444",
       "branchName": "혁명기",
       "title": "미국 독립 선언",
@@ -66,13 +84,40 @@
       "description": "프랑스로부터 루이지애나 영토를 매입하여 미국의 영토를 두 배로 확장하다."
     },
     {
+      "id": "manifest_destiny",
+      "year": 1845,
+      "parentId": "louisiana_purchase",
+      "color": "#84cc16",
+      "branchName": "영토확장",
+      "title": "명백한 운명과 텍사스 합병",
+      "description": "텍사스를 미국의 주(state)로 병합하며 서부로 영토를 계속 확장하자는 '명백한 운명'의 이념이 팽창하다."
+    },
+    {
+      "id": "gold_rush",
+      "year": 1848,
+      "parentId": "manifest_destiny",
+      "color": "#fbbf24",
+      "branchName": "영토확장",
+      "title": "캘리포니아 골드러시",
+      "description": "새터밀 제동장치 부근에서 금이 발견되자 일확천금을 노린 30만 명 이상의 인구가 캘리포니아로 대거 이동하여 서부 개척을 가속하다."
+    },
+    {
       "id": "civil_war",
       "year": 1861,
-      "parentId": "louisiana_purchase",
+      "parentId": "gold_rush",
       "color": "#f43f5e",
       "branchName": "갈등기",
       "title": "미국 남북전쟁 발발",
       "description": "노예제와 주(state)의 자치권 문제를 둘러싸고 북부 연방과 남부 연합 간의 대규모 내전이 시작되다."
+    },
+    {
+      "id": "emancipation_proclamation",
+      "year": 1863,
+      "parentId": "civil_war",
+      "color": "#10b981",
+      "branchName": "갈등기",
+      "title": "노예 해방 선언",
+      "description": "에이브러햄 링컨 대통령이 반란 지역의 모든 노예를 해방한다고 선언하여 전쟁의 도덕적 명분을 확보하다."
     },
     {
       "id": "gilded_age",
@@ -84,6 +129,33 @@
       "description": "급격한 경제 성장, 이민자 유입, 산업적 팽창과 함께 그림자인 부패와 도시화의 부작용이 동반되다."
     },
     {
+      "id": "panama_canal",
+      "year": 1914,
+      "parentId": "gilded_age",
+      "color": "#06b6d4",
+      "branchName": "산업화",
+      "title": "파나마 운하 개통",
+      "description": "대서양과 태평양을 연결하는 운하가 공식 완공되어 선박 수송 시간을 획기적으로 줄이고 미국의 해군력과 상업력을 입증하다."
+    },
+    {
+      "id": "ww1_entry",
+      "year": 1917,
+      "parentId": "gilded_age",
+      "color": "#6366f1",
+      "branchName": "세계대전",
+      "title": "제1차 세계대전 참전",
+      "description": "중립을 지키던 미국이 연합국 측으로 참전함으로써 제1차 세계대전을 종식하는 연합국의 결정적 승리를 돕다."
+    },
+    {
+      "id": "women_suffrage",
+      "year": 1920,
+      "parentId": "ww1_entry",
+      "color": "#ec4899",
+      "branchName": "사회",
+      "title": "여성 참정권 헌법 개정안 비준",
+      "description": "미국 연방 헌법 수정 제19조가 통과되어 여성에게 합법적인 투표권이 완전히 보장되다."
+    },
+    {
       "id": "great_depression",
       "year": 1929,
       "parentId": "gilded_age",
@@ -93,13 +165,49 @@
       "description": "월가 주식 붕괴로 세계적인 경제적 충격과 기록적인 실업 사태가 장기화되다."
     },
     {
+      "id": "new_deal",
+      "year": 1933,
+      "parentId": "great_depression",
+      "color": "#22c55e",
+      "branchName": "위기극복",
+      "title": "뉴딜 정책 시행",
+      "description": "프랭클린 D. 루스벨트 대통령이 대규모 공공사업, 경제 회복 법안, 복지 제도 구축을 골자로 하는 뉴딜을 단행하다."
+    },
+    {
       "id": "world_war_2",
       "year": 1941,
-      "parentId": "great_depression",
+      "parentId": "new_deal",
       "color": "#c084fc",
       "branchName": "제2차 세계대전",
       "title": "제2차 세계대전 참전",
       "description": "진주만 습격을 계기로 미국이 공식 선전포고를 하고 연합국 전선에 참전하다."
+    },
+    {
+      "id": "cold_war_begins",
+      "year": 1947,
+      "parentId": "world_war_2",
+      "color": "#8b5cf6",
+      "branchName": "냉전",
+      "title": "트루먼 독트린 선포",
+      "description": "트루먼 대통령이 공산주의 세력에 대항하여 민주 진영을 지원하겠다는 교시를 공식 발표하며 동서 냉전 구도를 정립하다."
+    },
+    {
+      "id": "civil_rights_movement",
+      "year": 1954,
+      "parentId": "world_war_2",
+      "color": "#ec4899",
+      "branchName": "민권운동",
+      "title": "민권 운동의 불길",
+      "description": "'브라운 대 교육위원회' 판결을 필두로, 마틴 루터 킹 목사 등이 이끄는 인종차별 철폐 운동이 시작되다."
+    },
+    {
+      "id": "vietnam_war",
+      "year": 1965,
+      "parentId": "civil_rights_movement",
+      "color": "#f43f5e",
+      "branchName": "전쟁",
+      "title": "베트남 전쟁 전투 부대 파병",
+      "description": "미국이 베트남에 대규모 전투 지상군 파병을 개시하며 공산주의 확산을 막기 위한 본격적 군사 개입 단계로 나아가다."
     },
     {
       "id": "apollo_moon_landing",
@@ -109,6 +217,24 @@
       "branchName": "우주시대",
       "title": "아폴로 11호 달 착륙",
       "description": "닐 암스트롱이 아폴로 11호를 타고 인류 역사상 최초로 달 표면을 밟다."
+    },
+    {
+      "id": "9_11",
+      "year": 2001,
+      "parentId": "apollo_moon_landing",
+      "color": "#ef4444",
+      "branchName": "현대",
+      "title": "9·11 테러 사태",
+      "description": "알카에다 테러리스트들에 의해 납치된 여객기가 세계무역센터와 펜타곤을 습격하여 수천 명의 인명 피해가 발생하고 테러와의 전쟁이 시작되다."
+    },
+    {
+      "id": "digital_revolution",
+      "year": 2007,
+      "parentId": "9_11",
+      "color": "#a855f7",
+      "branchName": "기술혁명",
+      "title": "스마트폰 혁명과 디지털 대전환",
+      "description": "애플의 첫 아이폰 출시와 모바일 인터넷 대중화로 현대 사회의 소통, 경제, 문화적 연결이 완전히 모바일 중심으로 재편되다."
     }
   ]
 }

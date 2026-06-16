@@ -57,22 +57,76 @@
       "description": "샤를마뉴가 서방 황제로 즉위하다."
     },
     {
+      "id": "norman_conquest",
+      "year": 1066,
+      "parentId": "charlemagne_crowned",
+      "color": "#10b981",
+      "branchName": "중세",
+      "title": "노르만의 잉글랜드 정복",
+      "description": "노르망디 공작 윌리엄이 헤이스팅스 전투 승리 후 잉글랜드 국왕으로 대관하여 프랑스와 영국 역사의 기나긴 얽힘을 시작하다."
+    },
+    {
       "id": "hundred_years_war",
       "year": 1337,
-      "parentId": "charlemagne_crowned",
+      "parentId": "norman_conquest",
       "color": "#fbbf24",
       "branchName": "프랑스",
       "title": "백년 전쟁",
       "description": "프랑스와 잉글랜드가 오랜 왕조 전쟁을 벌이다."
     },
     {
+      "id": "joan_of_arc",
+      "year": 1429,
+      "parentId": "hundred_years_war",
+      "color": "#e11d48",
+      "branchName": "프랑스",
+      "title": "잔 다르크와 오를레앙 포위전",
+      "description": "잔 다르크가 오를레앙의 포위를 풀며 프랑스가 백년 전쟁의 주도권을 되찾다."
+    },
+    {
+      "id": "edict_of_nantes",
+      "year": 1598,
+      "parentId": "hundred_years_war",
+      "color": "#6366f1",
+      "branchName": "절대왕정",
+      "title": "낭트 칙령 반포",
+      "description": "앙리 4세가 칼뱅파 신교도(위그노)에게 광범위한 종교적 권리를 보장하여 장기간의 프랑스 종교 전쟁(위그노 전쟁)을 종식하다."
+    },
+    {
+      "id": "louis_xiv",
+      "year": 1661,
+      "parentId": "edict_of_nantes",
+      "color": "#f59e0b",
+      "branchName": "절대왕정",
+      "title": "루이 14세 친정 선포",
+      "description": "루이 14세가 재상 없이 왕정을 친히 통치하기 시작하며 베르사유 궁전을 증축하고 강력한 절대 왕정을 과시하다."
+    },
+    {
+      "id": "enlightenment",
+      "year": 1750,
+      "parentId": "louis_xiv",
+      "color": "#06b6d4",
+      "branchName": "문화",
+      "title": "프랑스 계몽주의",
+      "description": "볼테르, 루소, 몽테스키외 같은 사상가들이 이성과 자유, 개혁을 핵심으로 하는 현대 사회 사상의 틀을 다지다."
+    },
+    {
       "id": "french_revolution",
       "year": 1789,
-      "parentId": "hundred_years_war",
+      "parentId": "enlightenment",
       "color": "#ec4899",
       "branchName": "프랑스",
       "title": "프랑스 혁명",
-      "description": "혁명이 절대 왕정을 무너뜨리다."
+      "description": "바스티유 감옥 습격을 시작으로 시민 혁명이 일어나 구체제를 무너뜨리고 인권선언을 선포하다."
+    },
+    {
+      "id": "terror",
+      "year": 1793,
+      "parentId": "french_revolution",
+      "color": "#ef4444",
+      "branchName": "프랑스",
+      "title": "공포 정치 시기",
+      "description": "로베스피에르 등 급진파 야코뱅당이 주도하여 국왕 루이 16세를 단두대에서 처형하고 수많은 반대파를 숙청하다."
     },
     {
       "id": "napoleonic_empire",
@@ -81,7 +135,16 @@
       "color": "#c084fc",
       "branchName": "프랑스",
       "title": "나폴레옹 제국",
-      "description": "나폴레옹이 프랑스 황제로 즉위하다."
+      "description": "나폴레옹 보나파르트가 황제로 즉위하여 제1제정을 열고, 나폴레옹 법전을 편찬하며 영토 확장에 나서다."
+    },
+    {
+      "id": "paris_commune",
+      "year": 1871,
+      "parentId": "napoleonic_empire",
+      "color": "#dc2626",
+      "branchName": "공화국",
+      "title": "파리 코뮨 선포",
+      "description": "프로이센과의 전쟁 패배 이후 파리 민중들이 자치적인 혁명 정부를 수립하여 기성 권력에 항거하다."
     },
     {
       "id": "world_war_1",
@@ -90,16 +153,79 @@
       "color": "#f43f5e",
       "branchName": "유럽",
       "title": "제1차 세계대전",
-      "description": "대륙 전쟁이 유럽을 재편하다."
+      "description": "참호전과 막대한 인명 피해 끝에 연합국의 일원으로 승리하여 알자스-로렌 지방을 수복하다."
+    },
+    {
+      "id": "versailles_treaty",
+      "year": 1919,
+      "parentId": "world_war_1",
+      "color": "#a855f7",
+      "branchName": "유럽",
+      "title": "베르사유 조약 체결",
+      "description": "제1차 세계대전을 종결하는 조약이 베르사유 궁전 거울의 방에서 서명되어 신세계 질서가 형성되다."
+    },
+    {
+      "id": "world_war_2_france",
+      "year": 1940,
+      "parentId": "versailles_treaty",
+      "color": "#b91c1c",
+      "branchName": "유럽",
+      "title": "프랑스 함락과 레지스탕스",
+      "description": "나치 독일의 침공으로 본토가 함락되어 비시 정부가 들어섰으나, 드 골 장군의 망명 정부와 국내외 레지스탕스가 끊임없이 항쟁하다."
+    },
+    {
+      "id": "european_integration",
+      "year": 1950,
+      "parentId": "world_war_2_france",
+      "color": "#10b981",
+      "branchName": "유럽",
+      "title": "슈망 선언 (유럽 통합의 발걸음)",
+      "description": "로베르 슈망 외무장관이 프랑스와 서독의 석탄·철강 공동 생산 조정을 제안하여 현대 유럽연합(EU)의 초석이 되다."
     },
     {
       "id": "fifth_republic",
       "year": 1958,
-      "parentId": "world_war_1",
+      "parentId": "world_war_2_france",
       "color": "#60a5fa",
       "branchName": "프랑스",
       "title": "제5공화국 수립",
       "description": "샤를 드 골이 강력한 대통령제의 제5공화국을 수립하다."
+    },
+    {
+      "id": "decolonization",
+      "year": 1962,
+      "parentId": "fifth_republic",
+      "color": "#f97316",
+      "branchName": "프랑스",
+      "title": "알제리 독립 인정",
+      "description": "긴 알제리 독립 전쟁 끝에 에비앙 협정을 맺고 알제리의 독립을 승인하며 프랑스 제국주의의 실질적인 해체를 맞이하다."
+    },
+    {
+      "id": "may_68",
+      "year": 1968,
+      "parentId": "fifth_republic",
+      "color": "#ec4899",
+      "branchName": "프랑스",
+      "title": "5월 혁명 (68운동)",
+      "description": "파리 학생 운동으로 시작되어 전국적인 노동자 총파업으로 번져 기성 세대의 권위주의를 타파하고 진보적 가치관을 확산시키다."
+    },
+    {
+      "id": "tgv_inauguration",
+      "year": 1981,
+      "parentId": "fifth_republic",
+      "color": "#fb923c",
+      "branchName": "프랑스",
+      "title": "초고속열차 TGV 개통",
+      "description": "세계적 수준의 프랑스 고속철도망 TGV가 최초 상업 운행을 시작하여 유럽 여객 철도 교통에 혁신을 이루다."
+    },
+    {
+      "id": "euro_currency",
+      "year": 2002,
+      "parentId": "tgv_inauguration",
+      "color": "#06b6d4",
+      "branchName": "프랑스",
+      "title": "유로화 전면 도입",
+      "description": "오랜 전통의 프랑스 프랑(Franc)화 지폐와 동전을 퇴출시키고, 유럽 연합 통합 통화인 유로(Euro)화를 도입하다."
     }
   ]
 }

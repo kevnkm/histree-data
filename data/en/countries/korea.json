@@ -60,6 +60,15 @@
       "description": "Baekje is established in the southwest."
     },
     {
+      "id": "gaya",
+      "year": 42,
+      "parentId": "gojoseon",
+      "color": "#a8a29e",
+      "branchName": "Gaya",
+      "title": "Gaya Confederacy",
+      "description": "Gaya emerges as a confederacy of states in the Nakdong River basin."
+    },
+    {
       "id": "unified_silla",
       "year": 668,
       "parentId": "silla",
@@ -67,6 +76,15 @@
       "branchName": "Unified Silla",
       "title": "Unified Silla",
       "description": "Silla unifies most of the Korean peninsula."
+    },
+    {
+      "id": "balhae",
+      "year": 698,
+      "parentId": "goguryeo",
+      "color": "#8b5cf6",
+      "branchName": "Balhae",
+      "title": "Balhae Founded",
+      "description": "Dae Jo-yeong establishes Balhae, extending Korean history into Manchuria."
     },
     {
       "id": "goryeo",
@@ -78,6 +96,15 @@
       "description": "Goryeo reunites the peninsula and gives Korea its name."
     },
     {
+      "id": "goryeo_tripitaka",
+      "year": 1236,
+      "parentId": "goryeo",
+      "color": "#10b981",
+      "branchName": "Goryeo",
+      "title": "Tripitaka Koreana",
+      "description": "Goryeo carves over 80,000 wooden printing blocks of the Buddhist canon to appeal for divine protection against Mongol invaders."
+    },
+    {
       "id": "joseon",
       "year": 1392,
       "parentId": "goryeo",
@@ -87,9 +114,18 @@
       "description": "Yi Seong-gye founds the long-lived Joseon dynasty."
     },
     {
+      "id": "hangul",
+      "year": 1443,
+      "parentId": "joseon",
+      "color": "#ec4899",
+      "branchName": "Joseon",
+      "title": "Hangul Created",
+      "description": "King Sejong the Great creates the Korean alphabet, Hangul."
+    },
+    {
       "id": "imjin_war",
       "year": 1592,
-      "parentId": "joseon",
+      "parentId": "hangul",
       "color": "#fbbf24",
       "branchName": "Joseon",
       "title": "Imjin War",
@@ -103,6 +139,15 @@
       "branchName": "Joseon",
       "title": "Late Joseon Renaissance",
       "description": "King Jeongjo drives a cultural and reform revival."
+    },
+    {
+      "id": "donghak_peasant_revolution",
+      "year": 1894,
+      "parentId": "late_joseon_renaissance",
+      "color": "#f97316",
+      "branchName": "Joseon",
+      "title": "Donghak Peasant Revolution",
+      "description": "Peasants rise in rebellion demanding social reform and anti-foreign policies, triggering regional tensions."
     },
     {
       "id": "empire",
@@ -123,6 +168,15 @@
       "description": "Korea is annexed by Imperial Japan."
     },
     {
+      "id": "march_first_movement",
+      "year": 1919,
+      "parentId": "japanese_occupation",
+      "color": "#ef4444",
+      "branchName": "Colonial",
+      "title": "March 1st Movement",
+      "description": "Nationwide peaceful protests demand independence, leading to the creation of the Provisional Government in Shanghai."
+    },
+    {
       "id": "republic_of_korea",
       "year": 1948,
       "parentId": "japanese_occupation",
@@ -139,6 +193,78 @@
       "branchName": "North Korea",
       "title": "North Korea (DPRK)",
       "description": "North Korea is established in the north."
+    },
+    {
+      "id": "korean_war",
+      "year": 1950,
+      "parentId": "republic_of_korea",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Korean War",
+      "description": "War breaks out following North Korea's invasion of the South."
+    },
+    {
+      "id": "april_revolution",
+      "year": 1960,
+      "parentId": "korean_war",
+      "color": "#06b6d4",
+      "branchName": "Democracy",
+      "title": "April Revolution",
+      "description": "Student-led protests overthrow the autocratic Syngman Rhee government."
+    },
+    {
+      "id": "hangang_miracle",
+      "year": 1962,
+      "parentId": "korean_war",
+      "color": "#10b981",
+      "branchName": "Economy",
+      "title": "Miracle on the Han River",
+      "description": "South Korea launches rapid export-led industrialization, growing from a war-torn country to a major global economy."
+    },
+    {
+      "id": "gwangju_uprising",
+      "year": 1980,
+      "parentId": "april_revolution",
+      "color": "#10b981",
+      "branchName": "Democracy",
+      "title": "Gwangju Uprising",
+      "description": "Pro-democracy demonstrations rise against military rule."
+    },
+    {
+      "id": "seoul_olympics",
+      "year": 1988,
+      "parentId": "gwangju_uprising",
+      "color": "#fbbf24",
+      "branchName": "South Korea",
+      "title": "Seoul Olympics",
+      "description": "South Korea hosts the Summer Olympics, marking its global entry."
+    },
+    {
+      "id": "financial_crisis",
+      "year": 1997,
+      "parentId": "seoul_olympics",
+      "color": "#f97316",
+      "branchName": "South Korea",
+      "title": "Asian Financial Crisis",
+      "description": "South Korea overcomes a severe economic crisis under an IMF program."
+    },
+    {
+      "id": "world_cup_hallyu",
+      "year": 2002,
+      "parentId": "financial_crisis",
+      "color": "#ec4899",
+      "branchName": "South Korea",
+      "title": "World Cup & Hallyu",
+      "description": "Korea co-hosts the World Cup as the Korean Wave (Hallyu) spreads globally."
+    },
+    {
+      "id": "candlelight_revolution",
+      "year": 2016,
+      "parentId": "world_cup_hallyu",
+      "color": "#06b6d4",
+      "branchName": "Democracy",
+      "title": "Candlelight Revolution",
+      "description": "Massive peaceful candlelight protests lead to the impeachment of President Park Geun-hye, demonstrating democratic maturity."
     }
   ]
 }

@@ -6,7 +6,7 @@
     {
       "id": "ancient_feudal",
       "name": "Classical & Feudal Era",
-      "startYear": 700,
+      "startYear": 500,
       "endYear": 1603
     },
     {
@@ -24,9 +24,27 @@
   ],
   "nodes": [
     {
+      "id": "introduction_of_buddhism",
+      "year": 552,
+      "parentId": null,
+      "color": "#10b981",
+      "branchName": "Classical",
+      "title": "Introduction of Buddhism",
+      "description": "Buddhism is officially introduced to Japan from Baekje, heavily shaping subsequent culture and political systems."
+    },
+    {
+      "id": "shotoku_constitution",
+      "year": 604,
+      "parentId": "introduction_of_buddhism",
+      "color": "#8b5cf6",
+      "branchName": "Classical",
+      "title": "Prince Shotoku's Constitution",
+      "description": "Prince Shotoku enacts the Seventeen-Article Constitution, establishing Buddhist and Confucian moral values in government."
+    },
+    {
       "id": "nara_period",
       "year": 710,
-      "parentId": null,
+      "parentId": "shotoku_constitution",
       "color": "#10b981",
       "branchName": "Classical",
       "title": "Nara Period Begins",
@@ -51,13 +69,40 @@
       "description": "Minamoto no Yoritomo establishes the military dictatorship, beginning the feudal era of shoguns."
     },
     {
+      "id": "mongol_invasions",
+      "year": 1274,
+      "parentId": "kamakura_shogunate",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Mongol Invasions of Japan",
+      "description": "Japan repels major invasion attempts by the Mongol Empire, aided by typhoons later named Kamikaze."
+    },
+    {
+      "id": "muromachi_shogunate",
+      "year": 1336,
+      "parentId": "kamakura_shogunate",
+      "color": "#6366f1",
+      "branchName": "Feudal",
+      "title": "Muromachi Shogunate",
+      "description": "Ashikaga Takauji establishes the shogunate in Kyoto, bringing cultural growth alongside rising regional lord power."
+    },
+    {
       "id": "sengoku_period",
       "year": 1467,
-      "parentId": "kamakura_shogunate",
+      "parentId": "muromachi_shogunate",
       "color": "#f43f5e",
       "branchName": "Feudal",
       "title": "Sengoku Period",
       "description": "The Onin War triggers a century of civil war and social upheaval among warlords."
+    },
+    {
+      "id": "portuguese_contact",
+      "year": 1543,
+      "parentId": "sengoku_period",
+      "color": "#f97316",
+      "branchName": "Feudal",
+      "title": "First European Contact",
+      "description": "Portuguese traders arrive on Tanegashima, introducing matchlock firearms which revolutionize Japanese warfare."
     },
     {
       "id": "tokugawa_shogunate",
@@ -69,6 +114,24 @@
       "description": "Tokugawa Ieyasu unifies Japan, establishing the Edo period of long peace and isolation."
     },
     {
+      "id": "sakoku_policy",
+      "year": 1635,
+      "parentId": "tokugawa_shogunate",
+      "color": "#e11d48",
+      "branchName": "Edo",
+      "title": "Sakoku Isolation Decreed",
+      "description": "The shogunate strictly prohibits travel abroad and closes borders to foreigners to maintain social order and stability."
+    },
+    {
+      "id": "edo_culture",
+      "year": 1688,
+      "parentId": "tokugawa_shogunate",
+      "color": "#ec4899",
+      "branchName": "Edo",
+      "title": "Genroku Edo Culture",
+      "description": "A boom in urban merchant culture yields Ukiyo-e woodblock prints, Kabuki, and Haiku poetry."
+    },
+    {
       "id": "meiji_restoration",
       "year": 1868,
       "parentId": "tokugawa_shogunate",
@@ -78,22 +141,85 @@
       "description": "Imperial rule is restored, ending the shogunates and launching rapid westernized modernization."
     },
     {
+      "id": "sino_japanese_war",
+      "year": 1894,
+      "parentId": "meiji_restoration",
+      "color": "#f43f5e",
+      "branchName": "Modernization",
+      "title": "First Sino-Japanese War",
+      "description": "Japan's modernized military defeats Qing Dynasty China, shifting East Asian dominance."
+    },
+    {
+      "id": "taisho_democracy",
+      "year": 1912,
+      "parentId": "meiji_restoration",
+      "color": "#06b6d4",
+      "branchName": "Imperial/Showa",
+      "title": "Taisho Democracy",
+      "description": "An era of political liberalization and cultural internationalism, marking Japan's first party cabinets."
+    },
+    {
+      "id": "great_kanto_earthquake",
+      "year": 1923,
+      "parentId": "taisho_democracy",
+      "color": "#f97316",
+      "branchName": "Imperial/Showa",
+      "title": "Great Kanto Earthquake",
+      "description": "A massive earthquake devastates Tokyo and Yokohama, causing widespread economic shock and political shift."
+    },
+    {
       "id": "showa_period",
       "year": 1926,
-      "parentId": "meiji_restoration",
+      "parentId": "great_kanto_earthquake",
       "color": "#fb923c",
       "branchName": "Imperial/Showa",
       "title": "Showa Era Begins",
       "description": "Hirohito becomes Emperor, marking an era covering military expansionism and later democratic recovery."
     },
     {
+      "id": "wwii_japan",
+      "year": 1941,
+      "parentId": "showa_period",
+      "color": "#ef4444",
+      "branchName": "Imperial/Showa",
+      "title": "WWII Pacific War Begins",
+      "description": "Japan launches a surprise attack on Pearl Harbor, triggering full scale entry into World War II."
+    },
+    {
+      "id": "hiroshima",
+      "year": 1945,
+      "parentId": "wwii_japan",
+      "color": "#e11d48",
+      "branchName": "Imperial/Showa",
+      "title": "Atomic Bombings",
+      "description": "The United States drops atomic bombs on Hiroshima and Nagasaki, leading to Japan's surrender."
+    },
+    {
       "id": "post_war_economic_miracle",
       "year": 1950,
-      "parentId": "showa_period",
+      "parentId": "hiroshima",
       "color": "#10b981",
       "branchName": "Modern",
       "title": "Economic Miracle",
       "description": "Post-war Japan achieves rapid industrial and technological growth to become a global economy."
+    },
+    {
+      "id": "tokyo_olympics",
+      "year": 1964,
+      "parentId": "post_war_economic_miracle",
+      "color": "#3b82f6",
+      "branchName": "Modern",
+      "title": "Tokyo Summer Olympics",
+      "description": "Japan hosts the Olympics, symbolizing its peaceful return to the international community."
+    },
+    {
+      "id": "bubble_economy",
+      "year": 1989,
+      "parentId": "tokyo_olympics",
+      "color": "#f97316",
+      "branchName": "Modern",
+      "title": "Asset Bubble Peaks",
+      "description": "Japan's real estate and stock market bubble peaks, followed by the economic stagnation of the Lost Decades."
     }
   ]
 }

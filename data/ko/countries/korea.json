@@ -5,13 +5,13 @@
   "eras": [
     {
       "id": "ancient_three_kingdoms",
-      "name": "고대 · 삼국시대",
+      "name": "고대 및 삼국 시대",
       "startYear": -3000,
       "endYear": 900
     },
     {
       "id": "goryeo_joseon",
-      "name": "고려 · 조선시대",
+      "name": "고려 및 조선 시대",
       "startYear": 900,
       "endYear": 1910
     },
@@ -30,7 +30,7 @@
       "color": "#10b981",
       "branchName": "고대",
       "title": "고조선 건국",
-      "description": "단군이 한국 최초의 국가를 세우다."
+      "description": "단군왕검에 의해 한국 역사상 최초의 국가인 고조선이 건국되다."
     },
     {
       "id": "silla",
@@ -39,7 +39,7 @@
       "color": "#60a5fa",
       "branchName": "신라",
       "title": "신라 건국",
-      "description": "동남부에서 신라가 일어나다."
+      "description": "한반도 동남부 지역에서 박혁거세에 의해 신라가 건국되다."
     },
     {
       "id": "goguryeo",
@@ -48,7 +48,7 @@
       "color": "#f43f5e",
       "branchName": "고구려",
       "title": "고구려 건국",
-      "description": "북방의 강국 고구려가 등장하다."
+      "description": "주몽에 의해 한반도 북부 및 만주 일대를 호령한 고구려가 건국되다."
     },
     {
       "id": "baekje",
@@ -57,7 +57,16 @@
       "color": "#fbbf24",
       "branchName": "백제",
       "title": "백제 건국",
-      "description": "서남부에 백제가 세워지다."
+      "description": "온조에 의해 한반도 남서부 지역에 백제가 건국되다."
+    },
+    {
+      "id": "gaya",
+      "year": 42,
+      "parentId": "gojoseon",
+      "color": "#a8a29e",
+      "branchName": "가야",
+      "title": "가야 연맹 형성",
+      "description": "낙동강 유역을 중심으로 김수로왕이 이끄는 금관가야 등 가야 소국 연맹이 형성되다."
     },
     {
       "id": "unified_silla",
@@ -65,8 +74,17 @@
       "parentId": "silla",
       "color": "#60a5fa",
       "branchName": "통일신라",
-      "title": "통일 신라",
-      "description": "신라가 한반도 대부분을 통일하다."
+      "title": "신라의 삼국 통일",
+      "description": "당나라와의 동맹 및 항쟁 끝에 한반도 중남부 대동강 이남 지역을 통일하다."
+    },
+    {
+      "id": "balhae",
+      "year": 698,
+      "parentId": "goguryeo",
+      "color": "#8b5cf6",
+      "branchName": "발해",
+      "title": "발해 건국",
+      "description": "대조영이 고구려 유민들을 이끌고 길림성 돈화현 일대에 고구려를 계승한 발해를 건국하다."
     },
     {
       "id": "goryeo",
@@ -74,8 +92,17 @@
       "parentId": "unified_silla",
       "color": "#34d399",
       "branchName": "고려",
-      "title": "고려 왕조",
-      "description": "고려가 한반도를 재통일하다."
+      "title": "고려 왕조 창건",
+      "description": "태조 왕건이 고려를 건국하고 후삼국을 통일하여 새로운 고려 시대를 열다."
+    },
+    {
+      "id": "goryeo_tripitaka",
+      "year": 1236,
+      "parentId": "goryeo",
+      "color": "#10b981",
+      "branchName": "고려",
+      "title": "팔만대장경 조판 시작",
+      "description": "몽골의 침입에 맞서 불력으로 나라를 구하고자 목판에 불교 경전을 새겨 넣은 팔만대장경 조판이 추진되다."
     },
     {
       "id": "joseon",
@@ -83,17 +110,26 @@
       "parentId": "goryeo",
       "color": "#c084fc",
       "branchName": "조선",
-      "title": "조선 왕조",
-      "description": "이성계가 오래 지속된 조선 왕조를 세우다."
+      "title": "조선 왕조 건국",
+      "description": "태조 이성계가 위화도 회군을 거쳐 신진사대부와 함께 조선을 건국하다."
+    },
+    {
+      "id": "hangul",
+      "year": 1443,
+      "parentId": "joseon",
+      "color": "#ec4899",
+      "branchName": "조선",
+      "title": "훈민정음 창제",
+      "description": "세종대왕이 백성들이 쉽게 익힐 수 있도록 고유 문자인 한글(훈민정음)을 창제하다."
     },
     {
       "id": "imjin_war",
       "year": 1592,
-      "parentId": "joseon",
+      "parentId": "hangul",
       "color": "#fbbf24",
       "branchName": "조선",
-      "title": "임진왜란",
-      "description": "이순신의 활약으로 일본의 침략을 물리치다."
+      "title": "임진왜란 발발",
+      "description": "도요토미 히데요시가 이끄는 왜군의 침입을 받아 충무공 이순신 장군과 의병들의 항쟁으로 극복하다."
     },
     {
       "id": "late_joseon_renaissance",
@@ -101,8 +137,17 @@
       "parentId": "imjin_war",
       "color": "#34d399",
       "branchName": "조선",
-      "title": "조선 후기 중흥",
-      "description": "정조가 문화와 개혁의 중흥을 이끌다."
+      "title": "조선 후기 중흥기",
+      "description": "정조 천세 즉위 후 규장각을 설치하고 탕평책과 수원 화성 축조 등을 통해 학문과 문예적 전성기를 꽃피우다."
+    },
+    {
+      "id": "donghak_peasant_revolution",
+      "year": 1894,
+      "parentId": "late_joseon_renaissance",
+      "color": "#f97316",
+      "branchName": "조선",
+      "title": "동학 농민 혁명 발발",
+      "description": "전봉준을 중심으로 탐관오리의 부패에 저항하고 외세 배격을 기치로 내걸어 대규모 농민 항쟁을 일으키다."
     },
     {
       "id": "empire",
@@ -110,17 +155,26 @@
       "parentId": "late_joseon_renaissance",
       "color": "#3b82f6",
       "branchName": "대한제국",
-      "title": "대한제국",
-      "description": "조선이 대한제국을 선포하다."
+      "title": "대한제국 선포",
+      "description": "고종 황제가 환구단에서 황제 즉위식을 거행하고 자주독립국임을 대내외에 선포하다."
     },
     {
       "id": "japanese_occupation",
       "year": 1910,
       "parentId": "empire",
       "color": "#fb923c",
-      "branchName": "식민지",
-      "title": "일제강점기",
-      "description": "한국이 일본 제국에 병합되다."
+      "branchName": "일제강점기",
+      "title": "경술국치 (일제강점기 시작)",
+      "description": "한일합병조약 체결로 주권을 상실하고 일제의 강점 통치 아래 들어가다."
+    },
+    {
+      "id": "march_first_movement",
+      "year": 1919,
+      "parentId": "japanese_occupation",
+      "color": "#ef4444",
+      "branchName": "일제강점기",
+      "title": "3·1 운동 및 임시정부 수립",
+      "description": "민족대표 33인의 독립선언서 발표와 전국적 비폭력 독립 만세 시위가 전개되었고, 상하이에 대한민국 임시정부가 수립되다."
     },
     {
       "id": "republic_of_korea",
@@ -128,8 +182,8 @@
       "parentId": "japanese_occupation",
       "color": "#3b82f6",
       "branchName": "대한민국",
-      "title": "대한민국 수립",
-      "description": "남쪽에 대한민국이 수립되다."
+      "title": "대한민국 정부 수립",
+      "description": "해방 이후 남한 지역에서 총선거를 거쳐 대한민국 제1공화국 정부가 수립되다."
     },
     {
       "id": "north_korea",
@@ -137,8 +191,80 @@
       "parentId": "japanese_occupation",
       "color": "#ef4444",
       "branchName": "북한",
-      "title": "조선민주주의인민공화국",
-      "description": "북쪽에 북한이 수립되다."
+      "title": "조선민주주의인민공화국 수립",
+      "description": "한반도 북부 지역에서 김일성을 수상으로 하는 공산주의 정권이 수립되다."
+    },
+    {
+      "id": "korean_war",
+      "year": 1950,
+      "parentId": "republic_of_korea",
+      "color": "#ef4444",
+      "branchName": "전쟁",
+      "title": "6·25 전쟁 발발",
+      "description": "북한군의 기습 남침으로 전면전이 발생하여 한반도 전역이 참화에 휩싸이다."
+    },
+    {
+      "id": "april_revolution",
+      "year": 1960,
+      "parentId": "korean_war",
+      "color": "#06b6d4",
+      "branchName": "민주주의",
+      "title": "4·19 혁명",
+      "description": "부정선거에 항거하여 학생들이 중심이 된 민주주의 시위가 일어나 독재 정권을 퇴진시키다."
+    },
+    {
+      "id": "hangang_miracle",
+      "year": 1962,
+      "parentId": "korean_war",
+      "color": "#10b981",
+      "branchName": "경제성장",
+      "title": "한강의 기적 시작",
+      "description": "경제개발 5개년 계획 등 강력한 수출 주도형 경제 정책을 시행하여 세계적인 경제 대국으로 고속 성장하다."
+    },
+    {
+      "id": "gwangju_uprising",
+      "year": 1980,
+      "parentId": "april_revolution",
+      "color": "#10b981",
+      "branchName": "민주주의",
+      "title": "5·18 민주화운동",
+      "description": "신군부 집권 세력의 군사 독재와 계엄령에 대항하여 광주 시민들이 민주화를 요구하며 투쟁하다."
+    },
+    {
+      "id": "seoul_olympics",
+      "year": 1988,
+      "parentId": "gwangju_uprising",
+      "color": "#fbbf24",
+      "branchName": "대한민국",
+      "title": "제24회 서울 올림픽 개최",
+      "description": "하계 올림픽을 성공적으로 치러내며 전후 도약한 대한민국의 역량을 세계 무대에 널리 알리다."
+    },
+    {
+      "id": "financial_crisis",
+      "year": 1997,
+      "parentId": "seoul_olympics",
+      "color": "#f97316",
+      "branchName": "대한민국",
+      "title": "외환위기 극복",
+      "description": "국가 부도 위기 속에서 IMF 자금 지원을 받고 범국민적인 금모으기 운동 등을 통해 극복하다."
+    },
+    {
+      "id": "world_cup_hallyu",
+      "year": 2002,
+      "parentId": "financial_crisis",
+      "color": "#ec4899",
+      "branchName": "대한민국",
+      "title": "월드컵 4강 및 한류 확산",
+      "description": "한일 월드컵에서 4강 신화를 달성하고, 음악과 드라마 등 대중문화 영역에서 한류 열풍이 시작되다."
+    },
+    {
+      "id": "candlelight_revolution",
+      "year": 2016,
+      "parentId": "world_cup_hallyu",
+      "color": "#06b6d4",
+      "branchName": "민주주의",
+      "title": "촛불 혁명 선포",
+      "description": "대규모 평화 촛불 집회를 통해 민주 시민 역량을 보여주며 대통령 탄핵안 가결과 정권 교체를 이끌어내다."
     }
   ]
 }

@@ -6,7 +6,7 @@
     {
       "id": "ancient_feudal",
       "name": "고전 · 봉건 시대",
-      "startYear": 700,
+      "startYear": 500,
       "endYear": 1603
     },
     {
@@ -24,9 +24,27 @@
   ],
   "nodes": [
     {
+      "id": "introduction_of_buddhism",
+      "year": 552,
+      "parentId": null,
+      "color": "#10b981",
+      "branchName": "고전",
+      "title": "불교의 공식 전래",
+      "description": "백제 성왕에 의해 불교 경전과 불상이 일본에 공식 전해지며, 이후 고전 문화와 아스카 시대 국가 체제 정비에 큰 영향을 미치다."
+    },
+    {
+      "id": "shotoku_constitution",
+      "year": 604,
+      "parentId": "introduction_of_buddhism",
+      "color": "#8b5cf6",
+      "branchName": "고전",
+      "title": "쇼토쿠 태자의 헌법 제정",
+      "description": "쇼토쿠 태자가 불교와 유교적 덕목을 담은 17조 헌법을 반포하여 국가의 도덕적 체제를 정비하다."
+    },
+    {
       "id": "nara_period",
       "year": 710,
-      "parentId": null,
+      "parentId": "shotoku_constitution",
       "color": "#10b981",
       "branchName": "고전",
       "title": "나라 시대 시작",
@@ -51,13 +69,40 @@
       "description": "미나모토노 요리토모가 쇼군 막부를 세워 무사 중심의 봉건 시대가 시작되다."
     },
     {
+      "id": "mongol_invasions",
+      "year": 1274,
+      "parentId": "kamakura_shogunate",
+      "color": "#ef4444",
+      "branchName": "전쟁",
+      "title": "여몽 연합군의 일본 원정",
+      "description": "원나라와 고려 연합군의 대규모 침공을 두 차례 맞이하였으나, 카미카제라 불린 태풍의 영향 등으로 격퇴하다."
+    },
+    {
+      "id": "muromachi_shogunate",
+      "year": 1336,
+      "parentId": "kamakura_shogunate",
+      "color": "#6366f1",
+      "branchName": "봉건",
+      "title": "무로마치 막부 개창",
+      "description": "아시카가 다카우지가 교토에 막부를 수립하여 다도, 렌가 등 독자적 중세 문화를 발달시키는 동시에 영주들의 권한을 확대시키다."
+    },
+    {
       "id": "sengoku_period",
       "year": 1467,
-      "parentId": "kamakura_shogunate",
+      "parentId": "muromachi_shogunate",
       "color": "#f43f5e",
       "branchName": "봉건",
       "title": "전국 시대",
       "description": "오닌의 난으로 쇼군의 권위가 붕괴되고 다이묘들의 치열한 내전 시대가 열리다."
+    },
+    {
+      "id": "portuguese_contact",
+      "year": 1543,
+      "parentId": "sengoku_period",
+      "color": "#f97316",
+      "branchName": "봉건",
+      "title": "조총 전래 (포르투갈과의 접촉)",
+      "description": "다네가시마에 표착한 포르투갈 상인을 통해 화승총(조총)이 처음 도입되어 다이묘들의 군사 전술과 일본 역사에 커다란 변화를 가져오다."
     },
     {
       "id": "tokugawa_shogunate",
@@ -69,6 +114,24 @@
       "description": "도쿠가와 이에야스가 정권을 잡아 에도를 중심으로 장기 평화와 쇄국 정책의 틀을 잡다."
     },
     {
+      "id": "sakoku_policy",
+      "year": 1635,
+      "parentId": "tokugawa_shogunate",
+      "color": "#e11d48",
+      "branchName": "에도시대",
+      "title": "쇄국령 반포",
+      "description": "도쿠가와 막부가 해외 도항 금지 및 크리스트교 포교 금지를 강화하며 외국과의 문호를 철저히 걸어잠그는 정책을 법제화하다."
+    },
+    {
+      "id": "edo_culture",
+      "year": 1688,
+      "parentId": "tokugawa_shogunate",
+      "color": "#ec4899",
+      "branchName": "에도시대",
+      "title": "겐로쿠 에도 문화",
+      "description": "도시 상인 계층(조닌)을 중심으로 우키요에 판화, 가부키 극, 하이쿠 문학 등이 꽃피우다."
+    },
+    {
       "id": "meiji_restoration",
       "year": 1868,
       "parentId": "tokugawa_shogunate",
@@ -78,22 +141,85 @@
       "description": "쇼군 지배가 종식되고 천황 직접 통치로 회귀하여 국가 전반의 근대화를 추진하다."
     },
     {
+      "id": "sino_japanese_war",
+      "year": 1894,
+      "parentId": "meiji_restoration",
+      "color": "#f43f5e",
+      "branchName": "근대화",
+      "title": "청일 전쟁 발발",
+      "description": "일본이 근대화된 군사력을 바탕으로 청나라를 꺾고 동아시아의 패권을 장악하는 계기를 마련하다."
+    },
+    {
+      "id": "taisho_democracy",
+      "year": 1912,
+      "parentId": "meiji_restoration",
+      "color": "#06b6d4",
+      "branchName": "제국/쇼와",
+      "title": "다이쇼 데모크라시",
+      "description": "다이쇼 천황 시기에 정당 내각제 도입 운동과 시민권 의식 신장, 문화적 자유주의가 확산되다."
+    },
+    {
+      "id": "great_kanto_earthquake",
+      "year": 1923,
+      "parentId": "taisho_democracy",
+      "color": "#f97316",
+      "branchName": "제국/쇼와",
+      "title": "관동 대지진 발생",
+      "description": "도쿄와 요코하마를 강타한 대재앙으로 도시가 파괴되고 사회적 혼란과 경제적 침체가 이어지다."
+    },
+    {
       "id": "showa_period",
       "year": 1926,
-      "parentId": "meiji_restoration",
+      "parentId": "great_kanto_earthquake",
       "color": "#fb923c",
       "branchName": "제국/쇼와",
       "title": "쇼와 시대 시작",
       "description": "히로히토 천황 즉위 후 군국주의 팽창을 거쳐 전후 민주주의 국가로 탈바꿈하기까지의 시기."
     },
     {
+      "id": "wwii_japan",
+      "year": 1941,
+      "parentId": "showa_period",
+      "color": "#ef4444",
+      "branchName": "제국/쇼와",
+      "title": "진주만 습격 및 태평양 전쟁 참전",
+      "description": "일본이 하와이 진주만을 선제 기습 공격하여 미국과의 전면적인 태평양 전쟁에 진입하다."
+    },
+    {
+      "id": "hiroshima",
+      "year": 1945,
+      "parentId": "wwii_japan",
+      "color": "#e11d48",
+      "branchName": "제국/쇼와",
+      "title": "원자폭탄 투하 및 항복",
+      "description": "미국이 히로시마와 나가사키에 원자폭탄을 투하하자 일본이 무조건 항복을 선언하며 전쟁이 끝내 종식되다."
+    },
+    {
       "id": "post_war_economic_miracle",
       "year": 1950,
-      "parentId": "showa_period",
+      "parentId": "hiroshima",
       "color": "#10b981",
       "branchName": "근대",
       "title": "전후 고도경제성장",
       "description": "산업 인프라 재건과 제조업 수출 확대를 바탕으로 초고속 경제 성장 신화를 쓰다."
+    },
+    {
+      "id": "tokyo_olympics",
+      "year": 1964,
+      "parentId": "post_war_economic_miracle",
+      "color": "#3b82f6",
+      "branchName": "근대",
+      "title": "도쿄 하계 올림픽 개최",
+      "description": "전후 재건에 성공한 모습을 전 세계에 알리며 평화로운 국제 사회 복귀를 각인시키다."
+    },
+    {
+      "id": "bubble_economy",
+      "year": 1989,
+      "parentId": "tokyo_olympics",
+      "color": "#f97316",
+      "branchName": "근대",
+      "title": "자산 거품 경제의 정점",
+      "description": "비정상적으로 팽창했던 부동산 및 주식 시장의 버블이 최고조에 달한 뒤 붕괴하며 이른바 '잃어버린 10년'의 장기 불황이 시작되다."
     }
   ]
 }

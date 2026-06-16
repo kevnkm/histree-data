@@ -57,22 +57,76 @@
       "description": "Charlemagne is crowned Emperor of the West."
     },
     {
+      "id": "norman_conquest",
+      "year": 1066,
+      "parentId": "charlemagne_crowned",
+      "color": "#10b981",
+      "branchName": "Medieval",
+      "title": "Norman Conquest of England",
+      "description": "William, Duke of Normandy, invades England and is crowned King, tightly weaving French and English history."
+    },
+    {
       "id": "hundred_years_war",
       "year": 1337,
-      "parentId": "charlemagne_crowned",
+      "parentId": "norman_conquest",
       "color": "#fbbf24",
       "branchName": "France",
       "title": "Hundred Years' War",
       "description": "France and England fight a long dynastic war."
     },
     {
+      "id": "joan_of_arc",
+      "year": 1429,
+      "parentId": "hundred_years_war",
+      "color": "#e11d48",
+      "branchName": "France",
+      "title": "Joan of Arc at Orléans",
+      "description": "Joan of Arc relieves the Siege of Orléans, turning the tide of the Hundred Years' War in France's favor."
+    },
+    {
+      "id": "edict_of_nantes",
+      "year": 1598,
+      "parentId": "hundred_years_war",
+      "color": "#6366f1",
+      "branchName": "Absolutism",
+      "title": "Edict of Nantes",
+      "description": "Henry IV signs the edict granting Calvinist Protestants (Huguenots) substantial rights, ending the French Wars of Religion."
+    },
+    {
+      "id": "louis_xiv",
+      "year": 1661,
+      "parentId": "edict_of_nantes",
+      "color": "#f59e0b",
+      "branchName": "Absolutism",
+      "title": "Reign of Louis XIV",
+      "description": "Louis XIV begins personal rule, establishing absolute monarchy and building the Palace of Versailles."
+    },
+    {
+      "id": "enlightenment",
+      "year": 1750,
+      "parentId": "louis_xiv",
+      "color": "#06b6d4",
+      "branchName": "Culture",
+      "title": "French Enlightenment",
+      "description": "Philosophers like Voltaire, Rousseau, and Montesquieu pioneer intellectual and social reforms."
+    },
+    {
       "id": "french_revolution",
       "year": 1789,
-      "parentId": "hundred_years_war",
+      "parentId": "enlightenment",
       "color": "#ec4899",
       "branchName": "France",
       "title": "French Revolution",
       "description": "Revolution topples the absolute monarchy."
+    },
+    {
+      "id": "terror",
+      "year": 1793,
+      "parentId": "french_revolution",
+      "color": "#ef4444",
+      "branchName": "France",
+      "title": "Reign of Terror",
+      "description": "Radical Jacobins lead a bloody phase of the revolution, executing King Louis XVI and thousands of others."
     },
     {
       "id": "napoleonic_empire",
@@ -84,6 +138,15 @@
       "description": "Napoleon crowns himself Emperor of the French."
     },
     {
+      "id": "paris_commune",
+      "year": 1871,
+      "parentId": "napoleonic_empire",
+      "color": "#dc2626",
+      "branchName": "Republic",
+      "title": "Paris Commune",
+      "description": "Following defeat in the Franco-Prussian War, a revolutionary socialist government rules Paris briefly."
+    },
+    {
       "id": "world_war_1",
       "year": 1914,
       "parentId": "napoleonic_empire",
@@ -93,13 +156,76 @@
       "description": "A continental war reshapes Europe."
     },
     {
+      "id": "versailles_treaty",
+      "year": 1919,
+      "parentId": "world_war_1",
+      "color": "#a855f7",
+      "branchName": "Europe",
+      "title": "Treaty of Versailles",
+      "description": "The peace treaty ending WWI is signed in the Palace of Versailles' Hall of Mirrors, establishing the new post-war order."
+    },
+    {
+      "id": "world_war_2_france",
+      "year": 1940,
+      "parentId": "versailles_treaty",
+      "color": "#b91c1c",
+      "branchName": "Europe",
+      "title": "Fall of France & Resistance",
+      "description": "Nazi Germany occupies France, leading to the Vichy regime and the rise of De Gaulle's Free French Resistance."
+    },
+    {
+      "id": "european_integration",
+      "year": 1950,
+      "parentId": "world_war_2_france",
+      "color": "#10b981",
+      "branchName": "Europe",
+      "title": "Schuman Declaration",
+      "description": "Foreign Minister Robert Schuman proposes pooling French and West German coal and steel, starting modern European integration."
+    },
+    {
       "id": "fifth_republic",
       "year": 1958,
-      "parentId": "world_war_1",
+      "parentId": "world_war_2_france",
       "color": "#60a5fa",
       "branchName": "France",
       "title": "Fifth Republic",
       "description": "Charles de Gaulle establishes the Fifth Republic with a strong presidency."
+    },
+    {
+      "id": "decolonization",
+      "year": 1962,
+      "parentId": "fifth_republic",
+      "color": "#f97316",
+      "branchName": "France",
+      "title": "Algerian Independence",
+      "description": "The Algerian War of Independence ends, marking the peak of French decolonization."
+    },
+    {
+      "id": "may_68",
+      "year": 1968,
+      "parentId": "fifth_republic",
+      "color": "#ec4899",
+      "branchName": "France",
+      "title": "May 1968 Events",
+      "description": "A period of civil unrest, student strikes, and wildcat general strikes shakes the government and reforms culture."
+    },
+    {
+      "id": "tgv_inauguration",
+      "year": 1981,
+      "parentId": "fifth_republic",
+      "color": "#fb923c",
+      "branchName": "France",
+      "title": "TGV Service Inaugurated",
+      "description": "The high-speed rail network TGV is launched, revolutionizing European passenger rail travel."
+    },
+    {
+      "id": "euro_currency",
+      "year": 2002,
+      "parentId": "tgv_inauguration",
+      "color": "#06b6d4",
+      "branchName": "France",
+      "title": "Euro Coins & Banknotes",
+      "description": "France officially retires the French franc, adopting the Euro as its sole physical currency."
     }
   ]
 }
