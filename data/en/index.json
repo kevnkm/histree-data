@@ -2,21 +2,25 @@
   {
     "id": "korea",
     "name": "Korea",
-    "color": "#3b82f6"
+    "color": "#3b82f6",
+    "flag": "🇰🇷"
   },
   {
     "id": "japan",
     "name": "Japan",
-    "color": "#e11d48"
+    "color": "#e11d48",
+    "flag": "🇯🇵"
   },
   {
     "id": "us",
     "name": "United States",
-    "color": "#3b82f6"
+    "color": "#3b82f6",
+    "flag": "🇺🇸"
   },
   {
     "id": "france",
     "name": "France",
-    "color": "#ef4444"
+    "color": "#ef4444",
+    "flag": "🇫🇷"
   }
 ]
