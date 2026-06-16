@@ -4,30 +4,70 @@
   "color": "#3b82f6",
   "eras": [
     {
-      "id": "ancient_three_kingdoms",
-      "name": "고대 및 삼국 시대",
+      "id": "gojoseon",
+      "name": "고조선",
       "startDate": {
         "year": -3000
       },
       "endDate": {
+        "year": -57
+      }
+    },
+    {
+      "id": "three_kingdoms",
+      "name": "삼국 시대",
+      "startDate": {
+        "year": -57
+      },
+      "endDate": {
+        "year": 668
+      }
+    },
+    {
+      "id": "north_south_states",
+      "name": "남북국 시대",
+      "startDate": {
+        "year": 668
+      },
+      "endDate": {
         "year": 900
       }
     },
     {
-      "id": "goryeo_joseon",
-      "name": "고려 및 조선 시대",
+      "id": "goryeo",
+      "name": "고려 시대",
       "startDate": {
         "year": 900
+      },
+      "endDate": {
+        "year": 1392
+      }
+    },
+    {
+      "id": "joseon",
+      "name": "조선 시대",
+      "startDate": {
+        "year": 1392
       },
       "endDate": {
         "year": 1910
       }
     },
     {
-      "id": "colonial_modern",
-      "name": "근현대",
+      "id": "colonial",
+      "name": "일제강점기",
       "startDate": {
         "year": 1910
+      },
+      "endDate": {
+        "year": 1945
+      }
+    },
+    {
+      "id": "modern",
+      "name": "현대",
+      "startDate": {
+        "year": 1945
       },
       "endDate": {
         "year": 2050

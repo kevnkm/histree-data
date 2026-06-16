@@ -4,30 +4,70 @@
   "color": "#3b82f6",
   "eras": [
     {
-      "id": "ancient_three_kingdoms",
-      "name": "Ancient & Three Kingdoms",
+      "id": "gojoseon",
+      "name": "Gojoseon",
       "startDate": {
         "year": -3000
       },
       "endDate": {
+        "year": -57
+      }
+    },
+    {
+      "id": "three_kingdoms",
+      "name": "Three Kingdoms",
+      "startDate": {
+        "year": -57
+      },
+      "endDate": {
+        "year": 668
+      }
+    },
+    {
+      "id": "north_south_states",
+      "name": "North-South States",
+      "startDate": {
+        "year": 668
+      },
+      "endDate": {
         "year": 900
       }
     },
     {
-      "id": "goryeo_joseon",
-      "name": "Goryeo & Joseon",
+      "id": "goryeo",
+      "name": "Goryeo",
       "startDate": {
         "year": 900
+      },
+      "endDate": {
+        "year": 1392
+      }
+    },
+    {
+      "id": "joseon",
+      "name": "Joseon",
+      "startDate": {
+        "year": 1392
       },
       "endDate": {
         "year": 1910
       }
     },
     {
-      "id": "colonial_modern",
-      "name": "Modern & Contemporary",
+      "id": "colonial",
+      "name": "Colonial",
       "startDate": {
         "year": 1910
+      },
+      "endDate": {
+        "year": 1945
+      }
+    },
+    {
+      "id": "modern",
+      "name": "Modern & Contemporary",
+      "startDate": {
+        "year": 1945
       },
       "endDate": {
         "year": 2050
