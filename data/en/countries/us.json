@@ -6,32 +6,50 @@
     {
       "id": "colonial_revolution",
       "name": "Colonial Era & Revolution",
-      "startYear": 1600,
-      "endYear": 1789
+      "startDate": {
+        "year": 1600
+      },
+      "endDate": {
+        "year": 1789
+      }
     },
     {
       "id": "expansion_civil_war",
       "name": "Expansion & Civil War",
-      "startYear": 1789,
-      "endYear": 1865
+      "startDate": {
+        "year": 1789
+      },
+      "endDate": {
+        "year": 1865
+      }
     },
     {
       "id": "gilded_world_wars",
       "name": "Gilded Age & World Wars",
-      "startYear": 1865,
-      "endYear": 1945
+      "startDate": {
+        "year": 1865
+      },
+      "endDate": {
+        "year": 1945
+      }
     },
     {
       "id": "cold_war_21c",
       "name": "Cold War & 21st Century",
-      "startYear": 1945,
-      "endYear": 2050
+      "startDate": {
+        "year": 1945
+      },
+      "endDate": {
+        "year": 2050
+      }
     }
   ],
   "nodes": [
     {
       "id": "jamestown_settlement",
-      "year": 1607,
+      "date": {
+        "year": 1607
+      },
       "parentId": null,
       "color": "#fbbf24",
       "branchName": "Colonial",
@@ -40,7 +58,9 @@
     },
     {
       "id": "mayflower_compact",
-      "year": 1620,
+      "date": {
+        "year": 1620
+      },
       "parentId": "jamestown_settlement",
       "color": "#10b981",
       "branchName": "Colonial",
@@ -49,7 +69,9 @@
     },
     {
       "id": "boston_tea_party",
-      "year": 1773,
+      "date": {
+        "year": 1773
+      },
       "parentId": "mayflower_compact",
       "color": "#f97316",
       "branchName": "Revolution",
@@ -58,7 +80,9 @@
     },
     {
       "id": "declaration_independence",
-      "year": 1776,
+      "date": {
+        "year": 1776
+      },
       "parentId": "boston_tea_party",
       "color": "#ef4444",
       "branchName": "Revolution",
@@ -67,7 +91,9 @@
     },
     {
       "id": "constitutional_convention",
-      "year": 1787,
+      "date": {
+        "year": 1787
+      },
       "parentId": "declaration_independence",
       "color": "#3b82f6",
       "branchName": "Founding",
@@ -76,7 +102,9 @@
     },
     {
       "id": "louisiana_purchase",
-      "year": 1803,
+      "date": {
+        "year": 1803
+      },
       "parentId": "constitutional_convention",
       "color": "#10b981",
       "branchName": "Expansion",
@@ -85,7 +113,9 @@
     },
     {
       "id": "manifest_destiny",
-      "year": 1845,
+      "date": {
+        "year": 1845
+      },
       "parentId": "louisiana_purchase",
       "color": "#84cc16",
       "branchName": "Expansion",
@@ -94,7 +124,9 @@
     },
     {
       "id": "gold_rush",
-      "year": 1848,
+      "date": {
+        "year": 1848
+      },
       "parentId": "manifest_destiny",
       "color": "#fbbf24",
       "branchName": "Expansion",
@@ -103,7 +135,9 @@
     },
     {
       "id": "civil_war",
-      "year": 1861,
+      "date": {
+        "year": 1861
+      },
       "parentId": "gold_rush",
       "color": "#f43f5e",
       "branchName": "Conflict",
@@ -112,7 +146,9 @@
     },
     {
       "id": "emancipation_proclamation",
-      "year": 1863,
+      "date": {
+        "year": 1863
+      },
       "parentId": "civil_war",
       "color": "#10b981",
       "branchName": "Conflict",
@@ -121,7 +157,9 @@
     },
     {
       "id": "gilded_age",
-      "year": 1870,
+      "date": {
+        "year": 1870
+      },
       "parentId": "civil_war",
       "color": "#fbbf24",
       "branchName": "Industrial",
@@ -130,7 +168,9 @@
     },
     {
       "id": "panama_canal",
-      "year": 1914,
+      "date": {
+        "year": 1914
+      },
       "parentId": "gilded_age",
       "color": "#06b6d4",
       "branchName": "Industrial",
@@ -139,7 +179,9 @@
     },
     {
       "id": "ww1_entry",
-      "year": 1917,
+      "date": {
+        "year": 1917
+      },
       "parentId": "gilded_age",
       "color": "#6366f1",
       "branchName": "World War I",
@@ -148,7 +190,9 @@
     },
     {
       "id": "women_suffrage",
-      "year": 1920,
+      "date": {
+        "year": 1920
+      },
       "parentId": "ww1_entry",
       "color": "#ec4899",
       "branchName": "Social",
@@ -157,7 +201,9 @@
     },
     {
       "id": "great_depression",
-      "year": 1929,
+      "date": {
+        "year": 1929
+      },
       "parentId": "gilded_age",
       "color": "#fb923c",
       "branchName": "Crisis",
@@ -166,7 +212,9 @@
     },
     {
       "id": "new_deal",
-      "year": 1933,
+      "date": {
+        "year": 1933
+      },
       "parentId": "great_depression",
       "color": "#22c55e",
       "branchName": "Crisis",
@@ -175,7 +223,9 @@
     },
     {
       "id": "world_war_2",
-      "year": 1941,
+      "date": {
+        "year": 1941
+      },
       "parentId": "new_deal",
       "color": "#c084fc",
       "branchName": "World War II",
@@ -184,7 +234,9 @@
     },
     {
       "id": "cold_war_begins",
-      "year": 1947,
+      "date": {
+        "year": 1947
+      },
       "parentId": "world_war_2",
       "color": "#8b5cf6",
       "branchName": "Cold War",
@@ -193,7 +245,9 @@
     },
     {
       "id": "civil_rights_movement",
-      "year": 1954,
+      "date": {
+        "year": 1954
+      },
       "parentId": "world_war_2",
       "color": "#ec4899",
       "branchName": "Civil Rights",
@@ -202,7 +256,9 @@
     },
     {
       "id": "vietnam_war",
-      "year": 1965,
+      "date": {
+        "year": 1965
+      },
       "parentId": "civil_rights_movement",
       "color": "#f43f5e",
       "branchName": "Conflict",
@@ -211,7 +267,9 @@
     },
     {
       "id": "apollo_moon_landing",
-      "year": 1969,
+      "date": {
+        "year": 1969
+      },
       "parentId": "world_war_2",
       "color": "#06b6d4",
       "branchName": "Space Age",
@@ -220,7 +278,9 @@
     },
     {
       "id": "9_11",
-      "year": 2001,
+      "date": {
+        "year": 2001
+      },
       "parentId": "apollo_moon_landing",
       "color": "#ef4444",
       "branchName": "Modern",
@@ -229,7 +289,9 @@
     },
     {
       "id": "digital_revolution",
-      "year": 2007,
+      "date": {
+        "year": 2007
+      },
       "parentId": "9_11",
       "color": "#a855f7",
       "branchName": "Technology",

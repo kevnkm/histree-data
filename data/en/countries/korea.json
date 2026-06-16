@@ -6,26 +6,40 @@
     {
       "id": "ancient_three_kingdoms",
       "name": "Ancient & Three Kingdoms",
-      "startYear": -3000,
-      "endYear": 900
+      "startDate": {
+        "year": -3000
+      },
+      "endDate": {
+        "year": 900
+      }
     },
     {
       "id": "goryeo_joseon",
       "name": "Goryeo & Joseon",
-      "startYear": 900,
-      "endYear": 1910
+      "startDate": {
+        "year": 900
+      },
+      "endDate": {
+        "year": 1910
+      }
     },
     {
       "id": "colonial_modern",
       "name": "Modern & Contemporary",
-      "startYear": 1910,
-      "endYear": 2050
+      "startDate": {
+        "year": 1910
+      },
+      "endDate": {
+        "year": 2050
+      }
     }
   ],
   "nodes": [
     {
       "id": "gojoseon",
-      "year": -2333,
+      "date": {
+        "year": -2333
+      },
       "parentId": null,
       "color": "#10b981",
       "branchName": "Ancient",
@@ -34,7 +48,9 @@
     },
     {
       "id": "silla",
-      "year": -57,
+      "date": {
+        "year": -57
+      },
       "parentId": "gojoseon",
       "color": "#60a5fa",
       "branchName": "Silla",
@@ -43,7 +59,9 @@
     },
     {
       "id": "goguryeo",
-      "year": -37,
+      "date": {
+        "year": -37
+      },
       "parentId": "gojoseon",
       "color": "#f43f5e",
       "branchName": "Goguryeo",
@@ -52,7 +70,9 @@
     },
     {
       "id": "baekje",
-      "year": -18,
+      "date": {
+        "year": -18
+      },
       "parentId": "gojoseon",
       "color": "#fbbf24",
       "branchName": "Baekje",
@@ -61,7 +81,9 @@
     },
     {
       "id": "gaya",
-      "year": 42,
+      "date": {
+        "year": 42
+      },
       "parentId": "gojoseon",
       "color": "#a8a29e",
       "branchName": "Gaya",
@@ -70,7 +92,9 @@
     },
     {
       "id": "unified_silla",
-      "year": 668,
+      "date": {
+        "year": 668
+      },
       "parentId": "silla",
       "color": "#60a5fa",
       "branchName": "Unified Silla",
@@ -79,7 +103,9 @@
     },
     {
       "id": "balhae",
-      "year": 698,
+      "date": {
+        "year": 698
+      },
       "parentId": "goguryeo",
       "color": "#8b5cf6",
       "branchName": "Balhae",
@@ -88,7 +114,9 @@
     },
     {
       "id": "goryeo",
-      "year": 918,
+      "date": {
+        "year": 918
+      },
       "parentId": "unified_silla",
       "color": "#34d399",
       "branchName": "Goryeo",
@@ -97,7 +125,9 @@
     },
     {
       "id": "goryeo_tripitaka",
-      "year": 1236,
+      "date": {
+        "year": 1236
+      },
       "parentId": "goryeo",
       "color": "#10b981",
       "branchName": "Goryeo",
@@ -106,7 +136,9 @@
     },
     {
       "id": "joseon",
-      "year": 1392,
+      "date": {
+        "year": 1392
+      },
       "parentId": "goryeo",
       "color": "#c084fc",
       "branchName": "Joseon",
@@ -115,7 +147,9 @@
     },
     {
       "id": "hangul",
-      "year": 1443,
+      "date": {
+        "year": 1443
+      },
       "parentId": "joseon",
       "color": "#ec4899",
       "branchName": "Joseon",
@@ -124,7 +158,9 @@
     },
     {
       "id": "imjin_war",
-      "year": 1592,
+      "date": {
+        "year": 1592
+      },
       "parentId": "hangul",
       "color": "#fbbf24",
       "branchName": "Joseon",
@@ -133,7 +169,9 @@
     },
     {
       "id": "late_joseon_renaissance",
-      "year": 1776,
+      "date": {
+        "year": 1776
+      },
       "parentId": "imjin_war",
       "color": "#34d399",
       "branchName": "Joseon",
@@ -142,7 +180,9 @@
     },
     {
       "id": "donghak_peasant_revolution",
-      "year": 1894,
+      "date": {
+        "year": 1894
+      },
       "parentId": "late_joseon_renaissance",
       "color": "#f97316",
       "branchName": "Joseon",
@@ -151,7 +191,9 @@
     },
     {
       "id": "empire",
-      "year": 1897,
+      "date": {
+        "year": 1897
+      },
       "parentId": "late_joseon_renaissance",
       "color": "#3b82f6",
       "branchName": "Korean Empire",
@@ -160,7 +202,9 @@
     },
     {
       "id": "japanese_occupation",
-      "year": 1910,
+      "date": {
+        "year": 1910
+      },
       "parentId": "empire",
       "color": "#fb923c",
       "branchName": "Colonial",
@@ -169,7 +213,9 @@
     },
     {
       "id": "march_first_movement",
-      "year": 1919,
+      "date": {
+        "year": 1919
+      },
       "parentId": "japanese_occupation",
       "color": "#ef4444",
       "branchName": "Colonial",
@@ -178,7 +224,11 @@
     },
     {
       "id": "republic_of_korea",
-      "year": 1948,
+      "date": {
+        "year": 1948,
+        "month": 8,
+        "day": 15
+      },
       "parentId": "japanese_occupation",
       "color": "#3b82f6",
       "branchName": "South Korea",
@@ -187,7 +237,11 @@
     },
     {
       "id": "north_korea",
-      "year": 1948,
+      "date": {
+        "year": 1948,
+        "month": 9,
+        "day": 9
+      },
       "parentId": "japanese_occupation",
       "color": "#ef4444",
       "branchName": "North Korea",
@@ -196,7 +250,9 @@
     },
     {
       "id": "korean_war",
-      "year": 1950,
+      "date": {
+        "year": 1950
+      },
       "parentId": "republic_of_korea",
       "color": "#ef4444",
       "branchName": "Conflict",
@@ -205,7 +261,9 @@
     },
     {
       "id": "april_revolution",
-      "year": 1960,
+      "date": {
+        "year": 1960
+      },
       "parentId": "korean_war",
       "color": "#06b6d4",
       "branchName": "Democracy",
@@ -214,7 +272,9 @@
     },
     {
       "id": "hangang_miracle",
-      "year": 1962,
+      "date": {
+        "year": 1962
+      },
       "parentId": "korean_war",
       "color": "#10b981",
       "branchName": "Economy",
@@ -223,7 +283,9 @@
     },
     {
       "id": "gwangju_uprising",
-      "year": 1980,
+      "date": {
+        "year": 1980
+      },
       "parentId": "april_revolution",
       "color": "#10b981",
       "branchName": "Democracy",
@@ -232,7 +294,9 @@
     },
     {
       "id": "seoul_olympics",
-      "year": 1988,
+      "date": {
+        "year": 1988
+      },
       "parentId": "gwangju_uprising",
       "color": "#fbbf24",
       "branchName": "South Korea",
@@ -241,7 +305,9 @@
     },
     {
       "id": "financial_crisis",
-      "year": 1997,
+      "date": {
+        "year": 1997
+      },
       "parentId": "seoul_olympics",
       "color": "#f97316",
       "branchName": "South Korea",
@@ -250,7 +316,9 @@
     },
     {
       "id": "world_cup_hallyu",
-      "year": 2002,
+      "date": {
+        "year": 2002
+      },
       "parentId": "financial_crisis",
       "color": "#ec4899",
       "branchName": "South Korea",
@@ -259,7 +327,9 @@
     },
     {
       "id": "candlelight_revolution",
-      "year": 2016,
+      "date": {
+        "year": 2016
+      },
       "parentId": "world_cup_hallyu",
       "color": "#06b6d4",
       "branchName": "Democracy",

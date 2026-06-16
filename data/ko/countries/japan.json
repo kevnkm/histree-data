@@ -6,26 +6,40 @@
     {
       "id": "ancient_feudal",
       "name": "고전 · 봉건 시대",
-      "startYear": 500,
-      "endYear": 1603
+      "startDate": {
+        "year": 500
+      },
+      "endDate": {
+        "year": 1603
+      }
     },
     {
       "id": "edo_meiji",
       "name": "에도 · 메이지 시대",
-      "startYear": 1603,
-      "endYear": 1912
+      "startDate": {
+        "year": 1603
+      },
+      "endDate": {
+        "year": 1912
+      }
     },
     {
       "id": "imperial_postwar",
       "name": "근현대",
-      "startYear": 1912,
-      "endYear": 2050
+      "startDate": {
+        "year": 1912
+      },
+      "endDate": {
+        "year": 2050
+      }
     }
   ],
   "nodes": [
     {
       "id": "introduction_of_buddhism",
-      "year": 552,
+      "date": {
+        "year": 552
+      },
       "parentId": null,
       "color": "#10b981",
       "branchName": "고전",
@@ -34,7 +48,9 @@
     },
     {
       "id": "shotoku_constitution",
-      "year": 604,
+      "date": {
+        "year": 604
+      },
       "parentId": "introduction_of_buddhism",
       "color": "#8b5cf6",
       "branchName": "고전",
@@ -43,7 +59,9 @@
     },
     {
       "id": "nara_period",
-      "year": 710,
+      "date": {
+        "year": 710
+      },
       "parentId": "shotoku_constitution",
       "color": "#10b981",
       "branchName": "고전",
@@ -52,7 +70,9 @@
     },
     {
       "id": "heian_period",
-      "year": 794,
+      "date": {
+        "year": 794
+      },
       "parentId": "nara_period",
       "color": "#60a5fa",
       "branchName": "고전",
@@ -61,7 +81,9 @@
     },
     {
       "id": "kamakura_shogunate",
-      "year": 1185,
+      "date": {
+        "year": 1185
+      },
       "parentId": "heian_period",
       "color": "#fbbf24",
       "branchName": "봉건",
@@ -70,7 +92,9 @@
     },
     {
       "id": "mongol_invasions",
-      "year": 1274,
+      "date": {
+        "year": 1274
+      },
       "parentId": "kamakura_shogunate",
       "color": "#ef4444",
       "branchName": "전쟁",
@@ -79,7 +103,9 @@
     },
     {
       "id": "muromachi_shogunate",
-      "year": 1336,
+      "date": {
+        "year": 1336
+      },
       "parentId": "kamakura_shogunate",
       "color": "#6366f1",
       "branchName": "봉건",
@@ -88,7 +114,9 @@
     },
     {
       "id": "sengoku_period",
-      "year": 1467,
+      "date": {
+        "year": 1467
+      },
       "parentId": "muromachi_shogunate",
       "color": "#f43f5e",
       "branchName": "봉건",
@@ -97,7 +125,9 @@
     },
     {
       "id": "portuguese_contact",
-      "year": 1543,
+      "date": {
+        "year": 1543
+      },
       "parentId": "sengoku_period",
       "color": "#f97316",
       "branchName": "봉건",
@@ -106,7 +136,9 @@
     },
     {
       "id": "tokugawa_shogunate",
-      "year": 1603,
+      "date": {
+        "year": 1603
+      },
       "parentId": "sengoku_period",
       "color": "#c084fc",
       "branchName": "에도시대",
@@ -115,7 +147,9 @@
     },
     {
       "id": "sakoku_policy",
-      "year": 1635,
+      "date": {
+        "year": 1635
+      },
       "parentId": "tokugawa_shogunate",
       "color": "#e11d48",
       "branchName": "에도시대",
@@ -124,7 +158,9 @@
     },
     {
       "id": "edo_culture",
-      "year": 1688,
+      "date": {
+        "year": 1688
+      },
       "parentId": "tokugawa_shogunate",
       "color": "#ec4899",
       "branchName": "에도시대",
@@ -133,7 +169,9 @@
     },
     {
       "id": "meiji_restoration",
-      "year": 1868,
+      "date": {
+        "year": 1868
+      },
       "parentId": "tokugawa_shogunate",
       "color": "#3b82f6",
       "branchName": "근대화",
@@ -142,7 +180,9 @@
     },
     {
       "id": "sino_japanese_war",
-      "year": 1894,
+      "date": {
+        "year": 1894
+      },
       "parentId": "meiji_restoration",
       "color": "#f43f5e",
       "branchName": "근대화",
@@ -151,7 +191,9 @@
     },
     {
       "id": "taisho_democracy",
-      "year": 1912,
+      "date": {
+        "year": 1912
+      },
       "parentId": "meiji_restoration",
       "color": "#06b6d4",
       "branchName": "제국/쇼와",
@@ -160,7 +202,9 @@
     },
     {
       "id": "great_kanto_earthquake",
-      "year": 1923,
+      "date": {
+        "year": 1923
+      },
       "parentId": "taisho_democracy",
       "color": "#f97316",
       "branchName": "제국/쇼와",
@@ -169,7 +213,9 @@
     },
     {
       "id": "showa_period",
-      "year": 1926,
+      "date": {
+        "year": 1926
+      },
       "parentId": "great_kanto_earthquake",
       "color": "#fb923c",
       "branchName": "제국/쇼와",
@@ -178,7 +224,9 @@
     },
     {
       "id": "wwii_japan",
-      "year": 1941,
+      "date": {
+        "year": 1941
+      },
       "parentId": "showa_period",
       "color": "#ef4444",
       "branchName": "제국/쇼와",
@@ -187,7 +235,9 @@
     },
     {
       "id": "hiroshima",
-      "year": 1945,
+      "date": {
+        "year": 1945
+      },
       "parentId": "wwii_japan",
       "color": "#e11d48",
       "branchName": "제국/쇼와",
@@ -196,7 +246,9 @@
     },
     {
       "id": "post_war_economic_miracle",
-      "year": 1950,
+      "date": {
+        "year": 1950
+      },
       "parentId": "hiroshima",
       "color": "#10b981",
       "branchName": "근대",
@@ -205,7 +257,9 @@
     },
     {
       "id": "tokyo_olympics",
-      "year": 1964,
+      "date": {
+        "year": 1964
+      },
       "parentId": "post_war_economic_miracle",
       "color": "#3b82f6",
       "branchName": "근대",
@@ -214,7 +268,9 @@
     },
     {
       "id": "bubble_economy",
-      "year": 1989,
+      "date": {
+        "year": 1989
+      },
       "parentId": "tokyo_olympics",
       "color": "#f97316",
       "branchName": "근대",

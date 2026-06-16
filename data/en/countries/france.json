@@ -6,32 +6,50 @@
     {
       "id": "gaul_roman",
       "name": "Roman Gaul & Franks",
-      "startYear": -100,
-      "endYear": 800
+      "startDate": {
+        "year": -100
+      },
+      "endDate": {
+        "year": 800
+      }
     },
     {
       "id": "medieval_feudal",
       "name": "Carolingian & Medieval France",
-      "startYear": 800,
-      "endYear": 1500
+      "startDate": {
+        "year": 800
+      },
+      "endDate": {
+        "year": 1500
+      }
     },
     {
       "id": "revolution_empire",
       "name": "Revolution & Napoleonic Era",
-      "startYear": 1500,
-      "endYear": 1900
+      "startDate": {
+        "year": 1500
+      },
+      "endDate": {
+        "year": 1900
+      }
     },
     {
       "id": "world_wars_republic",
       "name": "World Wars & Fifth Republic",
-      "startYear": 1900,
-      "endYear": 2050
+      "startDate": {
+        "year": 1900
+      },
+      "endDate": {
+        "year": 2050
+      }
     }
   ],
   "nodes": [
     {
       "id": "roman_gaul",
-      "year": -52,
+      "date": {
+        "year": -52
+      },
       "parentId": null,
       "color": "#fbbf24",
       "branchName": "Gaul",
@@ -40,7 +58,9 @@
     },
     {
       "id": "frankish_kingdom",
-      "year": 511,
+      "date": {
+        "year": 511
+      },
       "parentId": "roman_gaul",
       "color": "#34d399",
       "branchName": "Francia",
@@ -49,7 +69,9 @@
     },
     {
       "id": "charlemagne_crowned",
-      "year": 800,
+      "date": {
+        "year": 800
+      },
       "parentId": "frankish_kingdom",
       "color": "#c084fc",
       "branchName": "Carolingian",
@@ -58,7 +80,9 @@
     },
     {
       "id": "norman_conquest",
-      "year": 1066,
+      "date": {
+        "year": 1066
+      },
       "parentId": "charlemagne_crowned",
       "color": "#10b981",
       "branchName": "Medieval",
@@ -67,7 +91,9 @@
     },
     {
       "id": "hundred_years_war",
-      "year": 1337,
+      "date": {
+        "year": 1337
+      },
       "parentId": "norman_conquest",
       "color": "#fbbf24",
       "branchName": "France",
@@ -76,7 +102,9 @@
     },
     {
       "id": "joan_of_arc",
-      "year": 1429,
+      "date": {
+        "year": 1429
+      },
       "parentId": "hundred_years_war",
       "color": "#e11d48",
       "branchName": "France",
@@ -85,7 +113,9 @@
     },
     {
       "id": "edict_of_nantes",
-      "year": 1598,
+      "date": {
+        "year": 1598
+      },
       "parentId": "hundred_years_war",
       "color": "#6366f1",
       "branchName": "Absolutism",
@@ -94,7 +124,9 @@
     },
     {
       "id": "louis_xiv",
-      "year": 1661,
+      "date": {
+        "year": 1661
+      },
       "parentId": "edict_of_nantes",
       "color": "#f59e0b",
       "branchName": "Absolutism",
@@ -103,7 +135,9 @@
     },
     {
       "id": "enlightenment",
-      "year": 1750,
+      "date": {
+        "year": 1750
+      },
       "parentId": "louis_xiv",
       "color": "#06b6d4",
       "branchName": "Culture",
@@ -112,7 +146,9 @@
     },
     {
       "id": "french_revolution",
-      "year": 1789,
+      "date": {
+        "year": 1789
+      },
       "parentId": "enlightenment",
       "color": "#ec4899",
       "branchName": "France",
@@ -121,7 +157,9 @@
     },
     {
       "id": "terror",
-      "year": 1793,
+      "date": {
+        "year": 1793
+      },
       "parentId": "french_revolution",
       "color": "#ef4444",
       "branchName": "France",
@@ -130,7 +168,9 @@
     },
     {
       "id": "napoleonic_empire",
-      "year": 1804,
+      "date": {
+        "year": 1804
+      },
       "parentId": "french_revolution",
       "color": "#c084fc",
       "branchName": "France",
@@ -139,7 +179,9 @@
     },
     {
       "id": "paris_commune",
-      "year": 1871,
+      "date": {
+        "year": 1871
+      },
       "parentId": "napoleonic_empire",
       "color": "#dc2626",
       "branchName": "Republic",
@@ -148,7 +190,9 @@
     },
     {
       "id": "world_war_1",
-      "year": 1914,
+      "date": {
+        "year": 1914
+      },
       "parentId": "napoleonic_empire",
       "color": "#f43f5e",
       "branchName": "Europe",
@@ -157,7 +201,9 @@
     },
     {
       "id": "versailles_treaty",
-      "year": 1919,
+      "date": {
+        "year": 1919
+      },
       "parentId": "world_war_1",
       "color": "#a855f7",
       "branchName": "Europe",
@@ -166,7 +212,9 @@
     },
     {
       "id": "world_war_2_france",
-      "year": 1940,
+      "date": {
+        "year": 1940
+      },
       "parentId": "versailles_treaty",
       "color": "#b91c1c",
       "branchName": "Europe",
@@ -175,7 +223,9 @@
     },
     {
       "id": "european_integration",
-      "year": 1950,
+      "date": {
+        "year": 1950
+      },
       "parentId": "world_war_2_france",
       "color": "#10b981",
       "branchName": "Europe",
@@ -184,7 +234,9 @@
     },
     {
       "id": "fifth_republic",
-      "year": 1958,
+      "date": {
+        "year": 1958
+      },
       "parentId": "world_war_2_france",
       "color": "#60a5fa",
       "branchName": "France",
@@ -193,7 +245,9 @@
     },
     {
       "id": "decolonization",
-      "year": 1962,
+      "date": {
+        "year": 1962
+      },
       "parentId": "fifth_republic",
       "color": "#f97316",
       "branchName": "France",
@@ -202,7 +256,9 @@
     },
     {
       "id": "may_68",
-      "year": 1968,
+      "date": {
+        "year": 1968
+      },
       "parentId": "fifth_republic",
       "color": "#ec4899",
       "branchName": "France",
@@ -211,7 +267,9 @@
     },
     {
       "id": "tgv_inauguration",
-      "year": 1981,
+      "date": {
+        "year": 1981
+      },
       "parentId": "fifth_republic",
       "color": "#fb923c",
       "branchName": "France",
@@ -220,7 +278,9 @@
     },
     {
       "id": "euro_currency",
-      "year": 2002,
+      "date": {
+        "year": 2002
+      },
       "parentId": "tgv_inauguration",
       "color": "#06b6d4",
       "branchName": "France",
