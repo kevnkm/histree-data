@@ -1,0 +1,144 @@
+{
+  "id": "korea",
+  "name": "대한민국",
+  "color": "#3b82f6",
+  "eras": [
+    {
+      "id": "ancient_three_kingdoms",
+      "name": "고대 · 삼국시대",
+      "startYear": -3000,
+      "endYear": 900
+    },
+    {
+      "id": "goryeo_joseon",
+      "name": "고려 · 조선시대",
+      "startYear": 900,
+      "endYear": 1910
+    },
+    {
+      "id": "colonial_modern",
+      "name": "근현대",
+      "startYear": 1910,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "gojoseon",
+      "year": -2333,
+      "parentId": null,
+      "color": "#10b981",
+      "branchName": "고대",
+      "title": "고조선 건국",
+      "description": "단군이 한국 최초의 국가를 세우다."
+    },
+    {
+      "id": "silla",
+      "year": -57,
+      "parentId": "gojoseon",
+      "color": "#60a5fa",
+      "branchName": "신라",
+      "title": "신라 건국",
+      "description": "동남부에서 신라가 일어나다."
+    },
+    {
+      "id": "goguryeo",
+      "year": -37,
+      "parentId": "gojoseon",
+      "color": "#f43f5e",
+      "branchName": "고구려",
+      "title": "고구려 건국",
+      "description": "북방의 강국 고구려가 등장하다."
+    },
+    {
+      "id": "baekje",
+      "year": -18,
+      "parentId": "gojoseon",
+      "color": "#fbbf24",
+      "branchName": "백제",
+      "title": "백제 건국",
+      "description": "서남부에 백제가 세워지다."
+    },
+    {
+      "id": "unified_silla",
+      "year": 668,
+      "parentId": "silla",
+      "color": "#60a5fa",
+      "branchName": "통일신라",
+      "title": "통일 신라",
+      "description": "신라가 한반도 대부분을 통일하다."
+    },
+    {
+      "id": "goryeo",
+      "year": 918,
+      "parentId": "unified_silla",
+      "color": "#34d399",
+      "branchName": "고려",
+      "title": "고려 왕조",
+      "description": "고려가 한반도를 재통일하다."
+    },
+    {
+      "id": "joseon",
+      "year": 1392,
+      "parentId": "goryeo",
+      "color": "#c084fc",
+      "branchName": "조선",
+      "title": "조선 왕조",
+      "description": "이성계가 오래 지속된 조선 왕조를 세우다."
+    },
+    {
+      "id": "imjin_war",
+      "year": 1592,
+      "parentId": "joseon",
+      "color": "#fbbf24",
+      "branchName": "조선",
+      "title": "임진왜란",
+      "description": "이순신의 활약으로 일본의 침략을 물리치다."
+    },
+    {
+      "id": "late_joseon_renaissance",
+      "year": 1776,
+      "parentId": "imjin_war",
+      "color": "#34d399",
+      "branchName": "조선",
+      "title": "조선 후기 중흥",
+      "description": "정조가 문화와 개혁의 중흥을 이끌다."
+    },
+    {
+      "id": "empire",
+      "year": 1897,
+      "parentId": "late_joseon_renaissance",
+      "color": "#3b82f6",
+      "branchName": "대한제국",
+      "title": "대한제국",
+      "description": "조선이 대한제국을 선포하다."
+    },
+    {
+      "id": "japanese_occupation",
+      "year": 1910,
+      "parentId": "empire",
+      "color": "#fb923c",
+      "branchName": "식민지",
+      "title": "일제강점기",
+      "description": "한국이 일본 제국에 병합되다."
+    },
+    {
+      "id": "republic_of_korea",
+      "year": 1948,
+      "parentId": "japanese_occupation",
+      "color": "#3b82f6",
+      "branchName": "대한민국",
+      "title": "대한민국 수립",
+      "description": "남쪽에 대한민국이 수립되다."
+    },
+    {
+      "id": "north_korea",
+      "year": 1948,
+      "parentId": "japanese_occupation",
+      "color": "#ef4444",
+      "branchName": "북한",
+      "title": "조선민주주의인민공화국",
+      "description": "북쪽에 북한이 수립되다."
+    }
+  ]
+}

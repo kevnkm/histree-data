@@ -1,0 +1,99 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "color": "#e11d48",
+  "eras": [
+    {
+      "id": "ancient_feudal",
+      "name": "Classical & Feudal Era",
+      "startYear": 700,
+      "endYear": 1603
+    },
+    {
+      "id": "edo_meiji",
+      "name": "Edo Period & Modernization",
+      "startYear": 1603,
+      "endYear": 1912
+    },
+    {
+      "id": "imperial_postwar",
+      "name": "World Wars & Post-War",
+      "startYear": 1912,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "nara_period",
+      "year": 710,
+      "parentId": null,
+      "color": "#10b981",
+      "branchName": "Classical",
+      "title": "Nara Period Begins",
+      "description": "Heijo-kyo (Nara) is established as the permanent capital, starting a cultural peak."
+    },
+    {
+      "id": "heian_period",
+      "year": 794,
+      "parentId": "nara_period",
+      "color": "#60a5fa",
+      "branchName": "Classical",
+      "title": "Heian Period",
+      "description": "The capital moves to Heian-kyo (Kyoto), initiating a classical golden age of art and literature."
+    },
+    {
+      "id": "kamakura_shogunate",
+      "year": 1185,
+      "parentId": "heian_period",
+      "color": "#fbbf24",
+      "branchName": "Feudal",
+      "title": "Kamakura Shogunate",
+      "description": "Minamoto no Yoritomo establishes the military dictatorship, beginning the feudal era of shoguns."
+    },
+    {
+      "id": "sengoku_period",
+      "year": 1467,
+      "parentId": "kamakura_shogunate",
+      "color": "#f43f5e",
+      "branchName": "Feudal",
+      "title": "Sengoku Period",
+      "description": "The Onin War triggers a century of civil war and social upheaval among warlords."
+    },
+    {
+      "id": "tokugawa_shogunate",
+      "year": 1603,
+      "parentId": "sengoku_period",
+      "color": "#c084fc",
+      "branchName": "Edo",
+      "title": "Tokugawa Shogunate",
+      "description": "Tokugawa Ieyasu unifies Japan, establishing the Edo period of long peace and isolation."
+    },
+    {
+      "id": "meiji_restoration",
+      "year": 1868,
+      "parentId": "tokugawa_shogunate",
+      "color": "#3b82f6",
+      "branchName": "Modernization",
+      "title": "Meiji Restoration",
+      "description": "Imperial rule is restored, ending the shogunates and launching rapid westernized modernization."
+    },
+    {
+      "id": "showa_period",
+      "year": 1926,
+      "parentId": "meiji_restoration",
+      "color": "#fb923c",
+      "branchName": "Imperial/Showa",
+      "title": "Showa Era Begins",
+      "description": "Hirohito becomes Emperor, marking an era covering military expansionism and later democratic recovery."
+    },
+    {
+      "id": "post_war_economic_miracle",
+      "year": 1950,
+      "parentId": "showa_period",
+      "color": "#10b981",
+      "branchName": "Modern",
+      "title": "Economic Miracle",
+      "description": "Post-war Japan achieves rapid industrial and technological growth to become a global economy."
+    }
+  ]
+}

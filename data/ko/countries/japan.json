@@ -1,0 +1,99 @@
+{
+  "id": "japan",
+  "name": "일본",
+  "color": "#e11d48",
+  "eras": [
+    {
+      "id": "ancient_feudal",
+      "name": "고전 · 봉건 시대",
+      "startYear": 700,
+      "endYear": 1603
+    },
+    {
+      "id": "edo_meiji",
+      "name": "에도 · 메이지 시대",
+      "startYear": 1603,
+      "endYear": 1912
+    },
+    {
+      "id": "imperial_postwar",
+      "name": "근현대",
+      "startYear": 1912,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "nara_period",
+      "year": 710,
+      "parentId": null,
+      "color": "#10b981",
+      "branchName": "고전",
+      "title": "나라 시대 시작",
+      "description": "헤이조쿄(나라)가 수도로 지정되어 고전 문화가 본격화되다."
+    },
+    {
+      "id": "heian_period",
+      "year": 794,
+      "parentId": "nara_period",
+      "color": "#60a5fa",
+      "branchName": "고전",
+      "title": "헤이안 시대",
+      "description": "수도가 헤이안쿄(교토)로 이전하며 예술과 귀족 문화의 황금기가 도래하다."
+    },
+    {
+      "id": "kamakura_shogunate",
+      "year": 1185,
+      "parentId": "heian_period",
+      "color": "#fbbf24",
+      "branchName": "봉건",
+      "title": "가마쿠라 막부",
+      "description": "미나모토노 요리토모가 쇼군 막부를 세워 무사 중심의 봉건 시대가 시작되다."
+    },
+    {
+      "id": "sengoku_period",
+      "year": 1467,
+      "parentId": "kamakura_shogunate",
+      "color": "#f43f5e",
+      "branchName": "봉건",
+      "title": "전국 시대",
+      "description": "오닌의 난으로 쇼군의 권위가 붕괴되고 다이묘들의 치열한 내전 시대가 열리다."
+    },
+    {
+      "id": "tokugawa_shogunate",
+      "year": 1603,
+      "parentId": "sengoku_period",
+      "color": "#c084fc",
+      "branchName": "에도시대",
+      "title": "도쿠가와 막부 (에도시대)",
+      "description": "도쿠가와 이에야스가 정권을 잡아 에도를 중심으로 장기 평화와 쇄국 정책의 틀을 잡다."
+    },
+    {
+      "id": "meiji_restoration",
+      "year": 1868,
+      "parentId": "tokugawa_shogunate",
+      "color": "#3b82f6",
+      "branchName": "근대화",
+      "title": "메이지 유신",
+      "description": "쇼군 지배가 종식되고 천황 직접 통치로 회귀하여 국가 전반의 근대화를 추진하다."
+    },
+    {
+      "id": "showa_period",
+      "year": 1926,
+      "parentId": "meiji_restoration",
+      "color": "#fb923c",
+      "branchName": "제국/쇼와",
+      "title": "쇼와 시대 시작",
+      "description": "히로히토 천황 즉위 후 군국주의 팽창을 거쳐 전후 민주주의 국가로 탈바꿈하기까지의 시기."
+    },
+    {
+      "id": "post_war_economic_miracle",
+      "year": 1950,
+      "parentId": "showa_period",
+      "color": "#10b981",
+      "branchName": "근대",
+      "title": "전후 고도경제성장",
+      "description": "산업 인프라 재건과 제조업 수출 확대를 바탕으로 초고속 경제 성장 신화를 쓰다."
+    }
+  ]
+}

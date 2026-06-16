@@ -1,0 +1,144 @@
+{
+  "id": "korea",
+  "name": "Korea",
+  "color": "#3b82f6",
+  "eras": [
+    {
+      "id": "ancient_three_kingdoms",
+      "name": "Ancient & Three Kingdoms",
+      "startYear": -3000,
+      "endYear": 900
+    },
+    {
+      "id": "goryeo_joseon",
+      "name": "Goryeo & Joseon",
+      "startYear": 900,
+      "endYear": 1910
+    },
+    {
+      "id": "colonial_modern",
+      "name": "Modern & Contemporary",
+      "startYear": 1910,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "gojoseon",
+      "year": -2333,
+      "parentId": null,
+      "color": "#10b981",
+      "branchName": "Ancient",
+      "title": "Gojoseon Founded",
+      "description": "Korea's first kingdom is founded by Dangun."
+    },
+    {
+      "id": "silla",
+      "year": -57,
+      "parentId": "gojoseon",
+      "color": "#60a5fa",
+      "branchName": "Silla",
+      "title": "Silla Founded",
+      "description": "The kingdom of Silla rises in the southeast."
+    },
+    {
+      "id": "goguryeo",
+      "year": -37,
+      "parentId": "gojoseon",
+      "color": "#f43f5e",
+      "branchName": "Goguryeo",
+      "title": "Goguryeo Founded",
+      "description": "Goguryeo emerges as a powerful northern kingdom."
+    },
+    {
+      "id": "baekje",
+      "year": -18,
+      "parentId": "gojoseon",
+      "color": "#fbbf24",
+      "branchName": "Baekje",
+      "title": "Baekje Founded",
+      "description": "Baekje is established in the southwest."
+    },
+    {
+      "id": "unified_silla",
+      "year": 668,
+      "parentId": "silla",
+      "color": "#60a5fa",
+      "branchName": "Unified Silla",
+      "title": "Unified Silla",
+      "description": "Silla unifies most of the Korean peninsula."
+    },
+    {
+      "id": "goryeo",
+      "year": 918,
+      "parentId": "unified_silla",
+      "color": "#34d399",
+      "branchName": "Goryeo",
+      "title": "Goryeo Dynasty",
+      "description": "Goryeo reunites the peninsula and gives Korea its name."
+    },
+    {
+      "id": "joseon",
+      "year": 1392,
+      "parentId": "goryeo",
+      "color": "#c084fc",
+      "branchName": "Joseon",
+      "title": "Joseon Dynasty",
+      "description": "Yi Seong-gye founds the long-lived Joseon dynasty."
+    },
+    {
+      "id": "imjin_war",
+      "year": 1592,
+      "parentId": "joseon",
+      "color": "#fbbf24",
+      "branchName": "Joseon",
+      "title": "Imjin War",
+      "description": "Korea repels Japanese invasions under Admiral Yi."
+    },
+    {
+      "id": "late_joseon_renaissance",
+      "year": 1776,
+      "parentId": "imjin_war",
+      "color": "#34d399",
+      "branchName": "Joseon",
+      "title": "Late Joseon Renaissance",
+      "description": "King Jeongjo drives a cultural and reform revival."
+    },
+    {
+      "id": "empire",
+      "year": 1897,
+      "parentId": "late_joseon_renaissance",
+      "color": "#3b82f6",
+      "branchName": "Korean Empire",
+      "title": "Korean Empire",
+      "description": "Joseon is proclaimed the Korean Empire."
+    },
+    {
+      "id": "japanese_occupation",
+      "year": 1910,
+      "parentId": "empire",
+      "color": "#fb923c",
+      "branchName": "Colonial",
+      "title": "Japanese Occupation",
+      "description": "Korea is annexed by Imperial Japan."
+    },
+    {
+      "id": "republic_of_korea",
+      "year": 1948,
+      "parentId": "japanese_occupation",
+      "color": "#3b82f6",
+      "branchName": "South Korea",
+      "title": "Republic of Korea",
+      "description": "South Korea is established in the south."
+    },
+    {
+      "id": "north_korea",
+      "year": 1948,
+      "parentId": "japanese_occupation",
+      "color": "#ef4444",
+      "branchName": "North Korea",
+      "title": "North Korea (DPRK)",
+      "description": "North Korea is established in the north."
+    }
+  ]
+}

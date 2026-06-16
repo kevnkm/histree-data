@@ -1,0 +1,105 @@
+{
+  "id": "france",
+  "name": "France",
+  "color": "#ef4444",
+  "eras": [
+    {
+      "id": "gaul_roman",
+      "name": "Roman Gaul & Franks",
+      "startYear": -100,
+      "endYear": 800
+    },
+    {
+      "id": "medieval_feudal",
+      "name": "Carolingian & Medieval France",
+      "startYear": 800,
+      "endYear": 1500
+    },
+    {
+      "id": "revolution_empire",
+      "name": "Revolution & Napoleonic Era",
+      "startYear": 1500,
+      "endYear": 1900
+    },
+    {
+      "id": "world_wars_republic",
+      "name": "World Wars & Fifth Republic",
+      "startYear": 1900,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "roman_gaul",
+      "year": -52,
+      "parentId": null,
+      "color": "#fbbf24",
+      "branchName": "Gaul",
+      "title": "Roman Gaul",
+      "description": "Caesar completes the conquest of Gaul."
+    },
+    {
+      "id": "frankish_kingdom",
+      "year": 511,
+      "parentId": "roman_gaul",
+      "color": "#34d399",
+      "branchName": "Francia",
+      "title": "Frankish Kingdom",
+      "description": "Clovis unites the Franks across former Gaul."
+    },
+    {
+      "id": "charlemagne_crowned",
+      "year": 800,
+      "parentId": "frankish_kingdom",
+      "color": "#c084fc",
+      "branchName": "Carolingian",
+      "title": "Charlemagne Crowned",
+      "description": "Charlemagne is crowned Emperor of the West."
+    },
+    {
+      "id": "hundred_years_war",
+      "year": 1337,
+      "parentId": "charlemagne_crowned",
+      "color": "#fbbf24",
+      "branchName": "France",
+      "title": "Hundred Years' War",
+      "description": "France and England fight a long dynastic war."
+    },
+    {
+      "id": "french_revolution",
+      "year": 1789,
+      "parentId": "hundred_years_war",
+      "color": "#ec4899",
+      "branchName": "France",
+      "title": "French Revolution",
+      "description": "Revolution topples the absolute monarchy."
+    },
+    {
+      "id": "napoleonic_empire",
+      "year": 1804,
+      "parentId": "french_revolution",
+      "color": "#c084fc",
+      "branchName": "France",
+      "title": "Napoleonic Empire",
+      "description": "Napoleon crowns himself Emperor of the French."
+    },
+    {
+      "id": "world_war_1",
+      "year": 1914,
+      "parentId": "napoleonic_empire",
+      "color": "#f43f5e",
+      "branchName": "Europe",
+      "title": "World War I",
+      "description": "A continental war reshapes Europe."
+    },
+    {
+      "id": "fifth_republic",
+      "year": 1958,
+      "parentId": "world_war_1",
+      "color": "#60a5fa",
+      "branchName": "France",
+      "title": "Fifth Republic",
+      "description": "Charles de Gaulle establishes the Fifth Republic with a strong presidency."
+    }
+  ]
+}

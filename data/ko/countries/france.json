@@ -1,0 +1,105 @@
+{
+  "id": "france",
+  "name": "프랑스",
+  "color": "#ef4444",
+  "eras": [
+    {
+      "id": "gaul_roman",
+      "name": "갈리아와 프랑크 왕국",
+      "startYear": -100,
+      "endYear": 800
+    },
+    {
+      "id": "medieval_feudal",
+      "name": "카롤링거와 중세 프랑스",
+      "startYear": 800,
+      "endYear": 1500
+    },
+    {
+      "id": "revolution_empire",
+      "name": "혁명과 나폴레옹 시대",
+      "startYear": 1500,
+      "endYear": 1900
+    },
+    {
+      "id": "world_wars_republic",
+      "name": "세계 대전과 제5공화국",
+      "startYear": 1900,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "roman_gaul",
+      "year": -52,
+      "parentId": null,
+      "color": "#fbbf24",
+      "branchName": "갈리아",
+      "title": "로마령 갈리아",
+      "description": "카이사르가 갈리아 정복을 완수하다."
+    },
+    {
+      "id": "frankish_kingdom",
+      "year": 511,
+      "parentId": "roman_gaul",
+      "color": "#34d399",
+      "branchName": "프랑키아",
+      "title": "프랑크 왕국",
+      "description": "클로비스가 옛 갈리아의 프랑크족을 통일하다."
+    },
+    {
+      "id": "charlemagne_crowned",
+      "year": 800,
+      "parentId": "frankish_kingdom",
+      "color": "#c084fc",
+      "branchName": "카롤링거",
+      "title": "샤를마뉴 대관",
+      "description": "샤를마뉴가 서방 황제로 즉위하다."
+    },
+    {
+      "id": "hundred_years_war",
+      "year": 1337,
+      "parentId": "charlemagne_crowned",
+      "color": "#fbbf24",
+      "branchName": "프랑스",
+      "title": "백년 전쟁",
+      "description": "프랑스와 잉글랜드가 오랜 왕조 전쟁을 벌이다."
+    },
+    {
+      "id": "french_revolution",
+      "year": 1789,
+      "parentId": "hundred_years_war",
+      "color": "#ec4899",
+      "branchName": "프랑스",
+      "title": "프랑스 혁명",
+      "description": "혁명이 절대 왕정을 무너뜨리다."
+    },
+    {
+      "id": "napoleonic_empire",
+      "year": 1804,
+      "parentId": "french_revolution",
+      "color": "#c084fc",
+      "branchName": "프랑스",
+      "title": "나폴레옹 제국",
+      "description": "나폴레옹이 프랑스 황제로 즉위하다."
+    },
+    {
+      "id": "world_war_1",
+      "year": 1914,
+      "parentId": "napoleonic_empire",
+      "color": "#f43f5e",
+      "branchName": "유럽",
+      "title": "제1차 세계대전",
+      "description": "대륙 전쟁이 유럽을 재편하다."
+    },
+    {
+      "id": "fifth_republic",
+      "year": 1958,
+      "parentId": "world_war_1",
+      "color": "#60a5fa",
+      "branchName": "프랑스",
+      "title": "제5공화국 수립",
+      "description": "샤를 드 골이 강력한 대통령제의 제5공화국을 수립하다."
+    }
+  ]
+}

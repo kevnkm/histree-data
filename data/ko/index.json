@@ -1,0 +1,22 @@
+[
+  {
+    "id": "korea",
+    "name": "대한민국",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "japan",
+    "name": "일본",
+    "color": "#e11d48"
+  },
+  {
+    "id": "us",
+    "name": "미국",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "france",
+    "name": "프랑스",
+    "color": "#ef4444"
+  }
+]

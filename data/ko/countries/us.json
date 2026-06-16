@@ -1,0 +1,114 @@
+{
+  "id": "us",
+  "name": "미국",
+  "color": "#3b82f6",
+  "eras": [
+    {
+      "id": "colonial_revolution",
+      "name": "식민지 · 혁명기",
+      "startYear": 1600,
+      "endYear": 1789
+    },
+    {
+      "id": "expansion_civil_war",
+      "name": "영토 확장 · 남북전쟁",
+      "startYear": 1789,
+      "endYear": 1865
+    },
+    {
+      "id": "gilded_world_wars",
+      "name": "도금시대 · 세계대전",
+      "startYear": 1865,
+      "endYear": 1945
+    },
+    {
+      "id": "cold_war_21c",
+      "name": "근현대",
+      "startYear": 1945,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "jamestown_settlement",
+      "year": 1607,
+      "parentId": null,
+      "color": "#fbbf24",
+      "branchName": "식민지",
+      "title": "제임스타운 정착지 건설",
+      "description": "버지니아 지역에 최초의 영국 영구 식민 정착지가 건설되어 식민지 팽창의 계기가 되다."
+    },
+    {
+      "id": "declaration_independence",
+      "year": 1776,
+      "parentId": "jamestown_settlement",
+      "color": "#ef4444",
+      "branchName": "혁명기",
+      "title": "미국 독립 선언",
+      "description": "대륙회의가 대영제국으로부터의 독립을 공식 선포하고 독립 전쟁을 본격화하다."
+    },
+    {
+      "id": "constitutional_convention",
+      "year": 1787,
+      "parentId": "declaration_independence",
+      "color": "#3b82f6",
+      "branchName": "건국",
+      "title": "미국 헌법 제정",
+      "description": "필라델피아 대표단 회의를 통해 연방 공화국의 뼈대가 되는 미국 헌법을 제정하다."
+    },
+    {
+      "id": "louisiana_purchase",
+      "year": 1803,
+      "parentId": "constitutional_convention",
+      "color": "#10b981",
+      "branchName": "영토확장",
+      "title": "루이지애나 매입",
+      "description": "프랑스로부터 루이지애나 영토를 매입하여 미국의 영토를 두 배로 확장하다."
+    },
+    {
+      "id": "civil_war",
+      "year": 1861,
+      "parentId": "louisiana_purchase",
+      "color": "#f43f5e",
+      "branchName": "갈등기",
+      "title": "미국 남북전쟁 발발",
+      "description": "노예제와 주(state)의 자치권 문제를 둘러싸고 북부 연방과 남부 연합 간의 대규모 내전이 시작되다."
+    },
+    {
+      "id": "gilded_age",
+      "year": 1870,
+      "parentId": "civil_war",
+      "color": "#fbbf24",
+      "branchName": "산업화",
+      "title": "도금 시대 시작",
+      "description": "급격한 경제 성장, 이민자 유입, 산업적 팽창과 함께 그림자인 부패와 도시화의 부작용이 동반되다."
+    },
+    {
+      "id": "great_depression",
+      "year": 1929,
+      "parentId": "gilded_age",
+      "color": "#fb923c",
+      "branchName": "위기",
+      "title": "대공황 발생",
+      "description": "월가 주식 붕괴로 세계적인 경제적 충격과 기록적인 실업 사태가 장기화되다."
+    },
+    {
+      "id": "world_war_2",
+      "year": 1941,
+      "parentId": "great_depression",
+      "color": "#c084fc",
+      "branchName": "제2차 세계대전",
+      "title": "제2차 세계대전 참전",
+      "description": "진주만 습격을 계기로 미국이 공식 선전포고를 하고 연합국 전선에 참전하다."
+    },
+    {
+      "id": "apollo_moon_landing",
+      "year": 1969,
+      "parentId": "world_war_2",
+      "color": "#06b6d4",
+      "branchName": "우주시대",
+      "title": "아폴로 11호 달 착륙",
+      "description": "닐 암스트롱이 아폴로 11호를 타고 인류 역사상 최초로 달 표면을 밟다."
+    }
+  ]
+}

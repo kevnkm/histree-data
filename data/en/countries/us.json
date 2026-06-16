@@ -1,0 +1,114 @@
+{
+  "id": "us",
+  "name": "United States",
+  "color": "#3b82f6",
+  "eras": [
+    {
+      "id": "colonial_revolution",
+      "name": "Colonial Era & Revolution",
+      "startYear": 1600,
+      "endYear": 1789
+    },
+    {
+      "id": "expansion_civil_war",
+      "name": "Expansion & Civil War",
+      "startYear": 1789,
+      "endYear": 1865
+    },
+    {
+      "id": "gilded_world_wars",
+      "name": "Gilded Age & World Wars",
+      "startYear": 1865,
+      "endYear": 1945
+    },
+    {
+      "id": "cold_war_21c",
+      "name": "Cold War & 21st Century",
+      "startYear": 1945,
+      "endYear": 2050
+    }
+  ],
+  "nodes": [
+    {
+      "id": "jamestown_settlement",
+      "year": 1607,
+      "parentId": null,
+      "color": "#fbbf24",
+      "branchName": "Colonial",
+      "title": "Jamestown Settlement",
+      "description": "The first permanent English settlement is established in Virginia, initiating colonial growth."
+    },
+    {
+      "id": "declaration_independence",
+      "year": 1776,
+      "parentId": "jamestown_settlement",
+      "color": "#ef4444",
+      "branchName": "Revolution",
+      "title": "Declaration of Independence",
+      "description": "The Continental Congress declares independence from Great Britain, starting the Revolutionary War."
+    },
+    {
+      "id": "constitutional_convention",
+      "year": 1787,
+      "parentId": "declaration_independence",
+      "color": "#3b82f6",
+      "branchName": "Founding",
+      "title": "US Constitution Drafted",
+      "description": "Delegates gather at Philadelphia to draft the Constitution, establishing the federal republic."
+    },
+    {
+      "id": "louisiana_purchase",
+      "year": 1803,
+      "parentId": "constitutional_convention",
+      "color": "#10b981",
+      "branchName": "Expansion",
+      "title": "Louisiana Purchase",
+      "description": "The United States purchases Louisiana Territory from France, doubling the national domain."
+    },
+    {
+      "id": "civil_war",
+      "year": 1861,
+      "parentId": "louisiana_purchase",
+      "color": "#f43f5e",
+      "branchName": "Conflict",
+      "title": "American Civil War Breaks Out",
+      "description": "Conflict erupts between the Union and the seceded southern Confederacy over slavery and federal sovereignty."
+    },
+    {
+      "id": "gilded_age",
+      "year": 1870,
+      "parentId": "civil_war",
+      "color": "#fbbf24",
+      "branchName": "Industrial",
+      "title": "Gilded Age Begins",
+      "description": "An era of rapid economic and industrial expansion, coupled with immigration and urbanization."
+    },
+    {
+      "id": "great_depression",
+      "year": 1929,
+      "parentId": "gilded_age",
+      "color": "#fb923c",
+      "branchName": "Crisis",
+      "title": "Great Depression",
+      "description": "The Wall Street stock crash launches a decade of deep economic contraction and widespread poverty."
+    },
+    {
+      "id": "world_war_2",
+      "year": 1941,
+      "parentId": "great_depression",
+      "color": "#c084fc",
+      "branchName": "World War II",
+      "title": "US Enters World War II",
+      "description": "Following the attack on Pearl Harbor, the United States declares war and joins the Allies."
+    },
+    {
+      "id": "apollo_moon_landing",
+      "year": 1969,
+      "parentId": "world_war_2",
+      "color": "#06b6d4",
+      "branchName": "Space Age",
+      "title": "Apollo Moon Landing",
+      "description": "Apollo 11 astronaut Neil Armstrong becomes the first human to step on the lunar surface."
+    }
+  ]
+}
