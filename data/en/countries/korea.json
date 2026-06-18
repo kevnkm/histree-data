@@ -87,11 +87,66 @@
       "description": "Korea's first kingdom is founded by Dangun."
     },
     {
+      "id": "eight_prohibition_laws",
+      "date": {
+        "year": -1000
+      },
+      "parentId": "gojoseon",
+      "color": "#10b981",
+      "branchName": "Ancient",
+      "title": "Eight Prohibition Laws",
+      "description": "Gojoseon establishes the Eight Prohibition Laws, a basic code reflecting a society based on private property and class structure."
+    },
+    {
+      "id": "guanzi_record",
+      "date": {
+        "year": -650
+      },
+      "parentId": "eight_prohibition_laws",
+      "color": "#10b981",
+      "branchName": "Ancient",
+      "title": "First Historical Record (Guanzi)",
+      "description": "Gojoseon is first mentioned in the Chinese text Guanzi, documenting trade relations with the state of Qi."
+    },
+    {
+      "id": "gojoseon_yan_conflict",
+      "date": {
+        "year": -300
+      },
+      "parentId": "guanzi_record",
+      "color": "#ef4444",
+      "branchName": "Ancient",
+      "title": "Conflict with State of Yan",
+      "description": "Gojoseon declares kingship and enters a military conflict with the Chinese state of Yan, losing western territories to Yan forces."
+    },
+    {
+      "id": "wiman_gojoseon",
+      "date": {
+        "year": -194
+      },
+      "parentId": "gojoseon_yan_conflict",
+      "color": "#3b82f6",
+      "branchName": "Ancient",
+      "title": "Wiman Gojoseon Begins",
+      "description": "Wiman usurps the throne, establishing Wiman Gojoseon and initiating the widespread adoption of iron culture."
+    },
+    {
+      "id": "gojoseon_han_war",
+      "date": {
+        "year": -109
+      },
+      "parentId": "wiman_gojoseon",
+      "color": "#ef4444",
+      "branchName": "Ancient",
+      "title": "Gojoseon-Han War Begins",
+      "description": "Emperor Wu of the Han Dynasty launches a massive land and naval invasion of Gojoseon, starting a year-long siege."
+    },
+    {
       "id": "fall_of_gojoseon",
       "date": {
         "year": -108
       },
-      "parentId": "gojoseon",
+      "parentId": "gojoseon_han_war",
       "color": "#ef4444",
       "branchName": "Ancient",
       "title": "Fall of Gojoseon",
@@ -164,11 +219,22 @@
       "description": "King Sosurim of Goguryeo establishes Taehak, the first national academy in Korean history, to teach Confucianism."
     },
     {
+      "id": "king_geunchogo_peak",
+      "date": {
+        "year": 371
+      },
+      "parentId": "baekje",
+      "color": "#fbbf24",
+      "branchName": "Baekje",
+      "title": "King Geunchogo's Peak",
+      "description": "King Geunchogo expands Baekje's territory to its peak, attacking Goguryeo and dominating maritime trade."
+    },
+    {
       "id": "introduction_of_buddhism_baekje",
       "date": {
         "year": 384
       },
-      "parentId": "baekje",
+      "parentId": "king_geunchogo_peak",
       "color": "#10b981",
       "branchName": "Baekje",
       "title": "Buddhism Introduced to Baekje",
@@ -186,6 +252,39 @@
       "description": "King Gwanggaeto the Great ascends the throne, launching massive military campaigns that expand Goguryeo's territory across Manchuria."
     },
     {
+      "id": "gwanggaeto_stele",
+      "date": {
+        "year": 414
+      },
+      "parentId": "gwanggaeto_great",
+      "color": "#10b981",
+      "branchName": "Goguryeo",
+      "title": "Gwanggaeto Stele Erected",
+      "description": "King Jangsu erects a massive stone monument commemorating the achievements of his father, Gwanggaeto the Great."
+    },
+    {
+      "id": "pyongyang_transfer",
+      "date": {
+        "year": 427
+      },
+      "parentId": "gwanggaeto_stele",
+      "color": "#f43f5e",
+      "branchName": "Goguryeo",
+      "title": "Capital Moved to Pyongyang",
+      "description": "King Jangsu moves the capital of Goguryeo from Gungnae Fortress to Pyongyang, expanding southward."
+    },
+    {
+      "id": "tomb_king_muryeong",
+      "date": {
+        "year": 525
+      },
+      "parentId": "introduction_of_buddhism_baekje",
+      "color": "#10b981",
+      "branchName": "Baekje",
+      "title": "Tomb of King Muryeong",
+      "description": "The brick tomb of Baekje's King Muryeong is built, reflecting trade with China's Southern Dynasties and preserving crucial epitaphs."
+    },
+    {
       "id": "silla_buddhism_adoption",
       "date": {
         "year": 527
@@ -201,7 +300,7 @@
       "date": {
         "year": 554
       },
-      "parentId": "silla_monuments_jinheung",
+      "parentId": "silla_buddhism_adoption",
       "color": "#ef4444",
       "branchName": "Silla",
       "title": "Battle of Gwansan Fortress",
@@ -212,11 +311,22 @@
       "date": {
         "year": 561
       },
-      "parentId": "silla",
+      "parentId": "battle_of_gwansan",
       "color": "#3b82f6",
       "branchName": "Silla",
       "title": "Silla Expansion under King Jinheung",
       "description": "King Jinheung of Silla expands territory and erects monuments (Sunsubi) to mark the kingdom's new borders."
+    },
+    {
+      "id": "fall_of_gaya",
+      "date": {
+        "year": 562
+      },
+      "parentId": "silla_monuments_jinheung",
+      "color": "#a8a29e",
+      "branchName": "Gaya",
+      "title": "Fall of Gaya",
+      "description": "Silla annexes Daegaya, completing the absorption of the Gaya Confederacy."
     },
     {
       "id": "silla_hwarang",
@@ -230,22 +340,44 @@
       "description": "King Jinheung of Silla officially reorganizes the Hwarang, an elite youth group that played a key role in unifying the Three Kingdoms."
     },
     {
+      "id": "goguryeo_sui_war",
+      "date": {
+        "year": 598
+      },
+      "parentId": "fall_of_gaya",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Goguryeo-Sui War Begins",
+      "description": "The Sui Dynasty of China launches its first massive invasion against Goguryeo, starting the Goguryeo-Sui Wars."
+    },
+    {
       "id": "battle_of_salsu",
       "date": {
         "year": 612
       },
-      "parentId": "gwanggaeto_great",
+      "parentId": "goguryeo_sui_war",
       "color": "#ef4444",
       "branchName": "Goguryeo",
       "title": "Battle of Salsu",
       "description": "Goguryeo forces under General Eulji Mundeok achieve a decisive victory against the invading Chinese Sui Dynasty at the Salsu River."
     },
     {
+      "id": "queen_seondeok_ascension",
+      "date": {
+        "year": 632
+      },
+      "parentId": "silla_hwarang",
+      "color": "#3b82f6",
+      "branchName": "Silla",
+      "title": "Queen Seondeok Ascends Throne",
+      "description": "Queen Seondeok becomes the first reigning queen in Korean history, sponsoring cultural and scientific achievements."
+    },
+    {
       "id": "cheomseongdae",
       "date": {
         "year": 633
       },
-      "parentId": "silla_monuments_jinheung",
+      "parentId": "queen_seondeok_ascension",
       "color": "#10b981",
       "branchName": "Silla",
       "title": "Cheomseongdae Built",
@@ -263,15 +395,70 @@
       "description": "Goguryeo forces successfully defend Ansi Fortress against a massive siege by the Tang Dynasty's invading army."
     },
     {
+      "id": "battle_of_hwangsanbeol",
+      "date": {
+        "year": 660
+      },
+      "parentId": "battle_of_ansi_fortress",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Battle of Hwangsanbeol",
+      "description": "Silla forces led by Kim Yu-sin defeat the Baekje army led by Gyebaek, leading to the fall of Baekje."
+    },
+    {
+      "id": "fall_of_baekje",
+      "date": {
+        "year": 660
+      },
+      "parentId": "battle_of_hwangsanbeol",
+      "color": "#ef4444",
+      "branchName": "Baekje",
+      "title": "Fall of Baekje",
+      "description": "The kingdom of Baekje falls after the capital Sabi is captured by the allied forces of Silla and Tang."
+    },
+    {
+      "id": "battle_of_baekgang",
+      "date": {
+        "year": 663
+      },
+      "parentId": "fall_of_baekje",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Battle of Baekgang",
+      "description": "Silla and Tang forces defeat the Baekje restoration movement and their Yamato Japanese allies at the Baek River."
+    },
+    {
+      "id": "fall_of_goguryeo",
+      "date": {
+        "year": 668
+      },
+      "parentId": "battle_of_baekgang",
+      "color": "#ef4444",
+      "branchName": "Goguryeo",
+      "title": "Fall of Goguryeo",
+      "description": "Goguryeo falls following the capture of Pyongyang by the Silla-Tang alliance, ending the Three Kingdoms period."
+    },
+    {
       "id": "unified_silla",
       "date": {
         "year": 668
       },
-      "parentId": "cheomseongdae",
+      "parentId": "fall_of_goguryeo",
       "color": "#60a5fa",
       "branchName": "Unified Silla",
       "title": "Unified Silla",
       "description": "Silla unifies most of the Korean peninsula."
+    },
+    {
+      "id": "battle_of_maesoseong",
+      "date": {
+        "year": 675
+      },
+      "parentId": "unified_silla",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Battle of Maesoseong",
+      "description": "Silla forces defeat a massive Tang Dynasty army at Maesoseong, securing independence and completing Silla's unification efforts."
     },
     {
       "id": "gukhak_founded",
@@ -395,11 +582,22 @@
       "description": "Goryeo completes construction of the Cheolli Jangseong, a defensive wall spanning the northern border to defend against nomadic invasions."
     },
     {
+      "id": "mongol_invasions_korea",
+      "date": {
+        "year": 1231
+      },
+      "parentId": "cheolli_jangseong",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Mongol Invasions Begin",
+      "description": "The Mongol Empire launches its first invasion of Goryeo, starting decades of devastating war and resistance."
+    },
+    {
       "id": "goryeo_tripitaka",
       "date": {
         "year": 1236
       },
-      "parentId": "battle_of_gwiju",
+      "parentId": "mongol_invasions_korea",
       "color": "#10b981",
       "branchName": "Goryeo",
       "title": "Tripitaka Koreana",
@@ -461,11 +659,22 @@
       "description": "The compilation of the Joseon Wangjo Sillok begins, meticulously documenting the daily affairs of the Joseon kings for 472 years."
     },
     {
+      "id": "sejong_ascension",
+      "date": {
+        "year": 1418
+      },
+      "parentId": "joseon_wangjo_sillok",
+      "color": "#c084fc",
+      "branchName": "Joseon",
+      "title": "Ascension of King Sejong",
+      "description": "King Sejong the Great ascends the throne, initiating a golden age of science, culture, and military expansion."
+    },
+    {
       "id": "cheugugi",
       "date": {
         "year": 1441
       },
-      "parentId": "capital_hanyang",
+      "parentId": "sejong_ascension",
       "color": "#06b6d4",
       "branchName": "Joseon",
       "title": "Rain Gauge (Cheugugi)",
@@ -593,11 +802,22 @@
       "description": "Geographer Kim Jeong-ho publishes the Daedongyeojido, a highly detailed and accurate large-scale wooden map of Korea."
     },
     {
+      "id": "ganghwa_treaty",
+      "date": {
+        "year": 1876
+      },
+      "parentId": "daedongyeojido",
+      "color": "#fb923c",
+      "branchName": "Joseon",
+      "title": "Treaty of Ganghwa",
+      "description": "Joseon signs its first modern, albeit unequal, treaty with Japan, opening ports and ending isolation."
+    },
+    {
       "id": "gapsin_coup",
       "date": {
         "year": 1884
       },
-      "parentId": "daedongyeojido",
+      "parentId": "ganghwa_treaty",
       "color": "#ef4444",
       "branchName": "Joseon",
       "title": "Gapsin Coup",
@@ -648,11 +868,22 @@
       "description": "Joseon is proclaimed the Korean Empire."
     },
     {
+      "id": "eulsa_treaty",
+      "date": {
+        "year": 1905
+      },
+      "parentId": "empire",
+      "color": "#ef4444",
+      "branchName": "Colonial",
+      "title": "Eulsa Treaty",
+      "description": "The Korean Empire is forced to sign the Eulsa Treaty, stripping it of diplomatic sovereignty and establishing a Japanese protectorate."
+    },
+    {
       "id": "japanese_occupation",
       "date": {
         "year": 1910
       },
-      "parentId": "empire",
+      "parentId": "eulsa_treaty",
       "color": "#fb923c",
       "branchName": "Colonial",
       "title": "Japanese Occupation",
@@ -670,11 +901,24 @@
       "description": "Nationwide peaceful protests demand independence, leading to the creation of the Provisional Government in Shanghai."
     },
     {
+      "id": "battle_of_fengwudong",
+      "date": {
+        "year": 1920,
+        "month": 6,
+        "day": 7
+      },
+      "parentId": "march_first_movement",
+      "color": "#ef4444",
+      "branchName": "Colonial",
+      "title": "Battle of Fengwudong",
+      "description": "Korean independence forces led by Hong Beom-do defeat Japanese forces in Manchuria, marking the first major victory."
+    },
+    {
       "id": "battle_of_qingshanli",
       "date": {
         "year": 1920
       },
-      "parentId": "march_first_movement",
+      "parentId": "battle_of_fengwudong",
       "color": "#ef4444",
       "branchName": "Colonial",
       "title": "Battle of Qingshanli",
@@ -714,6 +958,19 @@
       "branchName": "Colonial",
       "title": "National Liberation Day",
       "description": "Korea is liberated from Japanese rule following the surrender of Japan in World War II."
+    },
+    {
+      "id": "jeju_uprising",
+      "date": {
+        "year": 1948,
+        "month": 4,
+        "day": 3
+      },
+      "parentId": "gwangbokjeol",
+      "color": "#ef4444",
+      "branchName": "Conflict",
+      "title": "Jeju April 3 Incident",
+      "description": "An uprising begins on Jeju Island against separate elections, leading to a military crackdown and massive civilian casualties."
     },
     {
       "id": "republic_of_korea",
@@ -797,6 +1054,17 @@
       "description": "South Korea launches rapid export-led industrialization, growing from a war-torn country to a major global economy."
     },
     {
+      "id": "korea_japan_normalization",
+      "date": {
+        "year": 1965
+      },
+      "parentId": "hangang_miracle",
+      "color": "#3b82f6",
+      "branchName": "South Korea",
+      "title": "Korea-Japan Normalization",
+      "description": "South Korea normalizes relations with Japan through the Treaty on Basic Relations, securing funding used for industrialization."
+    },
+    {
       "id": "saemaul_undong",
       "date": {
         "year": 1970
@@ -808,11 +1076,22 @@
       "description": "President Park Chung-hee launches Saemaul Undong (New Community Movement) to modernize the rural economy and improve living standards."
     },
     {
+      "id": "october_26_assassination",
+      "date": {
+        "year": 1979
+      },
+      "parentId": "saemaul_undong",
+      "color": "#ef4444",
+      "branchName": "South Korea",
+      "title": "Assassination of Park Chung-hee",
+      "description": "President Park Chung-hee is assassinated, leading to the December 12 military coup led by Chun Doo-hwan."
+    },
+    {
       "id": "gwangju_uprising",
       "date": {
         "year": 1980
       },
-      "parentId": "april_revolution",
+      "parentId": "october_26_assassination",
       "color": "#10b981",
       "branchName": "Democracy",
       "title": "Gwangju Uprising",
@@ -874,11 +1153,22 @@
       "description": "The debut of Seo Taiji and Boys revolutionizes Korean popular music, marking the birth of modern K-pop."
     },
     {
+      "id": "oecd_admission",
+      "date": {
+        "year": 1996
+      },
+      "parentId": "seo_taiji_boys",
+      "color": "#10b981",
+      "branchName": "Economy",
+      "title": "OECD Membership",
+      "description": "South Korea joins the OECD, symbolizing its transition to an advanced, high-income country."
+    },
+    {
       "id": "financial_crisis",
       "date": {
         "year": 1997
       },
-      "parentId": "seo_taiji_boys",
+      "parentId": "oecd_admission",
       "color": "#f97316",
       "branchName": "South Korea",
       "title": "Asian Financial Crisis",
