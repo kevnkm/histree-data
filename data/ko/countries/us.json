@@ -57,22 +57,55 @@
       "description": "버지니아 지역에 최초의 영국 영구 식민 정착지가 건설되어 식민지 팽창의 계기가 되다."
     },
     {
+      "id": "house_of_burgesses",
+      "date": {
+        "year": 1619
+      },
+      "parentId": "jamestown_settlement",
+      "color": "#fbbf24",
+      "branchName": "식민지",
+      "title": "버지니아 시민의회(하우스 오브 버지스) 설립",
+      "description": "아메리카 식민지 최초의 대의제 입법 의회가 버지니아에 설립되어, 훗날 미국의 대의 민주주의 제도의 기틀을 마련하다."
+    },
+    {
       "id": "mayflower_compact",
       "date": {
         "year": 1620
       },
-      "parentId": "jamestown_settlement",
+      "parentId": "house_of_burgesses",
       "color": "#10b981",
       "branchName": "식민지",
       "title": "메이플라워 서약 체결",
       "description": "청교도 정착민들이 메이플라워호 안에서 서약에 서명하며, 신대륙에서의 자치적인 민주적 질서의 시초를 다지다."
     },
     {
+      "id": "salem_witch_trials",
+      "date": {
+        "year": 1692
+      },
+      "parentId": "mayflower_compact",
+      "color": "#f97316",
+      "branchName": "식민지",
+      "title": "세일럼 마녀재판",
+      "description": "식민지 시절 매사추세츠주 세일럼에서 일어난 일련의 마녀사냥 및 사법 절차로, 당시의 사회적·종교적 불안을 극명히 보여준 사건."
+    },
+    {
+      "id": "french_indian_war",
+      "date": {
+        "year": 1754
+      },
+      "parentId": "salem_witch_trials",
+      "color": "#f43f5e",
+      "branchName": "식민지",
+      "title": "프렌치 인디언 전쟁 발발",
+      "description": "북미 지배권을 두고 영국과 프랑스(및 원주민 동맹) 간의 전쟁이 시작되어, 영국의 막대한 국가 채무와 식민지 과세로 이어지다."
+    },
+    {
       "id": "boston_tea_party",
       "date": {
         "year": 1773
       },
-      "parentId": "mayflower_compact",
+      "parentId": "french_indian_war",
       "color": "#f97316",
       "branchName": "혁명기",
       "title": "보스턴 차 사건",
@@ -90,33 +123,110 @@
       "description": "대륙회의가 대영제국으로부터의 독립을 공식 선포하고 독립 전쟁을 본격화하다."
     },
     {
+      "id": "treaty_of_paris",
+      "date": {
+        "year": 1783
+      },
+      "parentId": "declaration_independence",
+      "color": "#ef4444",
+      "branchName": "혁명기",
+      "title": "파리 조약 체결",
+      "description": "영국이 미국의 독립을 공식적으로 인정하며 독립 전쟁이 종결되다."
+    },
+    {
       "id": "constitutional_convention",
       "date": {
         "year": 1787
       },
-      "parentId": "declaration_independence",
+      "parentId": "treaty_of_paris",
       "color": "#3b82f6",
       "branchName": "건국",
       "title": "미국 헌법 제정",
       "description": "필라델피아 대표단 회의를 통해 연방 공화국의 뼈대가 되는 미국 헌법을 제정하다."
     },
     {
+      "id": "bill_of_rights",
+      "date": {
+        "year": 1791
+      },
+      "parentId": "constitutional_convention",
+      "color": "#3b82f6",
+      "branchName": "건국",
+      "title": "권리장전 비준",
+      "description": "개인의 자유를 보장하고 정부 권력을 제한하는 내용의 헌법 수정안 제1조부터 제10조(권리장전)가 공식 비준되다."
+    },
+    {
       "id": "louisiana_purchase",
       "date": {
         "year": 1803
       },
-      "parentId": "constitutional_convention",
+      "parentId": "bill_of_rights",
       "color": "#10b981",
       "branchName": "영토확장",
       "title": "루이지애나 매입",
       "description": "프랑스로부터 루이지애나 영토를 매입하여 미국의 영토를 두 배로 확장하다."
     },
     {
+      "id": "lewis_clark_expedition",
+      "date": {
+        "year": 1804
+      },
+      "parentId": "louisiana_purchase",
+      "color": "#10b981",
+      "branchName": "영토확장",
+      "title": "루이스와 클라크 탐험",
+      "description": "메리웨더 루이스와 윌리엄 클라크가 새로 매입한 서부 영토를 탐사하고 지도에 기록하기 위한 탐험에 나서다."
+    },
+    {
+      "id": "war_of_1812",
+      "date": {
+        "year": 1812
+      },
+      "parentId": "lewis_clark_expedition",
+      "color": "#f43f5e",
+      "branchName": "갈등기",
+      "title": "미영 전쟁 (1812년 전쟁)",
+      "description": "해상권과 교역 제한을 둘러싸고 미국이 영국에 선전포고를 하며 주권 국가로서의 입지를 굳히다."
+    },
+    {
+      "id": "monroe_doctrine",
+      "date": {
+        "year": 1823
+      },
+      "parentId": "war_of_1812",
+      "color": "#3b82f6",
+      "branchName": "건국",
+      "title": "먼로 독트린 선포",
+      "description": "제임스 먼로 대통령이 유럽 열강의 아메리카 대륙에 대한 추가 식민지화나 개입 정책에 대해 경고하다."
+    },
+    {
+      "id": "erie_canal",
+      "date": {
+        "year": 1825
+      },
+      "parentId": "monroe_doctrine",
+      "color": "#06b6d4",
+      "branchName": "영토확장",
+      "title": "이리 운하 개통",
+      "description": "허드슨강 and 이리호를 연결하여 대서양과 오대호 간의 수로를 완성함으로써 미국 내수 경제 성장과 무역 활성화에 기여하다."
+    },
+    {
+      "id": "trail_of_tears",
+      "date": {
+        "year": 1838
+      },
+      "parentId": "erie_canal",
+      "color": "#f97316",
+      "branchName": "갈등기",
+      "title": "눈물의 길",
+      "description": "체로키족 등 네이티브 아메리칸 부족들의 강제 이주로 인해 서부로 향하는 여정 중 수천 명의 사망자가 발생하다."
+    },
+    {
       "id": "manifest_destiny",
       "date": {
         "year": 1845
       },
-      "parentId": "louisiana_purchase",
+      "parentId": "trail_of_tears",
       "color": "#84cc16",
       "branchName": "영토확장",
       "title": "명백한 운명과 텍사스 합병",
@@ -134,44 +244,132 @@
       "description": "새터밀 제동장치 부근에서 금이 발견되자 일확천금을 노린 30만 명 이상의 인구가 캘리포니아로 대거 이동하여 서부 개척을 가속하다."
     },
     {
+      "id": "seneca_falls",
+      "date": {
+        "year": 1848
+      },
+      "parentId": "gold_rush",
+      "color": "#ec4899",
+      "branchName": "사회",
+      "title": "세네카 폴스 컨벤션",
+      "description": "최초의 여성 권리 대회가 개최되어 여성 참정권과 평등을 위한 조직적인 민권 운동의 불을 지피다."
+    },
+    {
       "id": "civil_war",
       "date": {
         "year": 1861
       },
-      "parentId": "gold_rush",
+      "parentId": "seneca_falls",
       "color": "#f43f5e",
       "branchName": "갈등기",
       "title": "미국 남북전쟁 발발",
       "description": "노예제와 주(state)의 자치권 문제를 둘러싸고 북부 연방과 남부 연합 간의 대규모 내전이 시작되다."
     },
     {
+      "id": "homestead_act",
+      "date": {
+        "year": 1862
+      },
+      "parentId": "civil_war",
+      "color": "#84cc16",
+      "branchName": "영토확장",
+      "title": "홈스테드법(자영농지법) 제정",
+      "description": "링컨 대통령이 법안에 서명하여 서부 개척자들에게 저렴하게 국유지를 제공함으로써 서부 영토 개척을 대대적으로 가속하다."
+    },
+    {
       "id": "emancipation_proclamation",
       "date": {
         "year": 1863
       },
-      "parentId": "civil_war",
+      "parentId": "homestead_act",
       "color": "#10b981",
       "branchName": "갈등기",
       "title": "노예 해방 선언",
       "description": "에이브러햄 링컨 대통령이 반란 지역의 모든 노예를 해방한다고 선언하여 전쟁의 도덕적 명분을 확보하다."
     },
     {
+      "id": "gettysburg_address",
+      "date": {
+        "year": 1863
+      },
+      "parentId": "emancipation_proclamation",
+      "color": "#10b981",
+      "branchName": "갈등기",
+      "title": "게티즈버그 연설",
+      "description": "링컨 대통령이 게티즈버그에서 인간의 평등과 민주주의를 재정의하는 역사적인 연설을 남기다."
+    },
+    {
+      "id": "alaska_purchase",
+      "date": {
+        "year": 1867
+      },
+      "parentId": "gettysburg_address",
+      "color": "#10b981",
+      "branchName": "영토확장",
+      "title": "러시아로부터 알래스카 매입",
+      "description": "미국이 러시아 제국으로부터 720만 달러에 알래스카 영토를 매입하여, 광활하고 자원이 풍부한 북방 영토를 확보하다."
+    },
+    {
+      "id": "transcontinental_railroad",
+      "date": {
+        "year": 1869
+      },
+      "parentId": "alaska_purchase",
+      "color": "#06b6d4",
+      "branchName": "산업화",
+      "title": "대륙 횡단 철도 완공",
+      "description": "유타주 프로몬토리 서밋에서 마지막 못이 박히며 미국 동서부를 연결하는 철도망이 구축되다."
+    },
+    {
       "id": "gilded_age",
       "date": {
         "year": 1870
       },
-      "parentId": "civil_war",
+      "parentId": "transcontinental_railroad",
       "color": "#fbbf24",
       "branchName": "산업화",
       "title": "도금 시대 시작",
       "description": "급격한 경제 성장, 이민자 유입, 산업적 팽창과 함께 그림자인 부패와 도시화의 부작용이 동반되다."
     },
     {
+      "id": "sherman_antitrust",
+      "date": {
+        "year": 1890
+      },
+      "parentId": "gilded_age",
+      "color": "#fbbf24",
+      "branchName": "산업화",
+      "title": "셔먼 반독점법 제정",
+      "description": "독점 및 카르텔을 제한하여 자유 시장 경쟁을 보호하기 위한 최초의 연방 법안으로, 현대 기업 규제의 초석을 다지다."
+    },
+    {
+      "id": "spanish_american_war",
+      "date": {
+        "year": 1898
+      },
+      "parentId": "sherman_antitrust",
+      "color": "#f43f5e",
+      "branchName": "갈등기",
+      "title": "미국-스페인 전쟁",
+      "description": "아메리카 대륙에서 스페인의 식민 지배를 종식하고 미국이 해외 영토를 획득하며 세계적인 열강으로 부상하다."
+    },
+    {
+      "id": "pure_food_drug_act",
+      "date": {
+        "year": 1906
+      },
+      "parentId": "spanish_american_war",
+      "color": "#fbbf24",
+      "branchName": "산업화",
+      "title": "식품의약품안전법(Pure Food and Drug Act) 서명",
+      "description": "육류 제품에 대한 연방 검사를 의무화하고 가짜 또는 유해한 식품·의약품의 제조 및 판매를 금지하는 소비자 보호법을 시행하다."
+    },
+    {
       "id": "panama_canal",
       "date": {
         "year": 1914
       },
-      "parentId": "gilded_age",
+      "parentId": "pure_food_drug_act",
       "color": "#06b6d4",
       "branchName": "산업화",
       "title": "파나마 운하 개통",
@@ -200,11 +398,22 @@
       "description": "미국 연방 헌법 수정 제19조가 통과되어 여성에게 합법적인 투표권이 완전히 보장되다."
     },
     {
+      "id": "roaring_twenties",
+      "date": {
+        "year": 1920
+      },
+      "parentId": "women_suffrage",
+      "color": "#ec4899",
+      "branchName": "사회",
+      "title": "광란의 20년대 시작",
+      "description": "재즈 음악과 문화적 다원주의, 경제적 번영이 특징인 대중문화의 황금기로, 전통적 가치와 현대적 유행이 충돌하다."
+    },
+    {
       "id": "great_depression",
       "date": {
         "year": 1929
       },
-      "parentId": "gilded_age",
+      "parentId": "roaring_twenties",
       "color": "#fb923c",
       "branchName": "위기",
       "title": "대공황 발생",
@@ -222,11 +431,22 @@
       "description": "프랭클린 D. 루스벨트 대통령이 대규모 공공사업, 경제 회복 법안, 복지 제도 구축을 골자로 하는 뉴딜을 단행하다."
     },
     {
-      "id": "world_war_2",
+      "id": "lend_lease",
       "date": {
         "year": 1941
       },
       "parentId": "new_deal",
+      "color": "#22c55e",
+      "branchName": "위기",
+      "title": "무기대여법(랜드리스법) 제정",
+      "description": "미국이 제2차 세계대전에 공식 참전하기 전, 우방국들에게 군사 물자 및 무기를 지원하며 고립주의 노선에서 탈피하다."
+    },
+    {
+      "id": "world_war_2",
+      "date": {
+        "year": 1941
+      },
+      "parentId": "lend_lease",
       "color": "#c084fc",
       "branchName": "제2차 세계대전",
       "title": "제2차 세계대전 참전",
@@ -244,22 +464,77 @@
       "description": "트루먼 대통령이 공산주의 세력에 대항하여 민주 진영을 지원하겠다는 교시를 공식 발표하며 동서 냉전 구도를 정립하다."
     },
     {
+      "id": "marshall_plan",
+      "date": {
+        "year": 1948
+      },
+      "parentId": "cold_war_begins",
+      "color": "#8b5cf6",
+      "branchName": "냉전",
+      "title": "마셜 플랜 시행",
+      "description": "제2차 세계대전으로 황폐해진 서유럽의 재건 and 공산주의 확산을 막기 위해 대규모 경제 원조 계획을 추진하다."
+    },
+    {
+      "id": "korean_war",
+      "date": {
+        "year": 1950
+      },
+      "parentId": "marshall_plan",
+      "color": "#8b5cf6",
+      "branchName": "냉전",
+      "title": "6·25 전쟁 발발",
+      "description": "미국이 한국을 지원하기 위해 유엔군을 이끌고 참전하며, 냉전 체제 하에 일어난 첫 번째 대규모 열전이 되다."
+    },
+    {
+      "id": "cuban_missile_crisis",
+      "date": {
+        "year": 1962
+      },
+      "parentId": "cold_war_begins",
+      "color": "#8b5cf6",
+      "branchName": "냉전",
+      "title": "쿠바 미사일 위기",
+      "description": "미국과 소련 간의 직접적이고 위험한 대치 상황으로, 인류가 핵전쟁의 위기에 가장 가까이 직면했던 사건."
+    },
+    {
+      "id": "jfk_assassination",
+      "date": {
+        "year": 1963
+      },
+      "parentId": "cuban_missile_crisis",
+      "color": "#ef4444",
+      "branchName": "현대",
+      "title": "JFK 대통령 암살 사건",
+      "description": "존 F. 케네디 대통령이 텍사스주 댈러스에서 암살되어 온 나라에 충격을 주었으며, 부통령 린든 B. 존슨이 대통령직을 승계하다."
+    },
+    {
       "id": "civil_rights_movement",
       "date": {
         "year": 1954
       },
-      "parentId": "world_war_2",
+      "parentId": "korean_war",
       "color": "#ec4899",
       "branchName": "민권운동",
       "title": "민권 운동의 불길",
       "description": "'브라운 대 교육위원회' 판결을 필두로, 마틴 루터 킹 목사 등이 이끄는 인종차별 철폐 운동이 시작되다."
     },
     {
-      "id": "vietnam_war",
+      "id": "voting_rights_act",
       "date": {
         "year": 1965
       },
       "parentId": "civil_rights_movement",
+      "color": "#ec4899",
+      "branchName": "민권운동",
+      "title": "투표권법(Voting Rights Act) 서명",
+      "description": "투표 과정에서의 인종 차별 행위를 금지함으로써 소수계 유권자들의 실질적인 선거권을 보장하는 기념비적인 연방 법률이 제정되다."
+    },
+    {
+      "id": "vietnam_war",
+      "date": {
+        "year": 1965
+      },
+      "parentId": "jfk_assassination",
       "color": "#f43f5e",
       "branchName": "전쟁",
       "title": "베트남 전쟁 전투 부대 파병",
@@ -275,6 +550,50 @@
       "branchName": "우주시대",
       "title": "아폴로 11호 달 착륙",
       "description": "닐 암스트롱이 아폴로 11호를 타고 인류 역사상 최초로 달 표면을 밟다."
+    },
+    {
+      "id": "watergate_scandal",
+      "date": {
+        "year": 1972
+      },
+      "parentId": "apollo_moon_landing",
+      "color": "#fb923c",
+      "branchName": "위기",
+      "title": "워터게이트 사건",
+      "description": "민주당 전국위원회 본부 침입 사건으로 촉발된 대규모 정치 스캔들로, 결국 리처드 닉슨 대통령이 하야하다."
+    },
+    {
+      "id": "camp_david_accords",
+      "date": {
+        "year": 1978
+      },
+      "parentId": "watergate_scandal",
+      "color": "#3b82f6",
+      "branchName": "현대",
+      "title": "캠프 데이비드 협정 체결",
+      "description": "지미 카터 대통령의 중재로 이집트와 이스라엘 간의 역사적인 평화 협정이 체결되어 중동 평화의 전기를 마련하다."
+    },
+    {
+      "id": "challenger_disaster",
+      "date": {
+        "year": 1986
+      },
+      "parentId": "camp_david_accords",
+      "color": "#f97316",
+      "branchName": "우주시대",
+      "title": "챌린저 우주왕복선 폭발 참사",
+      "description": "챌린저호가 발사 73초 만에 공중 분해되어 승무원 7명 전원이 사망하고 우주 개발 계획이 일시적으로 전면 중단되다."
+    },
+    {
+      "id": "fall_of_berlin_wall",
+      "date": {
+        "year": 1989
+      },
+      "parentId": "challenger_disaster",
+      "color": "#8b5cf6",
+      "branchName": "냉전",
+      "title": "베를린 장벽 붕괴",
+      "description": "베를린 장벽의 개방으로 동유럽 공산 정권의 몰락과 냉전 시대의 종식을 알리는 상징적 사건이 되다."
     },
     {
       "id": "9_11",
@@ -297,6 +616,39 @@
       "branchName": "기술혁명",
       "title": "스마트폰 혁명과 디지털 대전환",
       "description": "애플의 첫 아이폰 출시와 모바일 인터넷 대중화로 현대 사회의 소통, 경제, 문화적 연결이 완전히 모바일 중심으로 재편되다."
+    },
+    {
+      "id": "obama_election",
+      "date": {
+        "year": 2008
+      },
+      "parentId": "digital_revolution",
+      "color": "#3b82f6",
+      "branchName": "현대",
+      "title": "버락 오바마 대통령 당선",
+      "description": "버락 오바마가 제44대 미국 대통령으로 당선되며 미국 역사상 최초의 아프리카계 미국인 대통령이 탄생하다."
+    },
+    {
+      "id": "affordable_care_act",
+      "date": {
+        "year": 2010
+      },
+      "parentId": "obama_election",
+      "color": "#3b82f6",
+      "branchName": "현대",
+      "title": "의료개혁법(오바마케어) 서명",
+      "description": "오바마 대통령이 포괄적 의료보험 개혁안에 서명하여 수천만 명의 무보험 미국인들에게 의료 서비스 접근권을 확대하다."
+    },
+    {
+      "id": "covid_pandemic",
+      "date": {
+        "year": 2020
+      },
+      "parentId": "affordable_care_act",
+      "color": "#ef4444",
+      "branchName": "현대",
+      "title": "COVID-19 팬데믹 전 세계 확산",
+      "description": "신종 코로나바이러스 감염증의 유행으로 전례 없는 봉쇄 조치, 휴교령, 전 세계적인 경제 침체 및 보건 위기가 발생하다."
     }
   ]
 }
