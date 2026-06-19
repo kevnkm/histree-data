@@ -4,30 +4,100 @@
   "color": "#e11d48",
   "eras": [
     {
-      "id": "ancient_feudal",
-      "name": "고전 · 봉건 시대",
+      "id": "prehistoric",
+      "name": "선사 시대 (조몬 · 야요이)",
       "startDate": {
-        "year": 500
+        "year": -14000
+      },
+      "endDate": {
+        "year": 250
+      }
+    },
+    {
+      "id": "kofun_asuka",
+      "name": "고분 · 아스카 시대",
+      "startDate": {
+        "year": 250
+      },
+      "endDate": {
+        "year": 710
+      }
+    },
+    {
+      "id": "nara",
+      "name": "나라 시대",
+      "startDate": {
+        "year": 710
+      },
+      "endDate": {
+        "year": 794
+      }
+    },
+    {
+      "id": "heian",
+      "name": "헤이안 시대",
+      "startDate": {
+        "year": 794
+      },
+      "endDate": {
+        "year": 1185
+      }
+    },
+    {
+      "id": "kamakura",
+      "name": "가마쿠라 시대",
+      "startDate": {
+        "year": 1185
+      },
+      "endDate": {
+        "year": 1336
+      }
+    },
+    {
+      "id": "muromachi_sengoku",
+      "name": "무로마치 · 전국 시대",
+      "startDate": {
+        "year": 1336
       },
       "endDate": {
         "year": 1603
       }
     },
     {
-      "id": "edo_meiji",
-      "name": "에도 · 메이지 시대",
+      "id": "edo",
+      "name": "에도 시대",
       "startDate": {
         "year": 1603
+      },
+      "endDate": {
+        "year": 1868
+      }
+    },
+    {
+      "id": "meiji",
+      "name": "메이지 시대",
+      "startDate": {
+        "year": 1868
       },
       "endDate": {
         "year": 1912
       }
     },
     {
-      "id": "imperial_postwar",
-      "name": "근현대",
+      "id": "taisho_showa_prewar",
+      "name": "다이쇼 · 전전 쇼와 시대",
       "startDate": {
         "year": 1912
+      },
+      "endDate": {
+        "year": 1945
+      }
+    },
+    {
+      "id": "postwar_modern",
+      "name": "전후 · 현대 (헤이세이 · 레이와)",
+      "startDate": {
+        "year": 1945
       },
       "endDate": {
         "year": 2050
@@ -36,57 +106,158 @@
   ],
   "nodes": [
     {
+      "id": "jomon_period",
+      "date": {
+        "year": -14000
+      },
+      "parentId": null,
+      "lineage": "고전",
+      "categories": [
+        "general"
+      ],
+      "title": "조몬 시대 시작",
+      "description": "수렵과 채집을 생활 기반으로 하고 특유의 새끼줄 문양(승문) 토기를 제작한 일본의 원시 문화가 태동하다."
+    },
+    {
+      "id": "yayoi_period",
+      "date": {
+        "year": -300
+      },
+      "parentId": "jomon_period",
+      "lineage": "고전",
+      "categories": [
+        "general"
+      ],
+      "title": "야요이 시대 시작",
+      "description": "벼농사 기술과 청동기·철기 문화가 전래되며 수렵 채집 사회에서 농경 사회로 본격 전환되다."
+    },
+    {
       "id": "introduction_of_buddhism",
       "date": {
         "year": 552
       },
-      "parentId": null,
-      "color": "#10b981",
-      "branchName": "고전",
+      "parentId": "yayoi_period",
+      "lineage": "고전",
+      "categories": [
+        "culture"
+      ],
       "title": "불교의 공식 전래",
       "description": "백제 성왕에 의해 불교 경전과 불상이 일본에 공식 전해지며, 이후 고전 문화와 아스카 시대 국가 체제 정비에 큰 영향을 미치다."
+    },
+    {
+      "id": "shotoku_regency",
+      "date": {
+        "year": 593
+      },
+      "parentId": "introduction_of_buddhism",
+      "lineage": "고전",
+      "categories": [
+        "politics"
+      ],
+      "title": "쇼토쿠 태자의 섭정 시작",
+      "description": "쇼토쿠 태자가 고구려, 백제 등 선진 학문을 적극 수용하고 불교를 장려하며 아스카 문화의 기틀을 마련하다."
     },
     {
       "id": "shotoku_constitution",
       "date": {
         "year": 604
       },
-      "parentId": "introduction_of_buddhism",
-      "color": "#8b5cf6",
-      "branchName": "고전",
+      "parentId": "shotoku_regency",
+      "lineage": "고전",
+      "categories": [
+        "politics"
+      ],
       "title": "쇼토쿠 태자의 헌법 제정",
       "description": "쇼토쿠 태자가 불교와 유교적 덕목을 담은 17조 헌법을 반포하여 국가의 도덕적 체제를 정비하다."
+    },
+    {
+      "id": "taika_reforms",
+      "date": {
+        "year": 645
+      },
+      "parentId": "shotoku_constitution",
+      "lineage": "고전",
+      "categories": [
+        "politics"
+      ],
+      "title": "다이카 개신",
+      "description": "소가 씨 정권 몰락 후 한반도와 당나라의 제도를 받아들여 천황 중심의 중앙 집권적 율령 국가 체제를 다진 개혁."
     },
     {
       "id": "nara_period",
       "date": {
         "year": 710
       },
-      "parentId": "shotoku_constitution",
-      "color": "#10b981",
-      "branchName": "고전",
+      "parentId": "taika_reforms",
+      "lineage": "고전",
+      "categories": [
+        "politics"
+      ],
       "title": "나라 시대 시작",
       "description": "헤이조쿄(나라)가 수도로 지정되어 고전 문화가 본격화되다."
+    },
+    {
+      "id": "kojiki_nihon_shoki",
+      "date": {
+        "year": 712
+      },
+      "parentId": "nara_period",
+      "lineage": "고전",
+      "categories": [
+        "culture"
+      ],
+      "title": "고사기와 일본서기 편찬",
+      "description": "일본 최고의 역사서이자 건국 신화, 황실 계보를 체계적으로 기록한 고사기와 일본서기가 편찬되다."
+    },
+    {
+      "id": "manyoshu_compiled",
+      "date": {
+        "year": 759
+      },
+      "parentId": "kojiki_nihon_shoki",
+      "lineage": "고전",
+      "categories": [
+        "culture"
+      ],
+      "title": "만엽집(만요슈) 편찬",
+      "description": "현존하는 일본 가장 오래된 시가집으로, 천황부터 하급 관리, 서민에 이르는 다양한 계층의 시 4,500여 수가 수록되다."
     },
     {
       "id": "heian_period",
       "date": {
         "year": 794
       },
-      "parentId": "nara_period",
-      "color": "#60a5fa",
-      "branchName": "고전",
+      "parentId": "manyoshu_compiled",
+      "lineage": "고전",
+      "categories": [
+        "politics"
+      ],
       "title": "헤이안 시대",
       "description": "수도가 헤이안쿄(교토)로 이전하며 예술과 귀족 문화의 황금기가 도래하다."
+    },
+    {
+      "id": "tale_of_genji",
+      "date": {
+        "year": 1008
+      },
+      "parentId": "heian_period",
+      "lineage": "고전",
+      "categories": [
+        "culture"
+      ],
+      "title": "겐지 이야기 집필",
+      "description": "무라사키 시키부가 세계 최초의 장편 소설로 평가받는 '겐지 이야기'를 저술하여 헤이안 귀족 문화의 정수를 보여주다."
     },
     {
       "id": "kamakura_shogunate",
       "date": {
         "year": 1185
       },
-      "parentId": "heian_period",
-      "color": "#fbbf24",
-      "branchName": "봉건",
+      "parentId": "tale_of_genji",
+      "lineage": "봉건",
+      "categories": [
+        "politics"
+      ],
       "title": "가마쿠라 막부",
       "description": "미나모토노 요리토모가 쇼군 막부를 세워 무사 중심의 봉건 시대가 시작되다."
     },
@@ -96,30 +267,62 @@
         "year": 1274
       },
       "parentId": "kamakura_shogunate",
-      "color": "#ef4444",
-      "branchName": "전쟁",
+      "lineage": "전쟁",
+      "categories": [
+        "war"
+      ],
       "title": "여몽 연합군의 일본 원정",
       "description": "원나라와 고려 연합군의 대규모 침공을 두 차례 맞이하였으나, 카미카제라 불린 태풍의 영향 등으로 격퇴하다."
+    },
+    {
+      "id": "kenmu_restoration",
+      "date": {
+        "year": 1333
+      },
+      "parentId": "mongol_invasions",
+      "lineage": "고전",
+      "categories": [
+        "politics"
+      ],
+      "title": "겐무 신정",
+      "description": "고다이고 천황이 가마쿠라 막부를 타도하고 잠시 천황 친정을 실현하였으나, 곧 무로마치 막부가 성립되는 계기가 되다."
     },
     {
       "id": "muromachi_shogunate",
       "date": {
         "year": 1336
       },
-      "parentId": "kamakura_shogunate",
-      "color": "#6366f1",
-      "branchName": "봉건",
+      "parentId": "kenmu_restoration",
+      "lineage": "봉건",
+      "categories": [
+        "politics"
+      ],
       "title": "무로마치 막부 개창",
       "description": "아시카가 다카우지가 교토에 막부를 수립하여 다도, 렌가 등 독자적 중세 문화를 발달시키는 동시에 영주들의 권한을 확대시키다."
+    },
+    {
+      "id": "onin_war",
+      "date": {
+        "year": 1467
+      },
+      "parentId": "muromachi_shogunate",
+      "lineage": "전쟁",
+      "categories": [
+        "war"
+      ],
+      "title": "오닌의 난",
+      "description": "쇼군의 후계 구도를 둘러싼 갈등으로 수도 교토가 황폐화되고, 100여 년간 지속된 전국(센고쿠) 시대가 시작되다."
     },
     {
       "id": "sengoku_period",
       "date": {
         "year": 1467
       },
-      "parentId": "muromachi_shogunate",
-      "color": "#f43f5e",
-      "branchName": "봉건",
+      "parentId": "onin_war",
+      "lineage": "봉건",
+      "categories": [
+        "politics"
+      ],
       "title": "전국 시대",
       "description": "오닌의 난으로 쇼군의 권위가 붕괴되고 다이묘들의 치열한 내전 시대가 열리다."
     },
@@ -129,19 +332,62 @@
         "year": 1543
       },
       "parentId": "sengoku_period",
-      "color": "#f97316",
-      "branchName": "봉건",
+      "lineage": "봉건",
+      "categories": [
+        "general"
+      ],
       "title": "조총 전래 (포르투갈과의 접촉)",
       "description": "다네가시마에 표착한 포르투갈 상인을 통해 화승총(조총)이 처음 도입되어 다이묘들의 군사 전술과 일본 역사에 커다란 변화를 가져오다."
+    },
+    {
+      "id": "christianity_introduction",
+      "date": {
+        "year": 1549
+      },
+      "parentId": "portuguese_contact",
+      "lineage": "봉건",
+      "categories": [
+        "general"
+      ],
+      "title": "크리스트교 전래",
+      "description": "예수회 선교사 프란치스코 하비에르가 가고시마에 도착하여 일본에 최초로 크리스트교를 포교하다."
+    },
+    {
+      "id": "toyotomi_unification",
+      "date": {
+        "year": 1590
+      },
+      "parentId": "christianity_introduction",
+      "lineage": "봉건",
+      "categories": [
+        "politics"
+      ],
+      "title": "전국 시대 통일",
+      "description": "도요토미 히데요시가 적대 세력들을 굴복시키고 전국 시대를 종식하며 일본 열도의 통일을 완수하다."
+    },
+    {
+      "id": "battle_of_sekigahara",
+      "date": {
+        "year": 1600
+      },
+      "parentId": "toyotomi_unification",
+      "lineage": "전쟁",
+      "categories": [
+        "war"
+      ],
+      "title": "세키가하라 전투",
+      "description": "도쿠가와 이에야스가 이끄는 동군이 서군 세력을 격파하고 패권을 장악하여, 에도 막부 개창의 결정적 계기를 마련하다."
     },
     {
       "id": "tokugawa_shogunate",
       "date": {
         "year": 1603
       },
-      "parentId": "sengoku_period",
-      "color": "#c084fc",
-      "branchName": "에도시대",
+      "parentId": "battle_of_sekigahara",
+      "lineage": "에도시대",
+      "categories": [
+        "politics"
+      ],
       "title": "도쿠가와 막부 (에도시대)",
       "description": "도쿠가와 이에야스가 정권을 잡아 에도를 중심으로 장기 평화와 쇄국 정책의 틀을 잡다."
     },
@@ -151,8 +397,10 @@
         "year": 1635
       },
       "parentId": "tokugawa_shogunate",
-      "color": "#e11d48",
-      "branchName": "에도시대",
+      "lineage": "에도시대",
+      "categories": [
+        "politics"
+      ],
       "title": "쇄국령 반포",
       "description": "도쿠가와 막부가 해외 도항 금지 및 크리스트교 포교 금지를 강화하며 외국과의 문호를 철저히 걸어잠그는 정책을 법제화하다."
     },
@@ -162,41 +410,114 @@
         "year": 1688
       },
       "parentId": "tokugawa_shogunate",
-      "color": "#ec4899",
-      "branchName": "에도시대",
+      "lineage": "에도시대",
+      "categories": [
+        "culture"
+      ],
       "title": "겐로쿠 에도 문화",
       "description": "도시 상인 계층(조닌)을 중심으로 우키요에 판화, 가부키 극, 하이쿠 문학 등이 꽃피우다."
+    },
+    {
+      "id": "black_ships",
+      "date": {
+        "year": 1853
+      },
+      "parentId": "edo_culture",
+      "lineage": "에도시대",
+      "categories": [
+        "politics"
+      ],
+      "title": "페리 제독의 흑선 내항",
+      "description": "미국의 페리 제독이 이끄는 군함(흑선)이 에도만에 나타나 개항을 요구하여, 약 200년간 지속된 쇄국 정책이 종식되다."
     },
     {
       "id": "meiji_restoration",
       "date": {
         "year": 1868
       },
-      "parentId": "tokugawa_shogunate",
-      "color": "#3b82f6",
-      "branchName": "근대화",
+      "parentId": "black_ships",
+      "lineage": "근대화",
+      "categories": [
+        "politics"
+      ],
       "title": "메이지 유신",
       "description": "쇼군 지배가 종식되고 천황 직접 통치로 회귀하여 국가 전반의 근대화를 추진하다."
+    },
+    {
+      "id": "satsuma_rebellion",
+      "date": {
+        "year": 1877
+      },
+      "parentId": "meiji_restoration",
+      "lineage": "전쟁",
+      "categories": [
+        "war"
+      ],
+      "title": "사쓰마 반란 (세이난 전쟁)",
+      "description": "사이고 다카모리가 이끄는 불평 무사들이 메이지 정부의 급진적 개혁에 반대해 일으킨 일본 마지막 무사 반란."
+    },
+    {
+      "id": "meiji_constitution",
+      "date": {
+        "year": 1889
+      },
+      "parentId": "satsuma_rebellion",
+      "lineage": "근대화",
+      "categories": [
+        "politics"
+      ],
+      "title": "대일본제국 헌법 반포",
+      "description": "아시아 최초로 근대적 헌법을 반포하고 의회(제국의회)를 개설하여 입헌군주제 체제를 확립하다."
     },
     {
       "id": "sino_japanese_war",
       "date": {
         "year": 1894
       },
-      "parentId": "meiji_restoration",
-      "color": "#f43f5e",
-      "branchName": "근대화",
+      "parentId": "meiji_constitution",
+      "lineage": "근대화",
+      "categories": [
+        "war"
+      ],
       "title": "청일 전쟁 발발",
       "description": "일본이 근대화된 군사력을 바탕으로 청나라를 꺾고 동아시아의 패권을 장악하는 계기를 마련하다."
+    },
+    {
+      "id": "russo_japanese_war",
+      "date": {
+        "year": 1904
+      },
+      "parentId": "sino_japanese_war",
+      "lineage": "근대화",
+      "categories": [
+        "war"
+      ],
+      "title": "러일 전쟁 발발",
+      "description": "한반도와 만주의 지배권을 둘러싸고 러시아 제국과 벌인 전쟁에서 일본이 승리하며, 국제 사회에서 강대국으로 급부상하다."
+    },
+    {
+      "id": "annexation_of_korea",
+      "date": {
+        "year": 1910
+      },
+      "parentId": "russo_japanese_war",
+      "lineage": "전쟁",
+      "categories": [
+        "politics"
+      ],
+      "title": "한일 강제 병합",
+      "description": "경술국치를 통해 대한제국의 국권을 침탈하고 한반도를 식민 지배 하에 두게 되다."
     },
     {
       "id": "taisho_democracy",
       "date": {
         "year": 1912
       },
-      "parentId": "meiji_restoration",
-      "color": "#06b6d4",
-      "branchName": "제국/쇼와",
+      "parentId": "annexation_of_korea",
+      "lineage": "제국/쇼와",
+      "categories": [
+        "politics"
+      ],
       "title": "다이쇼 데모크라시",
       "description": "다이쇼 천황 시기에 정당 내각제 도입 운동과 시민권 의식 신장, 문화적 자유주의가 확산되다."
     },
@@ -206,8 +527,10 @@
         "year": 1923
       },
       "parentId": "taisho_democracy",
-      "color": "#f97316",
-      "branchName": "제국/쇼와",
+      "lineage": "제국/쇼와",
+      "categories": [
+        "general"
+      ],
       "title": "관동 대지진 발생",
       "description": "도쿄와 요코하마를 강타한 대재앙으로 도시가 파괴되고 사회적 혼란과 경제적 침체가 이어지다."
     },
@@ -217,19 +540,49 @@
         "year": 1926
       },
       "parentId": "great_kanto_earthquake",
-      "color": "#fb923c",
-      "branchName": "제국/쇼와",
+      "lineage": "제국/쇼와",
+      "categories": [
+        "politics"
+      ],
       "title": "쇼와 시대 시작",
       "description": "히로히토 천황 즉위 후 군국주의 팽창을 거쳐 전후 민주주의 국가로 탈바꿈하기까지의 시기."
+    },
+    {
+      "id": "manchurian_incident",
+      "date": {
+        "year": 1931
+      },
+      "parentId": "showa_period",
+      "lineage": "전쟁",
+      "categories": [
+        "war"
+      ],
+      "title": "만주사변",
+      "description": "일본 관동군이 선로 폭파 사건을 조작하여 만주를 침공하고 괴뢰국인 만주국을 수립하며 본격적인 침략 전쟁의 길로 들어서다."
+    },
+    {
+      "id": "second_sino_japanese_war",
+      "date": {
+        "year": 1937
+      },
+      "parentId": "manchurian_incident",
+      "lineage": "전쟁",
+      "categories": [
+        "war"
+      ],
+      "title": "중일전쟁 발발",
+      "description": "노구교 사건을 계기로 일본과 중국 사이의 전면적인 전쟁이 발발하여 아시아 일대로 전선이 확대되다."
     },
     {
       "id": "wwii_japan",
       "date": {
         "year": 1941
       },
-      "parentId": "showa_period",
-      "color": "#ef4444",
-      "branchName": "제국/쇼와",
+      "parentId": "second_sino_japanese_war",
+      "lineage": "제국/쇼와",
+      "categories": [
+        "war"
+      ],
       "title": "진주만 습격 및 태평양 전쟁 참전",
       "description": "일본이 하와이 진주만을 선제 기습 공격하여 미국과의 전면적인 태평양 전쟁에 진입하다."
     },
@@ -239,8 +592,10 @@
         "year": 1945
       },
       "parentId": "wwii_japan",
-      "color": "#e11d48",
-      "branchName": "제국/쇼와",
+      "lineage": "제국/쇼와",
+      "categories": [
+        "war"
+      ],
       "title": "원자폭탄 투하 및 항복",
       "description": "미국이 히로시마와 나가사키에 원자폭탄을 투하하자 일본이 무조건 항복을 선언하며 전쟁이 끝내 종식되다."
     },
@@ -250,19 +605,49 @@
         "year": 1950
       },
       "parentId": "hiroshima",
-      "color": "#10b981",
-      "branchName": "근대",
+      "lineage": "근대",
+      "categories": [
+        "economy"
+      ],
       "title": "전후 고도경제성장",
       "description": "산업 인프라 재건과 제조업 수출 확대를 바탕으로 초고속 경제 성장 신화를 쓰다."
+    },
+    {
+      "id": "treaty_of_san_francisco",
+      "date": {
+        "year": 1951
+      },
+      "parentId": "post_war_economic_miracle",
+      "lineage": "근대",
+      "categories": [
+        "politics"
+      ],
+      "title": "샌프란시스코 강화조약 체결",
+      "description": "연합국과의 강화조약 체결로 제2차 세계대전을 공식 종결하고 전후 일본의 주권을 회복하다."
+    },
+    {
+      "id": "minamata_disease",
+      "date": {
+        "year": 1956
+      },
+      "parentId": "treaty_of_san_francisco",
+      "lineage": "근대",
+      "categories": [
+        "general"
+      ],
+      "title": "미나마타병 공식 확인",
+      "description": "메틸수은에 오염된 어패류 섭취로 인한 공해병인 미나마타병이 공식 확인되어 공해 문제와 환경 규제 강화의 시발점이 되다."
     },
     {
       "id": "tokyo_olympics",
       "date": {
         "year": 1964
       },
-      "parentId": "post_war_economic_miracle",
-      "color": "#3b82f6",
-      "branchName": "근대",
+      "parentId": "minamata_disease",
+      "lineage": "근대",
+      "categories": [
+        "culture"
+      ],
       "title": "도쿄 하계 올림픽 개최",
       "description": "전후 재건에 성공한 모습을 전 세계에 알리며 평화로운 국제 사회 복귀를 각인시키다."
     },
@@ -272,10 +657,51 @@
         "year": 1989
       },
       "parentId": "tokyo_olympics",
-      "color": "#f97316",
-      "branchName": "근대",
+      "lineage": "근대",
+      "categories": [
+        "economy"
+      ],
       "title": "자산 거품 경제의 정점",
       "description": "비정상적으로 팽창했던 부동산 및 주식 시장의 버블이 최고조에 달한 뒤 붕괴하며 이른바 '잃어버린 10년'의 장기 불황이 시작되다."
+    },
+    {
+      "id": "hanshin_sarin_1995",
+      "date": {
+        "year": 1995
+      },
+      "parentId": "bubble_economy",
+      "lineage": "근대",
+      "categories": [
+        "general"
+      ],
+      "title": "한신·아와지 대지진 및 지하철 사린 사건",
+      "description": "고베 일대를 강타한 대지진과 도쿄 지하철 사린 가스 테러 사건이 잇달아 발생하며 큰 사회적 충격을 주다."
+    },
+    {
+      "id": "tohoku_earthquake",
+      "date": {
+        "year": 2011
+      },
+      "parentId": "hanshin_sarin_1995",
+      "lineage": "근대",
+      "categories": [
+        "general"
+      ],
+      "title": "동일본 대지진 및 원전 사고",
+      "description": "도호쿠 지방을 강타한 규모 9.0의 대지진과 거대 쓰나미로 막대한 인명 피해가 발생하고, 후쿠시마 제1원전 방사능 누출 사고가 발생하다."
+    },
+    {
+      "id": "reiwa_era",
+      "date": {
+        "year": 2019
+      },
+      "parentId": "tohoku_earthquake",
+      "lineage": "근대",
+      "categories": [
+        "politics"
+      ],
+      "title": "레이와 시대 시작",
+      "description": "아키히토 천황의 생전 퇴위로 나루히토 천황이 즉위하며 새로운 연호인 레이와 시대가 막을 열다."
     }
   ]
 }
