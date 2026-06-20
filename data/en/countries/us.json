@@ -51,8 +51,10 @@
         "year": 1607
       },
       "parentId": null,
-      "color": "#fbbf24",
-      "branchName": "Colonial",
+      "lineage": "Colonial",
+      "categories": [
+        "general"
+      ],
       "title": "Jamestown Settlement",
       "description": "The first permanent English settlement is established in Virginia, initiating colonial growth."
     },
@@ -62,8 +64,10 @@
         "year": 1619
       },
       "parentId": "jamestown_settlement",
-      "color": "#fbbf24",
-      "branchName": "Colonial",
+      "lineage": "Colonial",
+      "categories": [
+        "politics"
+      ],
       "title": "House of Burgesses Established",
       "description": "The first representative legislative assembly in the American colonies is established in Virginia, laying seeds for representative democracy."
     },
@@ -73,30 +77,62 @@
         "year": 1620
       },
       "parentId": "house_of_burgesses",
-      "color": "#10b981",
-      "branchName": "Colonial",
+      "lineage": "Colonial",
+      "categories": [
+        "politics"
+      ],
       "title": "Mayflower Compact Signed",
       "description": "Pilgrim settlers sign the compact aboard the Mayflower, creating one of the earliest frameworks for self-governance in the New World."
+    },
+    {
+      "id": "harvard_foundation",
+      "date": {
+        "year": 1636
+      },
+      "parentId": "mayflower_compact",
+      "lineage": "Colonial",
+      "categories": [
+        "culture"
+      ],
+      "title": "Harvard College Founded",
+      "description": "The first institution of higher learning in the American colonies is established in Massachusetts."
     },
     {
       "id": "salem_witch_trials",
       "date": {
         "year": 1692
       },
-      "parentId": "mayflower_compact",
-      "color": "#f97316",
-      "branchName": "Colonial",
+      "parentId": "harvard_foundation",
+      "lineage": "Colonial",
+      "categories": [
+        "general"
+      ],
       "title": "Salem Witch Trials",
       "description": "A series of hearings and prosecutions of people accused of witchcraft in colonial Massachusetts, reflecting intense social and religious anxieties."
+    },
+    {
+      "id": "great_awakening",
+      "date": {
+        "year": 1730
+      },
+      "parentId": "salem_witch_trials",
+      "lineage": "Colonial",
+      "categories": [
+        "culture"
+      ],
+      "title": "First Great Awakening Begins",
+      "description": "A series of Christian revivals sweeps the colonies, fostering a shared American identity and challenging traditional authority."
     },
     {
       "id": "french_indian_war",
       "date": {
         "year": 1754
       },
-      "parentId": "salem_witch_trials",
-      "color": "#f43f5e",
-      "branchName": "Colonial",
+      "parentId": "great_awakening",
+      "lineage": "Colonial",
+      "categories": [
+        "war"
+      ],
       "title": "French and Indian War Begins",
       "description": "Conflict begins between Great Britain and France (with Native American allies) for control of North America, leading to massive British debt and colonial taxes."
     },
@@ -106,19 +142,36 @@
         "year": 1773
       },
       "parentId": "french_indian_war",
-      "color": "#f97316",
-      "branchName": "Revolution",
+      "lineage": "Revolution",
+      "categories": [
+        "politics"
+      ],
       "title": "Boston Tea Party",
       "description": "American colonists protest British taxation by dumping tea into Boston Harbor, fueling revolutionary sentiment."
+    },
+    {
+      "id": "lexington_concord",
+      "date": {
+        "year": 1775
+      },
+      "parentId": "boston_tea_party",
+      "lineage": "Revolution",
+      "categories": [
+        "war"
+      ],
+      "title": "Battles of Lexington and Concord",
+      "description": "The first military engagements of the American Revolutionary War occur in Massachusetts, starting the armed conflict."
     },
     {
       "id": "declaration_independence",
       "date": {
         "year": 1776
       },
-      "parentId": "boston_tea_party",
-      "color": "#ef4444",
-      "branchName": "Revolution",
+      "parentId": "lexington_concord",
+      "lineage": "Revolution",
+      "categories": [
+        "politics"
+      ],
       "title": "Declaration of Independence",
       "description": "The Continental Congress declares independence from Great Britain, starting the Revolutionary War."
     },
@@ -128,8 +181,10 @@
         "year": 1783
       },
       "parentId": "declaration_independence",
-      "color": "#ef4444",
-      "branchName": "Revolution",
+      "lineage": "Revolution",
+      "categories": [
+        "politics"
+      ],
       "title": "Treaty of Paris Signed",
       "description": "Great Britain formally recognizes American independence, officially ending the Revolutionary War."
     },
@@ -139,8 +194,10 @@
         "year": 1787
       },
       "parentId": "treaty_of_paris",
-      "color": "#3b82f6",
-      "branchName": "Founding",
+      "lineage": "Founding",
+      "categories": [
+        "politics"
+      ],
       "title": "US Constitution Drafted",
       "description": "Delegates gather at Philadelphia to draft the Constitution, establishing the federal republic."
     },
@@ -150,8 +207,10 @@
         "year": 1791
       },
       "parentId": "constitutional_convention",
-      "color": "#3b82f6",
-      "branchName": "Founding",
+      "lineage": "Founding",
+      "categories": [
+        "politics"
+      ],
       "title": "Bill of Rights Ratified",
       "description": "The first ten amendments to the Constitution are ratified, securing key personal freedoms and limiting government power."
     },
@@ -161,8 +220,10 @@
         "year": 1803
       },
       "parentId": "bill_of_rights",
-      "color": "#10b981",
-      "branchName": "Expansion",
+      "lineage": "Expansion",
+      "categories": [
+        "politics"
+      ],
       "title": "Louisiana Purchase",
       "description": "The United States purchases Louisiana Territory from France, doubling the national domain."
     },
@@ -172,8 +233,10 @@
         "year": 1804
       },
       "parentId": "louisiana_purchase",
-      "color": "#10b981",
-      "branchName": "Expansion",
+      "lineage": "Expansion",
+      "categories": [
+        "general"
+      ],
       "title": "Lewis and Clark Expedition",
       "description": "Meriwether Lewis and William Clark embark on an expedition to map and explore the newly acquired western territories."
     },
@@ -183,19 +246,36 @@
         "year": 1812
       },
       "parentId": "lewis_clark_expedition",
-      "color": "#f43f5e",
-      "branchName": "Conflict",
+      "lineage": "Conflict",
+      "categories": [
+        "war"
+      ],
       "title": "War of 1812",
       "description": "The United States declares war against Great Britain over maritime rights and trade restrictions, consolidating its national sovereignty."
+    },
+    {
+      "id": "missouri_compromise",
+      "date": {
+        "year": 1820
+      },
+      "parentId": "war_of_1812",
+      "lineage": "Expansion",
+      "categories": [
+        "politics"
+      ],
+      "title": "Missouri Compromise",
+      "description": "Federal legislation admits Maine as a free state and Missouri as a slave state, attempting to balance political power between North and South."
     },
     {
       "id": "monroe_doctrine",
       "date": {
         "year": 1823
       },
-      "parentId": "war_of_1812",
-      "color": "#3b82f6",
-      "branchName": "Founding",
+      "parentId": "missouri_compromise",
+      "lineage": "Founding",
+      "categories": [
+        "politics"
+      ],
       "title": "Monroe Doctrine Declared",
       "description": "President James Monroe warns European powers against further colonization or intervention in the Americas."
     },
@@ -205,19 +285,36 @@
         "year": 1825
       },
       "parentId": "monroe_doctrine",
-      "color": "#06b6d4",
-      "branchName": "Expansion",
+      "lineage": "Expansion",
+      "categories": [
+        "economy"
+      ],
       "title": "Erie Canal Completed",
       "description": "The canal connects the Great Lakes with the Atlantic Ocean via the Hudson River, sparking economic expansion and trade."
+    },
+    {
+      "id": "battle_of_alamo",
+      "date": {
+        "year": 1836
+      },
+      "parentId": "erie_canal",
+      "lineage": "Conflict",
+      "categories": [
+        "war"
+      ],
+      "title": "Battle of the Alamo",
+      "description": "Texan defenders are defeated by the Mexican army at the Alamo, becoming a symbol of heroic resistance in the Texas Revolution."
     },
     {
       "id": "trail_of_tears",
       "date": {
         "year": 1838
       },
-      "parentId": "erie_canal",
-      "color": "#f97316",
-      "branchName": "Conflict",
+      "parentId": "battle_of_alamo",
+      "lineage": "Conflict",
+      "categories": [
+        "general"
+      ],
       "title": "Trail of Tears",
       "description": "The forced relocation of Cherokee and other Native American nations results in thousands of deaths along the journey west."
     },
@@ -227,8 +324,10 @@
         "year": 1845
       },
       "parentId": "trail_of_tears",
-      "color": "#84cc16",
-      "branchName": "Expansion",
+      "lineage": "Expansion",
+      "categories": [
+        "politics"
+      ],
       "title": "Manifest Destiny & Texas",
       "description": "Texas is annexed as the U.S. embraces the ideology of westward continental expansion."
     },
@@ -238,8 +337,10 @@
         "year": 1848
       },
       "parentId": "manifest_destiny",
-      "color": "#fbbf24",
-      "branchName": "Expansion",
+      "lineage": "Expansion",
+      "categories": [
+        "economy"
+      ],
       "title": "California Gold Rush",
       "description": "Gold discovered at Sutter's Mill triggers a massive migration of over 300,000 people to California, accelerating western integration."
     },
@@ -249,19 +350,49 @@
         "year": 1848
       },
       "parentId": "gold_rush",
-      "color": "#ec4899",
-      "branchName": "Social",
+      "lineage": "Social",
+      "categories": [
+        "culture"
+      ],
       "title": "Seneca Falls Convention",
       "description": "The first women's rights convention launches the organized struggle for women's suffrage and equality."
+    },
+    {
+      "id": "compromise_1850",
+      "date": {
+        "year": 1850
+      },
+      "parentId": "seneca_falls",
+      "lineage": "Conflict",
+      "categories": [
+        "politics"
+      ],
+      "title": "Compromise of 1850",
+      "description": "A package of five bills defuses a major political confrontation over territories acquired during the Mexican-American War, including a stricter Fugitive Slave Act."
+    },
+    {
+      "id": "lincoln_election",
+      "date": {
+        "year": 1860
+      },
+      "parentId": "compromise_1850",
+      "lineage": "Conflict",
+      "categories": [
+        "politics"
+      ],
+      "title": "Abraham Lincoln Elected President",
+      "description": "Lincoln's victory triggers the secession of several Southern states, directly leading to the outbreak of the Civil War."
     },
     {
       "id": "civil_war",
       "date": {
         "year": 1861
       },
-      "parentId": "seneca_falls",
-      "color": "#f43f5e",
-      "branchName": "Conflict",
+      "parentId": "lincoln_election",
+      "lineage": "Conflict",
+      "categories": [
+        "war"
+      ],
       "title": "American Civil War",
       "description": "Conflict erupts between the Union and the seceded southern Confederacy over slavery and federal sovereignty."
     },
@@ -271,8 +402,10 @@
         "year": 1862
       },
       "parentId": "civil_war",
-      "color": "#84cc16",
-      "branchName": "Expansion",
+      "lineage": "Expansion",
+      "categories": [
+        "politics"
+      ],
       "title": "Homestead Act Signed",
       "description": "President Lincoln signs the act, granting 160 acres of public land to settlers who improve it, accelerating westward settlement."
     },
@@ -282,8 +415,10 @@
         "year": 1863
       },
       "parentId": "homestead_act",
-      "color": "#10b981",
-      "branchName": "Conflict",
+      "lineage": "Conflict",
+      "categories": [
+        "politics"
+      ],
       "title": "Emancipation Proclamation",
       "description": "President Abraham Lincoln declares all slaves in confederate-held territory free, redefining the war's purpose."
     },
@@ -293,19 +428,36 @@
         "year": 1863
       },
       "parentId": "emancipation_proclamation",
-      "color": "#10b981",
-      "branchName": "Conflict",
+      "lineage": "Conflict",
+      "categories": [
+        "politics"
+      ],
       "title": "Gettysburg Address",
       "description": "President Lincoln delivers a historic speech at Gettysburg, redefining the Civil War as a struggle for human equality and democracy."
+    },
+    {
+      "id": "reconstruction_era",
+      "date": {
+        "year": 1865
+      },
+      "parentId": "gettysburg_address",
+      "lineage": "Conflict",
+      "categories": [
+        "politics"
+      ],
+      "title": "Reconstruction Era Begins",
+      "description": "The nation begins the complex process of rebuilding the South and integrating millions of newly freed African Americans into society."
     },
     {
       "id": "alaska_purchase",
       "date": {
         "year": 1867
       },
-      "parentId": "gettysburg_address",
-      "color": "#10b981",
-      "branchName": "Expansion",
+      "parentId": "reconstruction_era",
+      "lineage": "Expansion",
+      "categories": [
+        "politics"
+      ],
       "title": "Alaska Purchased from Russia",
       "description": "The United States acquires Alaska from the Russian Empire for $7.2 million, adding a vast, resource-rich territory."
     },
@@ -315,8 +467,10 @@
         "year": 1869
       },
       "parentId": "alaska_purchase",
-      "color": "#06b6d4",
-      "branchName": "Industrial",
+      "lineage": "Industrial",
+      "categories": [
+        "economy"
+      ],
       "title": "Transcontinental Railroad Completed",
       "description": "The Golden Spike is driven in Promontory Summit, Utah, connecting the Atlantic and Pacific coasts by rail."
     },
@@ -326,8 +480,10 @@
         "year": 1870
       },
       "parentId": "transcontinental_railroad",
-      "color": "#fbbf24",
-      "branchName": "Industrial",
+      "lineage": "Industrial",
+      "categories": [
+        "economy"
+      ],
       "title": "Gilded Age Begins",
       "description": "An era of rapid economic and industrial expansion, coupled with immigration and urbanization."
     },
@@ -337,30 +493,62 @@
         "year": 1890
       },
       "parentId": "gilded_age",
-      "color": "#fbbf24",
-      "branchName": "Industrial",
+      "lineage": "Industrial",
+      "categories": [
+        "politics"
+      ],
       "title": "Sherman Antitrust Act",
       "description": "The first federal action to limit monopolies and cartels, laying the foundation for modern corporate regulation."
+    },
+    {
+      "id": "wounded_knee_massacre",
+      "date": {
+        "year": 1890
+      },
+      "parentId": "sherman_antitrust",
+      "lineage": "Conflict",
+      "categories": [
+        "war"
+      ],
+      "title": "Wounded Knee Massacre",
+      "description": "U.S. cavalry troops massacre nearly 300 Lakota Sioux, marking the tragic end of the armed Indian Wars on the Great Plains."
     },
     {
       "id": "spanish_american_war",
       "date": {
         "year": 1898
       },
-      "parentId": "sherman_antitrust",
-      "color": "#f43f5e",
-      "branchName": "Conflict",
+      "parentId": "wounded_knee_massacre",
+      "lineage": "Conflict",
+      "categories": [
+        "war"
+      ],
       "title": "Spanish-American War",
       "description": "A brief conflict ending Spanish colonial rule in the Americas and establishing the US as a global power with overseas territories."
+    },
+    {
+      "id": "wright_first_flight",
+      "date": {
+        "year": 1903
+      },
+      "parentId": "spanish_american_war",
+      "lineage": "Industrial",
+      "categories": [
+        "science"
+      ],
+      "title": "Wright Brothers' First Flight",
+      "description": "Orville and Wilbur Wright achieve the first successful sustained, controlled, powered flight of an airplane at Kitty Hawk, North Carolina."
     },
     {
       "id": "pure_food_drug_act",
       "date": {
         "year": 1906
       },
-      "parentId": "spanish_american_war",
-      "color": "#fbbf24",
-      "branchName": "Industrial",
+      "parentId": "wright_first_flight",
+      "lineage": "Industrial",
+      "categories": [
+        "politics"
+      ],
       "title": "Pure Food and Drug Act Signed",
       "description": "Providing for federal inspection of meat products and forbidding the manufacture or sale of adulterated food or medicine."
     },
@@ -370,8 +558,10 @@
         "year": 1914
       },
       "parentId": "pure_food_drug_act",
-      "color": "#06b6d4",
-      "branchName": "Industrial",
+      "lineage": "Industrial",
+      "categories": [
+        "economy"
+      ],
       "title": "Panama Canal Completed",
       "description": "The canal officially opens, connecting the Atlantic and Pacific Oceans, drastically reducing shipping times and projecting global power."
     },
@@ -381,8 +571,10 @@
         "year": 1917
       },
       "parentId": "gilded_age",
-      "color": "#6366f1",
-      "branchName": "World War I",
+      "lineage": "World War I",
+      "categories": [
+        "war"
+      ],
       "title": "U.S. Enters World War I",
       "description": "Abandoning neutrality, the United States joins the Allied Powers, swinging the conflict in their favor."
     },
@@ -392,8 +584,10 @@
         "year": 1920
       },
       "parentId": "ww1_entry",
-      "color": "#ec4899",
-      "branchName": "Social",
+      "lineage": "Social",
+      "categories": [
+        "politics"
+      ],
       "title": "Women's Suffrage Ratified",
       "description": "The 19th Amendment is ratified, securing women the constitutionally guaranteed right to vote."
     },
@@ -403,8 +597,10 @@
         "year": 1920
       },
       "parentId": "women_suffrage",
-      "color": "#ec4899",
-      "branchName": "Social",
+      "lineage": "Social",
+      "categories": [
+        "culture"
+      ],
       "title": "Roaring Twenties Begins",
       "description": "A period of economic prosperity, rapid cultural changes, and social dynamism, characterized by jazz music and flapper culture."
     },
@@ -414,8 +610,10 @@
         "year": 1929
       },
       "parentId": "roaring_twenties",
-      "color": "#fb923c",
-      "branchName": "Crisis",
+      "lineage": "Crisis",
+      "categories": [
+        "economy"
+      ],
       "title": "Great Depression",
       "description": "The Wall Street stock crash launches a decade of deep economic contraction and widespread poverty."
     },
@@ -425,8 +623,10 @@
         "year": 1933
       },
       "parentId": "great_depression",
-      "color": "#22c55e",
-      "branchName": "Crisis",
+      "lineage": "Crisis",
+      "categories": [
+        "politics"
+      ],
       "title": "FDR's New Deal Programs",
       "description": "President Franklin D. Roosevelt launches massive government relief, recovery, and financial reform initiatives."
     },
@@ -436,8 +636,10 @@
         "year": 1941
       },
       "parentId": "new_deal",
-      "color": "#22c55e",
-      "branchName": "Crisis",
+      "lineage": "Crisis",
+      "categories": [
+        "politics"
+      ],
       "title": "Lend-Lease Act",
       "description": "The US begins providing critical military aid to foreign Allies, shifting away from strict isolationism prior to entering WWII."
     },
@@ -447,19 +649,49 @@
         "year": 1941
       },
       "parentId": "lend_lease",
-      "color": "#c084fc",
-      "branchName": "World War II",
+      "lineage": "World War II",
+      "categories": [
+        "war"
+      ],
       "title": "US Enters World War II",
       "description": "Following the attack on Pearl Harbor, the United States declares war and joins the Allies."
+    },
+    {
+      "id": "d_day_landings",
+      "date": {
+        "year": 1944
+      },
+      "parentId": "world_war_2",
+      "lineage": "World War II",
+      "categories": [
+        "war"
+      ],
+      "title": "D-Day & Normandy Landings",
+      "description": "Allied forces launch the largest amphibious invasion in history on the beaches of Normandy, establishing a crucial Western Front against Nazi Germany."
+    },
+    {
+      "id": "atomic_bombings",
+      "date": {
+        "year": 1945
+      },
+      "parentId": "d_day_landings",
+      "lineage": "World War II",
+      "categories": [
+        "war"
+      ],
+      "title": "Atomic Bombings of Hiroshima and Nagasaki",
+      "description": "The United States drops atomic bombs on two Japanese cities, leading to the unconditional surrender of Japan and ending World War II."
     },
     {
       "id": "cold_war_begins",
       "date": {
         "year": 1947
       },
-      "parentId": "world_war_2",
-      "color": "#8b5cf6",
-      "branchName": "Cold War",
+      "parentId": "atomic_bombings",
+      "lineage": "Cold War",
+      "categories": [
+        "politics"
+      ],
       "title": "Truman Doctrine Declared",
       "description": "President Truman pledges support to democratic nations against authoritarian forces, formalizing the Cold War geopolitical structure."
     },
@@ -469,8 +701,10 @@
         "year": 1948
       },
       "parentId": "cold_war_begins",
-      "color": "#8b5cf6",
-      "branchName": "Cold War",
+      "lineage": "Cold War",
+      "categories": [
+        "politics"
+      ],
       "title": "Marshall Plan Enacted",
       "description": "The US launches a massive economic aid initiative to rebuild devastated Western European economies and halt communist expansion."
     },
@@ -480,8 +714,10 @@
         "year": 1950
       },
       "parentId": "marshall_plan",
-      "color": "#8b5cf6",
-      "branchName": "Cold War",
+      "lineage": "Cold War",
+      "categories": [
+        "war"
+      ],
       "title": "Korean War Outbreak",
       "description": "The US leads a UN coalition supporting South Korea, marking the first major hot conflict of the Cold War."
     },
@@ -491,8 +727,10 @@
         "year": 1962
       },
       "parentId": "cold_war_begins",
-      "color": "#8b5cf6",
-      "branchName": "Cold War",
+      "lineage": "Cold War",
+      "categories": [
+        "politics"
+      ],
       "title": "Cuban Missile Crisis",
       "description": "A direct and dangerous confrontation between the United States and the Soviet Union, bringing the two superpowers closest to nuclear conflict."
     },
@@ -502,8 +740,10 @@
         "year": 1963
       },
       "parentId": "cuban_missile_crisis",
-      "color": "#ef4444",
-      "branchName": "Modern",
+      "lineage": "Modern",
+      "categories": [
+        "general"
+      ],
       "title": "Assassination of JFK",
       "description": "President John F. Kennedy is assassinated in Dallas, Texas, shocking the nation and elevating Lyndon B. Johnson to the presidency."
     },
@@ -513,19 +753,36 @@
         "year": 1954
       },
       "parentId": "korean_war",
-      "color": "#ec4899",
-      "branchName": "Civil Rights",
+      "lineage": "Civil Rights",
+      "categories": [
+        "politics"
+      ],
       "title": "Civil Rights Movement",
       "description": "The landmark Brown v. Board decision initiates a decades-long struggle for racial equality led by activists like Martin Luther King Jr."
+    },
+    {
+      "id": "march_on_washington",
+      "date": {
+        "year": 1963
+      },
+      "parentId": "civil_rights_movement",
+      "lineage": "Civil Rights",
+      "categories": [
+        "politics"
+      ],
+      "title": "March on Washington",
+      "description": "Civil rights leaders organize a massive demonstration where Martin Luther King Jr. delivers his famous 'I Have a Dream' speech."
     },
     {
       "id": "voting_rights_act",
       "date": {
         "year": 1965
       },
-      "parentId": "civil_rights_movement",
-      "color": "#ec4899",
-      "branchName": "Civil Rights",
+      "parentId": "march_on_washington",
+      "lineage": "Civil Rights",
+      "categories": [
+        "politics"
+      ],
       "title": "Voting Rights Act Signed",
       "description": "Landmark federal legislation that prohibits racial discrimination in voting, securing franchise for millions of minority voters."
     },
@@ -535,8 +792,10 @@
         "year": 1965
       },
       "parentId": "jfk_assassination",
-      "color": "#f43f5e",
-      "branchName": "Conflict",
+      "lineage": "Conflict",
+      "categories": [
+        "war"
+      ],
       "title": "Vietnam War Troop Deployment",
       "description": "The United States deploys combat troops to South Vietnam, escalating its military role in the containment of Communism."
     },
@@ -546,8 +805,10 @@
         "year": 1969
       },
       "parentId": "world_war_2",
-      "color": "#06b6d4",
-      "branchName": "Space Age",
+      "lineage": "Space Age",
+      "categories": [
+        "science"
+      ],
       "title": "Apollo Moon Landing",
       "description": "Apollo 11 astronaut Neil Armstrong becomes the first human to step on the lunar surface."
     },
@@ -557,30 +818,62 @@
         "year": 1972
       },
       "parentId": "apollo_moon_landing",
-      "color": "#fb923c",
-      "branchName": "Crisis",
+      "lineage": "Crisis",
+      "categories": [
+        "politics"
+      ],
       "title": "Watergate Scandal",
       "description": "A major political scandal following a break-in at the DNC headquarters, leading to the resignation of President Richard Nixon."
+    },
+    {
+      "id": "roe_v_wade",
+      "date": {
+        "year": 1973
+      },
+      "parentId": "watergate_scandal",
+      "lineage": "Social",
+      "categories": [
+        "politics"
+      ],
+      "title": "Roe v. Wade Supreme Court Decision",
+      "description": "The Supreme Court rules that the Constitution protects a pregnant woman's liberty to choose to have an abortion, establishing abortion rights nationwide."
     },
     {
       "id": "camp_david_accords",
       "date": {
         "year": 1978
       },
-      "parentId": "watergate_scandal",
-      "color": "#3b82f6",
-      "branchName": "Modern",
+      "parentId": "roe_v_wade",
+      "lineage": "Modern",
+      "categories": [
+        "politics"
+      ],
       "title": "Camp David Accords Signed",
       "description": "Historic agreements signed by Egypt and Israel, brokered by President Jimmy Carter, leading to a peace treaty between the two nations."
+    },
+    {
+      "id": "reagan_election",
+      "date": {
+        "year": 1980
+      },
+      "parentId": "camp_david_accords",
+      "lineage": "Modern",
+      "categories": [
+        "politics"
+      ],
+      "title": "Ronald Reagan Elected President",
+      "description": "Reagan's victory ushers in a conservative political era marked by tax cuts, deregulation, and a strong anti-Soviet foreign policy."
     },
     {
       "id": "challenger_disaster",
       "date": {
         "year": 1986
       },
-      "parentId": "camp_david_accords",
-      "color": "#f97316",
-      "branchName": "Space Age",
+      "parentId": "reagan_election",
+      "lineage": "Space Age",
+      "categories": [
+        "general"
+      ],
       "title": "Challenger Space Shuttle Disaster",
       "description": "The Space Shuttle Challenger breaks apart 73 seconds into its flight, killing all seven crew members and temporarily halting the shuttle program."
     },
@@ -590,8 +883,10 @@
         "year": 1989
       },
       "parentId": "challenger_disaster",
-      "color": "#8b5cf6",
-      "branchName": "Cold War",
+      "lineage": "Cold War",
+      "categories": [
+        "politics"
+      ],
       "title": "Fall of the Berlin Wall",
       "description": "The opening of the Berlin Wall symbolizes the collapse of communist regimes in Eastern Europe and the impending end of the Cold War."
     },
@@ -601,8 +896,10 @@
         "year": 2001
       },
       "parentId": "apollo_moon_landing",
-      "color": "#ef4444",
-      "branchName": "Modern",
+      "lineage": "Modern",
+      "categories": [
+        "general"
+      ],
       "title": "September 11 Attacks",
       "description": "Al-Qaeda terrorists hijack passenger planes and strike the World Trade Center and Pentagon, launching the War on Terror."
     },
@@ -612,8 +909,10 @@
         "year": 2007
       },
       "parentId": "9_11",
-      "color": "#a855f7",
-      "branchName": "Technology",
+      "lineage": "Technology",
+      "categories": [
+        "science"
+      ],
       "title": "Digital & Mobile Boom",
       "description": "The release of the first iPhone accelerates the transition into the modern digital age, mobile internet, and global app networks."
     },
@@ -623,8 +922,10 @@
         "year": 2008
       },
       "parentId": "digital_revolution",
-      "color": "#3b82f6",
-      "branchName": "Modern",
+      "lineage": "Modern",
+      "categories": [
+        "politics"
+      ],
       "title": "Barack Obama Elected",
       "description": "Barack Obama is elected as the 44th President of the United States, becoming the nation's first African American president."
     },
@@ -634,19 +935,36 @@
         "year": 2010
       },
       "parentId": "obama_election",
-      "color": "#3b82f6",
-      "branchName": "Modern",
+      "lineage": "Modern",
+      "categories": [
+        "politics"
+      ],
       "title": "Affordable Care Act Signed",
       "description": "President Obama signs the major healthcare reform bill into law, expanding health insurance coverage to millions of Americans."
+    },
+    {
+      "id": "same_sex_marriage",
+      "date": {
+        "year": 2015
+      },
+      "parentId": "affordable_care_act",
+      "lineage": "Social",
+      "categories": [
+        "politics"
+      ],
+      "title": "Same-Sex Marriage Legalized Nationwide",
+      "description": "In Obergefell v. Hodges, the Supreme Court rules that same-sex couples have a constitutional right to marry."
     },
     {
       "id": "covid_pandemic",
       "date": {
         "year": 2020
       },
-      "parentId": "affordable_care_act",
-      "color": "#ef4444",
-      "branchName": "Modern",
+      "parentId": "same_sex_marriage",
+      "lineage": "Modern",
+      "categories": [
+        "general"
+      ],
       "title": "COVID-19 Pandemic Outbreak",
       "description": "The novel coronavirus triggers a global health crisis, leading to widespread lockdowns, school closures, and economic disruption."
     }
