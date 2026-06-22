@@ -1,0 +1,982 @@
+{
+  "gwanggaeto_stele": {
+    "file": "gwanggaeto_stele.glb",
+    "type": "structure",
+    "title": {
+      "ko": "광개토대왕릉비",
+      "en": "Gwanggaeto Stele"
+    },
+    "nodeIds": [
+      "gwanggaeto_stele"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "silla_gold_crown": {
+    "file": "silla_gold_crown.glb",
+    "type": "object",
+    "title": {
+      "ko": "신라 금관",
+      "en": "Silla Gold Crown"
+    },
+    "nodeIds": [
+      "silla_monuments_jinheung",
+      "queen_seondeok_ascension"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "cheomseongdae": {
+    "file": "cheomseongdae.glb",
+    "type": "structure",
+    "title": {
+      "ko": "첨성대",
+      "en": "Cheomseongdae Observatory"
+    },
+    "nodeIds": [
+      "cheomseongdae"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "seokguram_buddha": {
+    "file": "seokguram_buddha.glb",
+    "type": "structure",
+    "title": {
+      "ko": "석굴암 본존불",
+      "en": "Seokguram Buddha"
+    },
+    "nodeIds": [
+      "bulguksa_seokguram"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "goryeo_celadon": {
+    "file": "goryeo_celadon.glb",
+    "type": "object",
+    "title": {
+      "ko": "고려청자",
+      "en": "Goryeo Celadon"
+    },
+    "nodeIds": [
+      "goryeo"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "tripitaka_woodblock": {
+    "file": "tripitaka_woodblock.glb",
+    "type": "object",
+    "title": {
+      "ko": "팔만대장경 경판",
+      "en": "Tripitaka Koreana Woodblock"
+    },
+    "nodeIds": [
+      "goryeo_tripitaka"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "jikji": {
+    "file": "jikji.glb",
+    "type": "document",
+    "title": {
+      "ko": "직지심체요절",
+      "en": "Jikji"
+    },
+    "nodeIds": [
+      "jikji"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gyeongbokgung": {
+    "file": "gyeongbokgung.glb",
+    "type": "structure",
+    "title": {
+      "ko": "경복궁",
+      "en": "Gyeongbokgung Palace"
+    },
+    "nodeIds": [
+      "capital_hanyang"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "king_sejong": {
+    "file": "king_sejong.glb",
+    "type": "person",
+    "title": {
+      "ko": "세종대왕",
+      "en": "King Sejong the Great"
+    },
+    "nodeIds": [
+      "sejong_ascension",
+      "cheugugi",
+      "hangul"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "cheugugi": {
+    "file": "cheugugi.glb",
+    "type": "object",
+    "title": {
+      "ko": "측우기",
+      "en": "Cheugugi (Rain Gauge)"
+    },
+    "nodeIds": [
+      "cheugugi"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "hunminjeongeum": {
+    "file": "hunminjeongeum.glb",
+    "type": "document",
+    "title": {
+      "ko": "훈민정음 해례본",
+      "en": "Hunminjeongeum Manuscript"
+    },
+    "nodeIds": [
+      "hangul"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "admiral_yi_sun_sin": {
+    "file": "admiral_yi_sun_sin.glb",
+    "type": "person",
+    "title": {
+      "ko": "이순신 장군",
+      "en": "Admiral Yi Sun-sin"
+    },
+    "nodeIds": [
+      "imjin_war",
+      "battle_of_myeongnyang"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "geobukseon": {
+    "file": "geobukseon.glb",
+    "type": "vehicle",
+    "title": {
+      "ko": "거북선",
+      "en": "Geobukseon (Turtle Ship)"
+    },
+    "nodeIds": [
+      "imjin_war",
+      "battle_of_myeongnyang"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "dongui_bogam": {
+    "file": "dongui_bogam.glb",
+    "type": "document",
+    "title": {
+      "ko": "동의보감",
+      "en": "Dongui Bogam"
+    },
+    "nodeIds": [
+      "dongui_bogam"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "hwaseong_fortress": {
+    "file": "hwaseong_fortress.glb",
+    "type": "structure",
+    "title": {
+      "ko": "수원 화성",
+      "en": "Suwon Hwaseong Fortress"
+    },
+    "nodeIds": [
+      "hwaseong_fortress"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "daedongyeojido": {
+    "file": "daedongyeojido.glb",
+    "type": "document",
+    "title": {
+      "ko": "대동여지도",
+      "en": "Daedongyeojido Map"
+    },
+    "nodeIds": [
+      "daedongyeojido"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "dangun": {
+    "file": "dangun.glb",
+    "type": "person",
+    "title": {
+      "ko": "단군왕검",
+      "en": "Dangun Wanggeom"
+    },
+    "nodeIds": [
+      "gojoseon"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "bipa_bronze_dagger": {
+    "file": "bipa_bronze_dagger.glb",
+    "type": "object",
+    "title": {
+      "ko": "비파형 동검",
+      "en": "Mandolin-shaped Bronze Dagger"
+    },
+    "nodeIds": [
+      "wiman_gojoseon"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "goguryeo_tomb_mural": {
+    "file": "goguryeo_tomb_mural.glb",
+    "type": "object",
+    "title": {
+      "ko": "고구려 고분벽화",
+      "en": "Goguryeo Tomb Mural"
+    },
+    "nodeIds": [
+      "pyongyang_transfer"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "muryeong_crown_ornament": {
+    "file": "muryeong_crown_ornament.glb",
+    "type": "object",
+    "title": {
+      "ko": "무령왕 금제 관식",
+      "en": "King Muryeong's Gold Crown Ornament"
+    },
+    "nodeIds": [
+      "tomb_king_muryeong"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "baekje_incense_burner": {
+    "file": "baekje_incense_burner.glb",
+    "type": "object",
+    "title": {
+      "ko": "백제 금동대향로",
+      "en": "Baekje Gilt-bronze Incense Burner"
+    },
+    "nodeIds": [
+      "fall_of_baekje"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "queen_seondeok": {
+    "file": "queen_seondeok.glb",
+    "type": "person",
+    "title": {
+      "ko": "선덕여왕",
+      "en": "Queen Seondeok"
+    },
+    "nodeIds": [
+      "queen_seondeok_ascension"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "emille_bell": {
+    "file": "emille_bell.glb",
+    "type": "object",
+    "title": {
+      "ko": "성덕대왕신종 (에밀레종)",
+      "en": "Divine Bell of King Seongdeok"
+    },
+    "nodeIds": [
+      "bulguksa_seokguram"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "balhae_stone_lantern": {
+    "file": "balhae_stone_lantern.glb",
+    "type": "structure",
+    "title": {
+      "ko": "발해 석등",
+      "en": "Balhae Stone Lantern"
+    },
+    "nodeIds": [
+      "balhae"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "cheolli_jangseong": {
+    "file": "cheolli_jangseong.glb",
+    "type": "structure",
+    "title": {
+      "ko": "천리장성",
+      "en": "Cheolli Jangseong"
+    },
+    "nodeIds": [
+      "cheolli_jangseong"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "sungnyemun": {
+    "file": "sungnyemun.glb",
+    "type": "structure",
+    "title": {
+      "ko": "숭례문 (남대문)",
+      "en": "Sungnyemun Gate"
+    },
+    "nodeIds": [
+      "capital_hanyang"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "jagyeokru": {
+    "file": "jagyeokru.glb",
+    "type": "object",
+    "title": {
+      "ko": "자격루",
+      "en": "Jagyeokru Water Clock"
+    },
+    "nodeIds": [
+      "cheugugi"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "angbu_ilgu": {
+    "file": "angbu_ilgu.glb",
+    "type": "object",
+    "title": {
+      "ko": "앙부일구",
+      "en": "Angbu Ilgu Sundial"
+    },
+    "nodeIds": [
+      "cheugugi"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "honcheonui": {
+    "file": "honcheonui.glb",
+    "type": "object",
+    "title": {
+      "ko": "혼천의",
+      "en": "Honcheonui Armillary Sphere"
+    },
+    "nodeIds": [
+      "late_joseon_renaissance"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "joseon_moon_jar": {
+    "file": "joseon_moon_jar.glb",
+    "type": "object",
+    "title": {
+      "ko": "백자 달항아리",
+      "en": "Joseon Moon Jar"
+    },
+    "nodeIds": [
+      "late_joseon_renaissance"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "seokjojeon": {
+    "file": "seokjojeon.glb",
+    "type": "structure",
+    "title": {
+      "ko": "덕수궁 석조전",
+      "en": "Deoksugung Seokjojeon Hall"
+    },
+    "nodeIds": [
+      "empire"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "taegeukgi": {
+    "file": "taegeukgi.glb",
+    "type": "object",
+    "title": {
+      "ko": "태극기",
+      "en": "Taegukgi (Korean Flag)"
+    },
+    "nodeIds": [
+      "march_first_movement"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "ktx_train": {
+    "file": "ktx_train.glb",
+    "type": "vehicle",
+    "title": {
+      "ko": "KTX 고속열차",
+      "en": "KTX High-Speed Train"
+    },
+    "nodeIds": [
+      "ktx_opening"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "bak_hyeokgeose": {
+    "file": "bak_hyeokgeose.glb",
+    "type": "person",
+    "title": {
+      "ko": "박혁거세",
+      "en": "Bak Hyeokgeose"
+    },
+    "nodeIds": [
+      "silla"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "jumong": {
+    "file": "jumong.glb",
+    "type": "person",
+    "title": {
+      "ko": "주몽 (동명성왕)",
+      "en": "Jumong (King Dongmyeong)"
+    },
+    "nodeIds": [
+      "goguryeo"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "onjo": {
+    "file": "onjo.glb",
+    "type": "person",
+    "title": {
+      "ko": "온조왕",
+      "en": "King Onjo"
+    },
+    "nodeIds": [
+      "baekje"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gaya_iron_armor": {
+    "file": "gaya_iron_armor.glb",
+    "type": "object",
+    "title": {
+      "ko": "가야 철갑옷",
+      "en": "Gaya Iron Armor"
+    },
+    "nodeIds": [
+      "gaya"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "eulji_mundeok": {
+    "file": "eulji_mundeok.glb",
+    "type": "person",
+    "title": {
+      "ko": "을지문덕",
+      "en": "Eulji Mundeok"
+    },
+    "nodeIds": [
+      "battle_of_salsu"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "hwarang": {
+    "file": "hwarang.glb",
+    "type": "person",
+    "title": {
+      "ko": "화랑",
+      "en": "Hwarang Warrior"
+    },
+    "nodeIds": [
+      "silla_hwarang"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "wang_ocheonchukguk_jeon": {
+    "file": "wang_ocheonchukguk_jeon.glb",
+    "type": "document",
+    "title": {
+      "ko": "왕오천축국전",
+      "en": "Memoir of the Five Indian Kingdoms"
+    },
+    "nodeIds": [
+      "hyecho_travelogue"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "wang_geon": {
+    "file": "wang_geon.glb",
+    "type": "person",
+    "title": {
+      "ko": "태조 왕건",
+      "en": "Taejo Wang Geon"
+    },
+    "nodeIds": [
+      "goryeo"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gang_gamchan": {
+    "file": "gang_gamchan.glb",
+    "type": "person",
+    "title": {
+      "ko": "강감찬",
+      "en": "Gang Gam-chan"
+    },
+    "nodeIds": [
+      "battle_of_gwiju"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "taejo_yi_seonggye": {
+    "file": "taejo_yi_seonggye.glb",
+    "type": "person",
+    "title": {
+      "ko": "태조 이성계",
+      "en": "Taejo Yi Seong-gye"
+    },
+    "nodeIds": [
+      "joseon"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "joseon_sillok": {
+    "file": "joseon_sillok.glb",
+    "type": "document",
+    "title": {
+      "ko": "조선왕조실록",
+      "en": "Annals of the Joseon Dynasty"
+    },
+    "nodeIds": [
+      "joseon_wangjo_sillok"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gyeongguk_daejeon": {
+    "file": "gyeongguk_daejeon.glb",
+    "type": "document",
+    "title": {
+      "ko": "경국대전",
+      "en": "Gyeongguk Daejeon Code"
+    },
+    "nodeIds": [
+      "gyeongguk_daejeon"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "mokmin_simseo": {
+    "file": "mokmin_simseo.glb",
+    "type": "document",
+    "title": {
+      "ko": "목민심서",
+      "en": "Mokmin Simseo"
+    },
+    "nodeIds": [
+      "mokmin_simseo"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "hodori": {
+    "file": "hodori.glb",
+    "type": "object",
+    "title": {
+      "ko": "호돌이",
+      "en": "Hodori Mascot"
+    },
+    "nodeIds": [
+      "seoul_olympics"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "soohorang": {
+    "file": "soohorang.glb",
+    "type": "object",
+    "title": {
+      "ko": "수호랑",
+      "en": "Soohorang Mascot"
+    },
+    "nodeIds": [
+      "pyeongchang_olympics"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "king_geunchogo": {
+    "file": "king_geunchogo.glb",
+    "type": "person",
+    "title": {
+      "ko": "근초고왕",
+      "en": "King Geunchogo"
+    },
+    "nodeIds": [
+      "king_geunchogo_peak"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gwanggaeto_daewang": {
+    "file": "gwanggaeto_daewang.glb",
+    "type": "person",
+    "title": {
+      "ko": "광개토대왕",
+      "en": "King Gwanggaeto the Great"
+    },
+    "nodeIds": [
+      "gwanggaeto_great"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "pensive_bodhisattva": {
+    "file": "pensive_bodhisattva.glb",
+    "type": "object",
+    "title": {
+      "ko": "금동미륵보살반가사유상",
+      "en": "Gilt-bronze Pensive Bodhisattva"
+    },
+    "nodeIds": [
+      "introduction_of_buddhism_korea"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "ichadon": {
+    "file": "ichadon.glb",
+    "type": "person",
+    "title": {
+      "ko": "이차돈",
+      "en": "Ichadon"
+    },
+    "nodeIds": [
+      "silla_buddhism_adoption"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "yang_manchun": {
+    "file": "yang_manchun.glb",
+    "type": "person",
+    "title": {
+      "ko": "양만춘",
+      "en": "Yang Manchun"
+    },
+    "nodeIds": [
+      "battle_of_ansi_fortress"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gyebaek": {
+    "file": "gyebaek.glb",
+    "type": "person",
+    "title": {
+      "ko": "계백",
+      "en": "General Gyebaek"
+    },
+    "nodeIds": [
+      "battle_of_hwangsanbeol"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "kim_yusin": {
+    "file": "kim_yusin.glb",
+    "type": "person",
+    "title": {
+      "ko": "김유신",
+      "en": "General Kim Yu-sin"
+    },
+    "nodeIds": [
+      "unified_silla"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "jang_bogo": {
+    "file": "jang_bogo.glb",
+    "type": "person",
+    "title": {
+      "ko": "장보고",
+      "en": "Jang Bogo"
+    },
+    "nodeIds": [
+      "cheonghaejin"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "taehak": {
+    "file": "taehak.glb",
+    "type": "structure",
+    "title": {
+      "ko": "태학",
+      "en": "Taehak Academy"
+    },
+    "nodeIds": [
+      "taehak_founded"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gukjagam": {
+    "file": "gukjagam.glb",
+    "type": "structure",
+    "title": {
+      "ko": "국자감",
+      "en": "Gukjagam Academy"
+    },
+    "nodeIds": [
+      "gukjagam_founded"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "namhansanseong": {
+    "file": "namhansanseong.glb",
+    "type": "structure",
+    "title": {
+      "ko": "남한산성",
+      "en": "Namhansanseong Fortress"
+    },
+    "nodeIds": [
+      "manchu_invasion"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "gwanghaegun": {
+    "file": "gwanghaegun.glb",
+    "type": "person",
+    "title": {
+      "ko": "광해군",
+      "en": "Gwanghaegun"
+    },
+    "nodeIds": [
+      "gwanghaegun_diplomacy"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "jeon_bongjun": {
+    "file": "jeon_bongjun.glb",
+    "type": "person",
+    "title": {
+      "ko": "전봉준",
+      "en": "Jeon Bong-jun"
+    },
+    "nodeIds": [
+      "donghak_peasant_revolution"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "kim_jwajin": {
+    "file": "kim_jwajin.glb",
+    "type": "person",
+    "title": {
+      "ko": "김좌진",
+      "en": "Kim Jwa-jin"
+    },
+    "nodeIds": [
+      "battle_of_qingshanli"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "syngman_rhee": {
+    "file": "syngman_rhee.glb",
+    "type": "person",
+    "title": {
+      "ko": "이승만",
+      "en": "Syngman Rhee"
+    },
+    "nodeIds": [
+      "republic_of_korea"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "seo_taiji_album": {
+    "file": "seo_taiji_album.glb",
+    "type": "object",
+    "title": {
+      "ko": "서태지와 아이들 1집",
+      "en": "Seo Taiji and Boys Album"
+    },
+    "nodeIds": [
+      "seo_taiji_boys"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  },
+  "world_cup_2002": {
+    "file": "world_cup_2002.glb",
+    "type": "object",
+    "title": {
+      "ko": "2002 월드컵",
+      "en": "2002 World Cup"
+    },
+    "nodeIds": [
+      "world_cup_hallyu"
+    ],
+    "credit": "Generated placeholder",
+    "license": "CC0-1.0",
+    "sourceUrl": null,
+    "scale": 1
+  }
+}
